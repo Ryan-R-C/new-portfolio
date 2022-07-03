@@ -12,13 +12,13 @@ export default function FeaturedBlockQuote(
   return (
     <Container>
         <div className='quotes-icon-container'>
-
             <ImQuotesLeft/>
-
         </div>
+
         <blockquote>
-            {quote}
+          “{quote}“
         </blockquote>
+        
         <p className='author'>- {author}</p>
     </Container>
   );
