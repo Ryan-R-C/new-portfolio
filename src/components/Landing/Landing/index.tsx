@@ -1,46 +1,64 @@
-import React from 'react';
-import PortfolioParagraph from '../../Portfolio/PortfolioParagraph';
-import PortfolioImage from '../../Portfolio/PortfolioImage';
-import LandingImage from '../LandingImage';
-import {  Container, Project, ProjectContainer } from './styles';
-
-import { BsQuestion } from 'react-icons/bs';
-import { IoBag } from 'react-icons/io5';
+import { Container, LandingContainer } from './styles';
 import FeaturedBlockQuote from '../../FeaturedBlockQuote';
 import Portfolio from '../../../pages/Portfolio';
 import AboutMe from '../AboutMe';
 import ImageContainer from '../ImageContainer';
 import About from '../../About/About';
+import Header from '../../Header/';
+import Timeline from '../../../pages/Timeline';
+import Courses from '../../../pages/Courses';
 
 
 export default function Landing(
-    // { title, link, src, paragraph }: any
-    ) {
+  { info }: any
+) {
   return (
     <div >
-        <Container>
-                <AboutMe/>
-                <ImageContainer/>
-        </Container>
-        
-        <FeaturedBlockQuote
-        quote="“Choose a job you love, and you will never have to work a day in your life”"
-        author="Confusius"
+      <Header />
+      <LandingContainer id="Landing">
+        <AboutMe />
+        <ImageContainer
+          landingImageSrc={info?.landingImage}
         />
-        
+      </LandingContainer>
 
-        <About/>
-        
-        
-
-        
+      <Container id="AboutMe">
         <FeaturedBlockQuote
-        quote="“Choose a job you love, and you will never have to work a day in your life”"
-        author="Confusius"
+          quote={info?.aboutMeQuote?.quote}
+          author={info?.aboutMeQuote?.author}
         />
-        
-        <Portfolio/>
-        
+        <About
+          mainAboutTitle={info?.mainAboutText?.title}
+          mainAboutText={info?.mainAboutText?.paragraphs}
+          asideAboutTitle={info?.asideAboutText?.title}
+          asideAboutText={info?.asideAboutText?.paragraphs}
+        />
+      </Container>
+
+      <Container  id="Portfolio">
+        <FeaturedBlockQuote
+          quote={info?.portFolioQuote?.quote}
+          author={info?.portFolioQuote?.author}
+        />
+        <Portfolio
+          filters={info.filtros}
+          info={info?.portFolioInfo}
+        />
+      </Container>
+
+      <Container  id="Timeline">
+        <Timeline
+          filters={info.filtros}
+          info={info?.portFolioInfo}
+        />
+      </Container>
+
+      <Container  id="Courses">
+        <Courses
+        props={info.coursesInfo}
+        >
+        </Courses>
+      </Container>
     </div>
   );
 }
