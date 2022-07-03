@@ -28,21 +28,18 @@ transition: all .3s ease;
   z-index: 0;
   -webkit-transition: all 0.3s ease;
   transition: all 0.3s ease;
-  background-image: url(https://www.bebold.ch/img/home/presentation-anim.gif);
   background-position: center;
 
 }
-img {
+.computer-image {
   position: absolute;
   top: 50%;
   left: 50%;
-  
   width: 100%;
   height: auto;
   -webkit-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
   z-index: 1;
-
   background-position: center;
 }
 
