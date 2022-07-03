@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-export const Image = styled.div`
+export const Container = styled.div`
 display: flex; 
 position: relative;
 
@@ -57,10 +57,12 @@ z-index: 1;
     }
 
     img {
-      height: 10%
+      height: 10%;
       object-fit: cover;
       z-index: 2;
       top: 50px;
+      height: 426.45px;
+      width:  426.45px;
 
       box-shadow: 0px 64px 64px -12px rgb(20 22 23 / 59%);
 
@@ -112,6 +114,14 @@ flex-direction: column;
 
 a, li {
   padding: 20px;
+  transition: all 0.2s;
+}
+
+.button: hover{
+  padding: 20px;
+  background: #3a3a3a;
+
+
 }
 
 `

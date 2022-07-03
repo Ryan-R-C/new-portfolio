@@ -1,5 +1,5 @@
 
-import { Image, SocialMedia } from './styles';
+import { Container, SocialMedia } from './styles';
 
 import { GrLinkedinOption } from 'react-icons/gr'
 import { BsGithub } from 'react-icons/bs'
@@ -8,23 +8,21 @@ import { MdEmail } from 'react-icons/md'
 
 
 
-const PortfolioParagraph = ({ imageLink, imageSrc }: { imageLink: string, imageSrc:string }) => {
+const LandingImage = ({  imageSrc }: { imageSrc:string }) => {
   return (
     <>
-    <Image
-    // href={imageLink}
-    >
-    <SocialMedia>
-      <a href=''> <GrLinkedinOption/> </a>
-      <a href=''> <BsGithub/> </a>
-      <a href='mailto:someone@yoursite.com'> <MdEmail/> </a>
-    </SocialMedia>
-        <img
-            src={imageSrc}
-            alt=""
-        />
-    </Image>
+    <Container>
+      <SocialMedia>
+        <a className="button" href=''> <GrLinkedinOption/> </a>
+        <a className="button" href=''> <BsGithub/> </a>
+        <a className="button" href='mailto:someone@yoursite.com'> <MdEmail/> </a>
+      </SocialMedia>
+          <img
+              src={imageSrc}
+              alt=""
+          />
+      </Container>
     </>
   );
 }
-export default PortfolioParagraph
+export default LandingImage
