@@ -1,11 +1,6 @@
 import { useEffect, useRef, useState } from 'react';
-
 import { ActivatedMenu, Container, MainItem, MenuController, MobileMenu, SubItem, UnbreakerPage, WideMenu } from './styles';
-
-
-import {AiOutlineMenu} from 'react-icons/ai'
 import {CgMenu} from 'react-icons/cg'
-import { FiX } from 'react-icons/fi';
 const useOutsideClick = (callback: { (): void; (): void; }) => {
   const ref = useRef();
 
@@ -14,7 +9,6 @@ const useOutsideClick = (callback: { (): void; (): void; }) => {
       //@ts-ignore
       if (ref.current && !ref.current.contains(event.target)) {
         callback();
-        console.log("hahahahahah")
       }
     };
 
@@ -58,7 +52,7 @@ export default function FeaturedBlockQuote(
 
         <SubItem>
           <WideMenu>
-            <a href="#">
+            <a href="#Landing">
               Landing
             </a>
             <a href="#AboutMe">
@@ -92,7 +86,7 @@ export default function FeaturedBlockQuote(
           className={isOpen ? 'activated' : 'deactivated'}
 
           >
-            <a href="#">
+            <a href="#Landing">
               Landing
             </a>
             <a href="#AboutMe">
