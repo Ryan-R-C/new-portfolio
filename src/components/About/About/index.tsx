@@ -5,34 +5,37 @@ import IreactProps from '../../../types/IreactProps';
 
 const About
 // : FC<IreactProps> 
-= ({ text }: any ) => {
+= ({ mainAboutTitle, mainAboutText, asideAboutTitle, asideAboutText }: any ) => {
   return (
     <Container>
       <MainAbout>
         <h2>
-          About Me
+          {mainAboutTitle}
         </h2>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. <span>Laudantium maiores dolor fugit dicta repudiandae labore eaque sapiente quod veniam ex?</span>
-        </p>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium maiores dolor fugit dicta repudiandae labore eaque sapiente quod veniam ex?
-        </p>
+        {
+        mainAboutText?.map(
+         (mainParagraph: string, i: number)=> (
+            <p key={i}>
+              {mainParagraph}
+            </p>
 
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium maiores dolor fugit dicta repudiandae labore eaque sapiente quod veniam ex?
-        </p>
-
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium maiores dolor fugit dicta repudiandae labore eaque sapiente quod veniam ex?
-        </p>
+          )
+        )
+        }
       </MainAbout>
       <AsideAbout >
         <h3>
-          El lorem 
+          {asideAboutTitle}
         </h3>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium maiores dolor fugit dicta repudiandae labore eaque sapiente quod veniam ex?</p>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium maiores dolor fugit dicta repudiandae labore eaque sapiente quod veniam ex?</p>
+        {
+        asideAboutText?.map(
+          (paragraphAside: string, i: number) => (
+            <p key={i}>
+              {paragraphAside}
+            </p>
+          )
+        )
+        }
       </AsideAbout>
     </Container>
   );
