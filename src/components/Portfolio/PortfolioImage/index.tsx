@@ -1,14 +1,19 @@
 
 import { Image } from './styles';
 
-const PortfolioImage = ({ imageLink, imageSrc }: { imageLink: string, imageSrc:string }) => {
+const PortfolioImage = ({ imageLink, imageSrc, title }: { imageLink: string, imageSrc:string, title?: string }) => {
   return (
     <>
     <Image href={imageLink}>
-        <img
-            src={imageSrc}
-            alt=""
-        />
+        <div>
+          <h2>
+          {title}
+          </h2>
+          <img
+              src={imageSrc}
+              alt=""
+          />
+        </div>
     </Image>
     </>
   );
