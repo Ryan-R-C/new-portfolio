@@ -2,6 +2,10 @@ import { useEffect, useRef, useState } from 'react';
 
 import { ActivatedMenu, Container, MainItem, MenuController, MobileMenu, SubItem, UnbreakerPage, WideMenu } from './styles';
 
+
+import {AiOutlineMenu} from 'react-icons/ai'
+import {CgMenu} from 'react-icons/cg'
+import { FiX } from 'react-icons/fi';
 const useOutsideClick = (callback: { (): void; (): void; }) => {
   const ref = useRef();
 
@@ -10,6 +14,7 @@ const useOutsideClick = (callback: { (): void; (): void; }) => {
       //@ts-ignore
       if (ref.current && !ref.current.contains(event.target)) {
         callback();
+        console.log("hahahahahah")
       }
     };
 
@@ -28,12 +33,18 @@ const useOutsideClick = (callback: { (): void; (): void; }) => {
 export default function FeaturedBlockQuote(
   { quote, author }: any
 ) {
-  const [ isOpen, setIsOpen ]= useState(false)
+  const [ isOpen, setIsOpen ]= useState(true)
 
 
   const handleClickOutside = () => {
     setIsOpen(false);
   };
+
+  const handleToggleMenu = () => {
+    setIsOpen(!isOpen);
+  };
+
+  
 
   const ref = useOutsideClick(handleClickOutside);
 
@@ -65,13 +76,22 @@ export default function FeaturedBlockQuote(
           </WideMenu>
         </SubItem>
 
-        {/* <MobileMenu>
-          <MenuController className="hamburguer">
-            HAHAHAHAAHH
+        <MobileMenu>
+          <MenuController
+            onClick={() => handleToggleMenu()}
+            className="hamburguer"
+          >
+
+            <div className={`icon-container ${isOpen && "open-contaier"}`}>
+              <CgMenu        size="2em"/>
+            </div>
             
           </MenuController>
 
-          <ActivatedMenu>
+          <ActivatedMenu 
+          className={isOpen ? 'activated' : 'deactivated'}
+
+          >
             <a href="#">
               Landing
             </a>
@@ -88,7 +108,7 @@ export default function FeaturedBlockQuote(
               Courses
             </a>
           </ActivatedMenu>
-        </MobileMenu> */}
+        </MobileMenu>
 
 
       </Container>
