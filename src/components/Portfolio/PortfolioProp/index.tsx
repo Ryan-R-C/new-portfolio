@@ -12,9 +12,9 @@ export default function PortfolioProp({ title, link, src, paragraph }: any) {
                 <PortfolioImage
                     imageLink={link}
                     imageSrc={src}
+                    title={title}
                 />
                 <PortfolioParagraph>
-                    <h2>{title}</h2>
                     <p>{paragraph}</p>
                 </PortfolioParagraph>
             </Project>
