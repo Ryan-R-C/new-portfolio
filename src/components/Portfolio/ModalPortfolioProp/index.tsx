@@ -3,6 +3,7 @@ import { FiArrowDownRight, FiArrowRight } from 'react-icons/fi';
 import { IoIosArrowForward } from 'react-icons/io';
 import { IndexedAccessType } from 'typescript';
 import AnimatedArrow from '../../AnimatedArrow';
+import ComputerContainer from '../../ComputerContainer';
 import StyledButton from '../../StyledButton';
 import { Container, ContentContainer, FlexContainer } from './styles';
 
@@ -13,11 +14,13 @@ const ModalPortfolioProp = (
     <>
       <Container>
           <FlexContainer>
+
             <aside>
-              <img
-                  src={imgSrc}
-                  alt=""
-              />
+            
+            <ComputerContainer
+            imgSrc={imgSrc}
+            />
+
             </aside>
             <article>
               <h2>
@@ -35,7 +38,7 @@ const ModalPortfolioProp = (
           {
           infos?.map(
             (info: any, i: number) => (
-              <>
+              <div className='wraped-content'>
                 <h3>
                   {info?.title}
                 </h3>
@@ -48,7 +51,7 @@ const ModalPortfolioProp = (
                   )
                 )
                 }
-            </>
+            </div>
             ) 
           )
           }
