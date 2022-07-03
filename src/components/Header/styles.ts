@@ -51,15 +51,22 @@ align-items: center;
 
 
 width: 45%;
-/*
-background: blue;
-*/
 justify-content: center;
 
-.container{
-  width: 100%;
-  justify-content: space-between;
-  display: flex;
+
+`
+
+
+export const UnbreakerPage = styled.div`
+padding-top: 66px
+`;
+
+
+
+export const WideMenu = styled.div`
+width: 100%;
+justify-content: space-between;
+display: flex;
 
   a {
     font-size: 16px;
@@ -70,14 +77,16 @@ justify-content: center;
     */  
   }
 
-}
-
-a:first-child {
-  padding: 0; 
-}
+  a:first-child {
+    padding: 0; 
+  }
 `
 
 
-export const UnbreakerPage = styled.div`
-padding-top: 66px
-`;
+export const MobileMenu = styled.div`
+`
+
+export const MenuController = styled.div`
+`
+export const ActivatedMenu = styled.div`
+`

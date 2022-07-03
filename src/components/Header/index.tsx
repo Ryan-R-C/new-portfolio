@@ -1,6 +1,6 @@
 import { useEffect, useRef, useState } from 'react';
 
-import { Container, MainItem, SubItem, UnbreakerPage } from './styles';
+import { ActivatedMenu, Container, MainItem, MenuController, MobileMenu, SubItem, UnbreakerPage, WideMenu } from './styles';
 
 const useOutsideClick = (callback: { (): void; (): void; }) => {
   const ref = useRef();
@@ -46,7 +46,7 @@ export default function FeaturedBlockQuote(
 
 
         <SubItem>
-          <div className="container">
+          <WideMenu>
             <a href="#">
               Landing
             </a>
@@ -62,8 +62,33 @@ export default function FeaturedBlockQuote(
             <a href="#Courses">
               Courses
             </a>
-          </div>
+          </WideMenu>
         </SubItem>
+
+        {/* <MobileMenu>
+          <MenuController className="hamburguer">
+            HAHAHAHAAHH
+            
+          </MenuController>
+
+          <ActivatedMenu>
+            <a href="#">
+              Landing
+            </a>
+            <a href="#AboutMe">
+              About Me
+            </a>
+            <a href="#Portfolio">
+              Portfolio
+            </a>
+            <a href="#Timeline">
+              Timeline
+            </a>
+            <a href="#Courses">
+              Courses
+            </a>
+          </ActivatedMenu>
+        </MobileMenu> */}
 
 
       </Container>
