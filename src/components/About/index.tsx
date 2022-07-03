@@ -1,7 +1,7 @@
 
 import {  Container, MainAbout, AsideAbout } from './styles';
 import React, { FC, ReactChildren } from 'react';
-import IreactProps from '../../../types/IreactProps';
+import IreactProps from '../../types/IreactProps';
 
 const About
 // : FC<IreactProps> 
