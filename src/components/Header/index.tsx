@@ -28,7 +28,7 @@ const useOutsideClick = (callback: { (): void; (): void; }) => {
 export default function FeaturedBlockQuote(
   { quote, author }: any
 ) {
-  const [ isOpen, setIsOpen ]= useState(true)
+  const [ isOpen, setIsOpen ]= useState(false)
 
 
   const handleClickOutside = () => {
