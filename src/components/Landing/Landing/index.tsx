@@ -18,7 +18,10 @@ export default function Landing(
       <LandingContainer id="Landing">
         <AboutMe />
         <ImageContainer
-          landingImageSrc={info?.landingImage}
+          landingImageSrc={info?.landing?.landingImage}
+          linkedingLink={info?.landing?.landingImage}
+          gitHubLink={info?.landing?.gitHubLink}
+          emailLink={info?.landing?.emailLink}
         />
       </LandingContainer>
 
