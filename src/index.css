@@ -1,3 +1,7 @@
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -10,4 +14,36 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+
+
+body.ReactModal__Body--open {
+  overflow: hidden;
+  position: relative;
+
+}
+
+body.ReactModal__Body--open #root {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    filter: blur(2px);
+    background: rgba(0, 0, 0, 0.75) none repeat scroll 0% 0%
+}
+
+.ReactModal__Overlay {
+  opacity: 0;
+  height: 0px;
+  transition: all .5s;
+}
+
+.ReactModal__Overlay--after-open{
+  opacity: 1;
+}
+
+.ReactModal__Overlay--before-close{
+  opacity: 0;
 }
