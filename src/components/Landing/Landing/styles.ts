@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-export const Container = styled.div`
+export const LandingContainer = styled.div`
   display: flex;
   
   /*
@@ -21,6 +21,10 @@ export const Container = styled.div`
 `;
 
 
+
+export const Container = styled.div`
+  padding: 2% 0;
+`;
 
 export const ProjectContainer = styled.div`
   display: flex;
