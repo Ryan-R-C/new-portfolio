@@ -59,6 +59,9 @@ export default function LandingPage() {
 
                 landing:{
                   landingImage: "https://criticalhits.com.br/wp-content/uploads/2022/05/Goku-In-Dragon-Ball-Super--910x455.webp",
+                  linkedingLink: "",
+                  gitHubLink: "",
+                  emailLink: "",
 
                 },
 
@@ -427,7 +430,7 @@ export default function LandingPage() {
         <AboutMe />
         <ImageContainer
           landingImageSrc={info?.landing?.landingImage}
-          linkedingLink={info?.landing?.landingImage}
+          linkedingLink={info?.landing?.linkedingLink}
           gitHubLink={info?.landing?.gitHubLink}
           emailLink={info?.landing?.emailLink}
         />

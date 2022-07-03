@@ -9,9 +9,9 @@ const LandingImage = ({  imageSrc, linkedingLink ,gitHubLink ,emailLink }: { ima
     <>
     <Container>
       <SocialMedia>
-        <a className="button" href={linkedingLink}> <GrLinkedinOption/> </a>
-        <a className="button" href={gitHubLink}> <BsGithub/> </a>
-        <a className="button" href={`mailto:${emailLink}`}> <MdEmail/> </a>
+        <a className="button"  rel="noreferrer" target="_blank" href={linkedingLink}> <GrLinkedinOption/> </a>
+        <a className="button"  rel="noreferrer" target="_blank" href={gitHubLink}> <BsGithub/> </a>
+        <a className="button"  rel="noreferrer" target="_blank" href={`mailto:${emailLink}`}> <MdEmail/> </a>
       </SocialMedia>
           <img
               src={imageSrc}
