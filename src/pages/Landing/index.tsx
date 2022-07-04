@@ -14,7 +14,25 @@ import Courses from '../Courses';
 
 export default function LandingPage() {
   const [info, setInfo] = useState<any>([]) 
+  /*
+  To do:
+  - in progress
+  V - done
+  ? - have no ideia
+  
+  portolio
+    quote
+    mainContent
+  
+  about me
+    quote
+    mainContent
 
+  timeline
+
+  links to socialmedia
+
+  */
   
   /*
   mainAboutText
@@ -48,13 +66,13 @@ export default function LandingPage() {
           let newInfo = 
               {
                 aboutMeQuote:{
-                  quote: "Confucius was a Chinese philosopher and politician of the Spring and .",
-                  author: "author1"
+                  quote: "Uma máquina consegue fazer o trabalho de 50 homens ordinários. Nenhuma máquina consegue fazer o trabalho de um homem extraordinário.",
+                  author: "Elbert Hubbard, escritor."
                 },
 
                 portFolioQuote: {
-                  quote: "Confucius's  remaining influential across China and East Asia to this day.",
-                  author: "author1"
+                  quote: "Vá sempre além do que é esperado.",
+                  author: "Larry Page, fundador do Google"
                 },
 
                 landing:{
@@ -89,23 +107,24 @@ export default function LandingPage() {
                 ],
                 portFolioInfo: [
                   {
-                    filter:"React",
-                    title:"El Lorem",
+                    filter:"HTML",
+                    title:"Meu site de Freelancer",
                     link:"#",
-                    src:"data:image/jpeg;base64,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",
-                    paragraph:"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corrupti ducimus eaque unde incidunt nobis dolores possimus ipsa, voluptatibus sit omnis!",
+                    src:"https://i.ibb.co/TW2PgDq/a-Freela-Wide.jpg",
+                    paragraph:"Página Web estática usando HTML, CSS e JavaScript, responsíva e recheada de animações",
                     detailedInfo: {
-                      title:"El Lorem",
-                      link:"#",
-                      linkTitle:"Link do Github",
-                      imgSrc: "https://banco.bradesco/canaisdigitais/assets/img/gif-pagar-conta-sem-codigo.gif",
+                      title:"Meu site de Freelancer",
+                      link:"https://ryan-r-c.github.io/Freelancer/",
+                      linkTitle:"Link do Site",
+                      imgSrc: "https://i.ibb.co/TW2PgDq/a-Freela-Wide.jpg",
                       infos: [
                         {
                           title:"",
                           text: [
-                            "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum, libero.",
-                            "Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo iste tempora nemo sed? Vitae velit perferendis a laboriosam beatae modi.",
-                            "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odio provident mollitia dolores sunt, maxime beatae.",
+                            "Essa é minha página freelancer, neste projeto não só mostro minhas habilidades como Front End Dev usando JavaScript e animação CSS para fazer um site quase ao vivo, mas também um design de alto nível.",
+                            "Exercitei e aprendi animações usando CSS e JavaScript. Um exemplo de desafio em questão de Front End, veja, por exemplo, a primeiro componente logo quando se abre a página.",
+                            "O design do titulo principal e do subtitulo são feitos utilizando puramente CSS, background para o metálico e reflexo do titulo principal e o text-shadow para o subtitulo. O posição absoluta e relativa para o posicionameno dele.",
+                            "Tenho muito orgulho deste projeto!",
                           ]
                         },
                         {
@@ -416,7 +435,11 @@ export default function LandingPage() {
                   
 
                 }
-                ]
+                ],
+                timelineinfo: {
+                  dates: [''],
+                  description: ['']
+                }
               }
           
           setInfo(newInfo)
