@@ -61,6 +61,7 @@ export default function LandingPage() {
   ->
   
   */
+
   useEffect(
     () => {
       let newInfo =
@@ -113,7 +114,7 @@ export default function LandingPage() {
             title: "Meu site de Freelancer",
             link: "#",
             src: "https://i.ibb.co/TW2PgDq/a-Freela-Wide.jpg",
-            paragraph: "Página Web estática usando HTML, CSS e JavaScript, responsíva e recheada de animações",
+            paragraph: "Página Web estática usando HTML, CSS e JavaScript, responsíva e recheada de animações...",
             detailedInfo: {
               title: "Meu site de Freelancer",
               link: "https://ryan-r-c.github.io/Freelancer/",
@@ -150,23 +151,26 @@ export default function LandingPage() {
           },
           {
             filter: "Node",
-            title: "Text Hue",
-            link: "#",
-            src: "https://blog.hubspot.com/hs-fs/hubfs/Google%20Drive%20Integration/How%20to%20Find%20the%20Perfect%20GIF%2010%20Must-Try%20Websites-3.gif?width=624&height=320&name=How%20to%20Find%20the%20Perfect%20GIF%2010%20Must-Try%20Websites-3.gif",
+            title: "Infinity Scroll",
+            link: "https://ryan-r-c.github.io/Infinity-Scroll/",
+            src: "https://camo.githubusercontent.com/1576d0b33b884648fa3f43dc965f28f6bb2fbdc8adf45ee5c60a58169e835bf8/68747470733a2f2f692e6962622e636f2f3536716e3859312f612d696e66696e6974792d5363726f6f6c2d776964652e6a7067",
 
-            paragraph: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corrupti ducimus eaque unde incidunt nobis dolores possimus ipsa, voluptatibus sit omnis!",
+            paragraph: "Consumo de API externa, página com conteúdo dinâmico e UI interessante...",
             detailedInfo: {
-              title: "El Lorem",
-              link: "#",
+              title: "Infinity Scroll",
+              link: "https://ryan-r-c.github.io/Infinity-Scroll/",
               linkTitle: "Link do Github",
-              imgSrc: "https://banco.bradesco/canaisdigitais/assets/img/gif-pagar-conta-sem-codigo.gif",
+              imgSrc: "https://camo.githubusercontent.com/1576d0b33b884648fa3f43dc965f28f6bb2fbdc8adf45ee5c60a58169e835bf8/68747470733a2f2f692e6962622e636f2f3536716e3859312f612d696e66696e6974792d5363726f6f6c2d776964652e6a7067",
               infos: [
                 {
                   title: "",
                   text: [
-                    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum, libero.",
-                    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo iste tempora nemo sed? Vitae velit perferendis a laboriosam beatae modi.",
-                    "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odio provident mollitia dolores sunt, maxime beatae.",
+                    /*
+                    =================================================================================================================================
+                    CONTINUA
+                    
+                    */ 
+                    "É um projeto que consome uma API externa, JSONPlaceholder, e os carrega conforme o usuário desce na página que aciona uma animação. E também filtra os dados conforme o usuário deseja. Boa IU e código limpo.",
                   ]
                 },
                 {
@@ -192,23 +196,26 @@ export default function LandingPage() {
 
           {
             filter: "React",
-            title: "Stranger Things",
-            link: "#",
-            src: "https://kinsta.com/pt/wp-content/uploads/sites/3/2019/03/portfolio-website-1024x512.png",
+            title: "PokeDev",
+            link: "https://ryan-r-c.github.io/PokeDEV/",
+            src: "https://camo.githubusercontent.com/206f5ae4ea180f491d091d68b03594b1aa939fb138842414cb3c681ff52a8b55/68747470733a2f2f692e6962622e636f2f7a5a327859374d2f706f6b656465762e6a7067",
 
             paragraph: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corrupti ducimus eaque unde incidunt nobis dolores possimus ipsa, voluptatibus sit omnis!",
             detailedInfo: {
               title: "El Lorem",
-              link: "#",
+              link: "https://ryan-r-c.github.io/PokeDEV/",
               linkTitle: "Link do Github",
-              imgSrc: "https://banco.bradesco/canaisdigitais/assets/img/gif-pagar-conta-sem-codigo.gif",
+              imgSrc: "https://camo.githubusercontent.com/206f5ae4ea180f491d091d68b03594b1aa939fb138842414cb3c681ff52a8b55/68747470733a2f2f692e6962622e636f2f7a5a327859374d2f706f6b656465762e6a7067",
               infos: [
                 {
                   title: "",
                   text: [
-                    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum, libero.",
-                    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo iste tempora nemo sed? Vitae velit perferendis a laboriosam beatae modi.",
-                    "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odio provident mollitia dolores sunt, maxime beatae.",
+                    "Uma página da web que consome dados de uma API externa, pokeAPI, e mostra dados específicos do pokémon na tela. Um bom exemplo de código limpo e gerenciamento AJAX + DOM, todo o código é comentário.",
+                    /*
+                    =================================================================================================================================
+                    CONTINUA
+                    
+                    */ 
                   ]
                 },
                 {
@@ -449,6 +456,7 @@ export default function LandingPage() {
 
   return (
     <>
+
       <Header />
       <LandingContainer id="Landing">
         <AboutMe />
@@ -497,6 +505,7 @@ export default function LandingPage() {
         >
         </Courses>
       </Container>
+
     </>
   );
 }
