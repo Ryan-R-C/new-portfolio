@@ -83,8 +83,9 @@ export default function LandingPage() {
 
       <Container id="Timeline">
         <Timeline
-          filters={info.filtros}
-          info={info?.portFolioInfo}
+          title={info?.timelineinfo?.title}
+          dates={info?.timelineinfo?.dates}
+          description={info?.timelineinfo?.description}
         />
       </Container>
 
