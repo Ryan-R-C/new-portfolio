@@ -28,9 +28,3 @@ h2{
  
 
 `;
-
-/*
-https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRxNcfYX1RLSRi9r9mr3yu6hDjhLi8tkullvg&usqp=CAU
-
-background-color: red;
-*/
