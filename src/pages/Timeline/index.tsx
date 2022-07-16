@@ -28,7 +28,8 @@ export default function Timeline({ title, dates, description }: any) {
 
 
   return (
-    <>
+    <>{
+    (title && dates && description) &&
       <Container>
 
         <h2>
@@ -56,6 +57,7 @@ export default function Timeline({ title, dates, description }: any) {
         </div>
         <div className="text-center">{description[value]}</div>
       </Container>
+      }
     </>
   );
 }
