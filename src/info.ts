@@ -94,8 +94,9 @@ export const storagedInfo =
 
   filtros: [ // -
     "HTML, CSS e JavaScript",
-    "Node",
-    "Design", 
+    // "Node",  
+    // "Design", 
+    "React",
     "React Native",
     "VueJs"
   ],
@@ -230,7 +231,7 @@ export const storagedInfo =
       detailedInfo: {
         title: "Barbearia do Parra",
         link: "https://barbearia-do-parra.github.io/atendimento/",
-        linkTitle: "Link do Github",
+        linkTitle: "Link do Site",
         imgSrc: "https://i.ibb.co/zfPykBY/barbershop-wide.png",
         infos: [
           {
@@ -472,7 +473,7 @@ export const storagedInfo =
 
   timelineinfo: {
     title: "Timeline",
-    dates: ["2020-07-22", "2021-04-30", "2021-11-22", "2022-03-01",],
+    dates: ["2019-07-22", "2021-04-30", "2021-11-22", "2022-03-01",],
     description: [
     "Meu Primeiro Hello World em Python",
     "Meu primeiro cliente como Freelancer",
