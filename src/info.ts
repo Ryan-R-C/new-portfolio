@@ -96,7 +96,8 @@ export const storagedInfo =
     "HTML, CSS e JavaScript",
     "Node",
     "Design", 
-    "React Native"
+    "React Native",
+    "VueJs"
   ],
 
 
@@ -219,48 +220,42 @@ export const storagedInfo =
       }
     },
 
-     /*
-    ================================================================
-    FREELANCER barber
-    */
-
     {
-      filter: "Node",
-      title: "I have no Idea",
+      filter: "HTML, CSS e JavaScript",
+      title: "Barbearia do Parra",
       link: "#",
-      src: "https://i.pinimg.com/originals/f6/2e/c3/f62ec33251d6e4f1555cdfbd53acadbe.gif",
+      src: "https://i.ibb.co/zfPykBY/barbershop-wide.png",
 
-      paragraph: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corrupti ducimus eaque unde incidunt nobis dolores possimus ipsa, voluptatibus sit omnis!",
+      paragraph: "Meu primeiro cliente como profissional Freelancer. Um ótimo exemplo de UI, UX e responsividade...",
       detailedInfo: {
-        title: "El Lorem",
-        link: "#",
+        title: "Barbearia do Parra",
+        link: "https://barbearia-do-parra.github.io/atendimento/",
         linkTitle: "Link do Github",
-        imgSrc: "https://banco.bradesco/canaisdigitais/assets/img/gif-pagar-conta-sem-codigo.gif",
+        imgSrc: "https://i.ibb.co/zfPykBY/barbershop-wide.png",
         infos: [
           {
             title: "",
             text: [
-              "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum, libero.",
-              "Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo iste tempora nemo sed? Vitae velit perferendis a laboriosam beatae modi.",
-              "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odio provident mollitia dolores sunt, maxime beatae.",
+              "Sendo um projeto profissional, desde o início presei por um código limpo, utilizando metedologias como BEM, e tags semânticas no HTML, assim melhorando o SEO.",
+              "Um projeto bem divertido de se densenvolver.",
+              "Um dos meus maiores desafios nesse projeto foi o Slider inferior, feito completamente do zero, usando JavaScript. Poderia ter usado uma biblioteca como Bootstrap, mas a experiência e o aprendizado ao final do projeto não seriam os mesmos.",
             ]
           },
-          {
-            title: "Text",
-            text: [
-              "Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore!",
-              "Lorem ipsum dolor sit, amet consectetur adipisicing elit.",
-              "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil consectetur iste eligendi aperiam eum dicta sint dolorem blanditiis quo dignissimos!",
-            ]
-          },
+          // {
+          //   title: "Text",
+          //   text: [
+          //     "Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore!",
+          //     "Lorem ipsum dolor sit, amet consectetur adipisicing elit.",
+          //     "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil consectetur iste eligendi aperiam eum dicta sint dolorem blanditiis quo dignissimos!",
+          //   ]
+          // },
         ],
         techs: {
           title: "Tecnologias usadas",
           list: [
-            "LOREM",
-            "Superman",
-            "Linux",
-            "Enter the sandman"
+            "HTML5",
+            "CSS3",
+            "JavaScript",
           ]
         }
       }
@@ -268,7 +263,7 @@ export const storagedInfo =
 
 
     {
-      filter: "Node",
+      filter: "React",
       title: "Regenciador de Notas",
       link: "#",
       src: "https://camo.githubusercontent.com/573961d36ffff92b33451e25f825b984d64773734e9a3763e2e8ac808ddccf70/68747470733a2f2f692e6962622e636f2f6a6736536462792f72656163742d70726f6a2d6e6f7465322e6a7067",
@@ -307,51 +302,6 @@ export const storagedInfo =
     },
 
 
-
-     /*
-    ================================================================
-    VUE TIMETRACKER
-    */
-
-    {
-      filter: "Node",
-      title: "I have no Idea",
-      link: "#",
-      src: "https://www.hostinger.com.br/tutoriais/wp-content/uploads/sites/12/2018/03/como-adicionar-css-no-html-sem-tag.png",
-
-      paragraph: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corrupti ducimus eaque unde incidunt nobis dolores possimus ipsa, voluptatibus sit omnis!",
-      detailedInfo: {
-        title: "El Lorem",
-        link: "#",
-        linkTitle: "Link do Github",
-        imgSrc: "https://catracalivre.com.br/wp-content/uploads/2016/11/giphy-e-um-dos-sites-mais-acessados-do-mundo-olha-so.gif",
-        infos: [
-          {
-            title: "",
-            text: [
-              "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odio provident mollitia dolores sunt, maxime beatae.",
-            ]
-          },
-          {
-            title: "Text",
-            text: [
-              "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil consectetur iste eligendi aperiam eum dicta sint dolorem blanditiis quo dignissimos!",
-            ]
-          },
-        ],
-        techs: {
-          title: "Tecnologias usadas",
-          list: [
-            "LOREM",
-            "Superman",
-            "Linux",
-            "Enter the sandman"
-          ]
-        }
-      }
-    },
-
-
     {
       filter: "React Native",
       title: "React Native News",
@@ -380,6 +330,48 @@ export const storagedInfo =
           list: [
             "React Native",
             "Expo",
+          ]
+        }
+      }
+    },
+
+     /*
+    ================================================================
+    VUE TIMETRACKER
+    */
+
+    {
+      filter: "VueJs",
+      title: "VueJs Time Tracker",
+      link: "#",
+      src: "https://i.ibb.co/QpvVxt8/Screenshot-from-2022-07-17-13-22-22.png",
+
+      paragraph: "Um gerenciador de tarefas e TimeTracker utilizando VueJs 3 e Bulma CSS",
+      detailedInfo: {
+        title: "VueJs Time Tracker",
+        link: "https://github.com/Ryan-R-C/VueJsTimeTracker",
+        linkTitle: "Link do Github",
+        imgSrc: "https://i.ibb.co/QpvVxt8/Screenshot-from-2022-07-17-13-22-22.png",
+        infos: [
+          {
+            title: "",
+            text: [
+              "Este projeto está atualmente em desenvolvimento...",
+              "Foi desenvolvido durante o curso da formação de VueJs da Alura. Minha plataforma de Estudos."
+            ]
+          },
+          {
+            title: "O que aprendi",
+            text: [
+              "Com a base sólida usando ReactJs, o desenvolvimento com Vue acabou sendo muito tranquilo, sem muitas dificuldades ou complicações. Com certeza um ótimo Frame Work para aplições Web!",
+            ]
+          },
+        ],
+        techs: {
+          title: "Tecnologias usadas",
+          list: [
+            "VueJs 3",
+            "Bulma CSS",
           ]
         }
       }
