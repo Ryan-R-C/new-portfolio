@@ -46,7 +46,8 @@ export default function LandingPage() {
       {/* Loads the modal's image, for not pop up on user's screen! */}
       <link rel="preload" href="https://www.bebold.ch/img/home/macbook-white.png" as="image" className='computer-image'/>
 
-      <Header />
+      <Header linkNames={info?.headerLinks} />
+      
       <LandingContainer id="Landing">
         <AboutMe />
         <ImageContainer
