@@ -443,8 +443,9 @@ export const storagedInfo =
     {
       title: "Tecnologias Client-Side",
       text:
-        ['Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam blanditiis laboriosam nisi cupiditate soluta aut vitae nam modi molestiae at.',
-          'Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam blanditiis laboriosam nisi cupiditate soluta aut vitae nam modi molestiae at.'
+        ['Possuo conhecimentos em várias tecnologias client-side para desenvolvimento, algumas em cursos, outras em prática e a maior parte em ambos.',
+          'Alguns exemplos: ',
+          'Vue, Angular,  Next, Material Design, Bootstrap, JavaScript e TypeScript, até mesmo em Wordpress '
         ],
       direction: "row",
       mainColor: "rgb(26, 115, 130)",
@@ -456,8 +457,10 @@ export const storagedInfo =
     {
       title: "Tecnologias Server-Side",
       text:
-        ['Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam blanditiis laboriosam nisi cupiditate soluta aut vitae nam modi molestiae at.',
-          'Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam blanditiis laboriosam nisi cupiditate soluta aut vitae nam modi molestiae at.'
+        ['Em relação a tecnlogias server-side que tenho prática e experiência:',
+          'Banco de Dados: MySQL, PostgreSQL e MongoDB',
+          'Linguagem de programação: além de NodeJs, PHP e Python.  ',
+          'No que diz respeito a Sistemas Operacionais conheço Linux, foco principal em Ubuntu e seus derivados, mas também Fedora, como CentOS.'
         ],
       direction: "row",
       mainColor: "rgb(89, 105, 198)",
