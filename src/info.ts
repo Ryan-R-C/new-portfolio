@@ -131,12 +131,11 @@ export const storagedInfo =
           },
         ],
         techs: {
-          title: "Techs used",
+          title: "Tecnologias usadas",
           list: [
-            "LOREM",
-            "Superman",
-            "Linux",
-            "Enter the sandman"
+            "HTML",
+            "CSS",
+            "JavaScript",
           ]
         }
       }
@@ -220,6 +219,138 @@ export const storagedInfo =
       }
     },
 
+     /*
+    ================================================================
+    FREELANCER barber
+    */
+
+    {
+      filter: "Node",
+      title: "I have no Idea",
+      link: "#",
+      src: "https://i.pinimg.com/originals/f6/2e/c3/f62ec33251d6e4f1555cdfbd53acadbe.gif",
+
+      paragraph: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corrupti ducimus eaque unde incidunt nobis dolores possimus ipsa, voluptatibus sit omnis!",
+      detailedInfo: {
+        title: "El Lorem",
+        link: "#",
+        linkTitle: "Link do Github",
+        imgSrc: "https://banco.bradesco/canaisdigitais/assets/img/gif-pagar-conta-sem-codigo.gif",
+        infos: [
+          {
+            title: "",
+            text: [
+              "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum, libero.",
+              "Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo iste tempora nemo sed? Vitae velit perferendis a laboriosam beatae modi.",
+              "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odio provident mollitia dolores sunt, maxime beatae.",
+            ]
+          },
+          {
+            title: "Text",
+            text: [
+              "Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore!",
+              "Lorem ipsum dolor sit, amet consectetur adipisicing elit.",
+              "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil consectetur iste eligendi aperiam eum dicta sint dolorem blanditiis quo dignissimos!",
+            ]
+          },
+        ],
+        techs: {
+          title: "Tecnologias usadas",
+          list: [
+            "LOREM",
+            "Superman",
+            "Linux",
+            "Enter the sandman"
+          ]
+        }
+      }
+    },
+
+
+    {
+      filter: "Node",
+      title: "Regenciador de Notas",
+      link: "#",
+      src: "https://camo.githubusercontent.com/573961d36ffff92b33451e25f825b984d64773734e9a3763e2e8ac808ddccf70/68747470733a2f2f692e6962622e636f2f6a6736536462792f72656163742d70726f6a2d6e6f7465322e6a7067",
+
+      paragraph: "Um gerenciador de notas ou postits usando ReactJs, MomentJs e Local Storage...",
+      detailedInfo: {
+        title: "Regenciador de Notas",
+        link: "https://ryan-react-note-manager.netlify.app/",
+        linkTitle: "Link do Site",
+        imgSrc: "https://camo.githubusercontent.com/573961d36ffff92b33451e25f825b984d64773734e9a3763e2e8ac808ddccf70/68747470733a2f2f692e6962622e636f2f6a6736536462792f72656163742d70726f6a2d6e6f7465322e6a7067",
+        infos: [
+          {
+            title: "",
+            text: [
+              "Este projeto é um gerenciador de notas usando ReactJs como biblioteca principal.",
+            ]
+          },
+          {
+            title: "O que aprendi",
+            text: [
+              "Feito usando React Class Components, era a única forma de desenvolver em React que sabia na época. Essa arquitetura complexa não me permitiu, como dev. inexperiente, conceber todas as ideias que tinha para o sistema.",
+              "Erros de estado, arquitetura complexa e minha inexperiencia na época, não me permitiram produzir algo com a qualidade que almejo.",
+              "Faria diferente hoje, transformando a arquitetura em Function Components e presando por Clean Code, assim, sem dúvida alguma, conseguiria conceber algo com a qualidade que sempre prezo."
+            ]
+          },
+        ],
+        techs: {
+          title: "Tecnologias usadas",
+          list: [
+            "ReactJs",
+            "MomentJs",
+            "LocalStorage API",
+          ]
+        }
+      }
+    },
+
+
+
+     /*
+    ================================================================
+    VUE TIMETRACKER
+    */
+
+    {
+      filter: "Node",
+      title: "I have no Idea",
+      link: "#",
+      src: "https://www.hostinger.com.br/tutoriais/wp-content/uploads/sites/12/2018/03/como-adicionar-css-no-html-sem-tag.png",
+
+      paragraph: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corrupti ducimus eaque unde incidunt nobis dolores possimus ipsa, voluptatibus sit omnis!",
+      detailedInfo: {
+        title: "El Lorem",
+        link: "#",
+        linkTitle: "Link do Github",
+        imgSrc: "https://catracalivre.com.br/wp-content/uploads/2016/11/giphy-e-um-dos-sites-mais-acessados-do-mundo-olha-so.gif",
+        infos: [
+          {
+            title: "",
+            text: [
+              "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odio provident mollitia dolores sunt, maxime beatae.",
+            ]
+          },
+          {
+            title: "Text",
+            text: [
+              "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil consectetur iste eligendi aperiam eum dicta sint dolorem blanditiis quo dignissimos!",
+            ]
+          },
+        ],
+        techs: {
+          title: "Tecnologias usadas",
+          list: [
+            "LOREM",
+            "Superman",
+            "Linux",
+            "Enter the sandman"
+          ]
+        }
+      }
+    },
+
 
     {
       filter: "React Native",
@@ -254,85 +385,7 @@ export const storagedInfo =
       }
     },
 
-    {
-      filter: "Node",
-      title: "I have no Idea",
-      link: "#",
-      src: "https://i.pinimg.com/originals/f6/2e/c3/f62ec33251d6e4f1555cdfbd53acadbe.gif",
 
-      paragraph: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corrupti ducimus eaque unde incidunt nobis dolores possimus ipsa, voluptatibus sit omnis!",
-      detailedInfo: {
-        title: "El Lorem",
-        link: "#",
-        linkTitle: "Link do Github",
-        imgSrc: "https://banco.bradesco/canaisdigitais/assets/img/gif-pagar-conta-sem-codigo.gif",
-        infos: [
-          {
-            title: "",
-            text: [
-              "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum, libero.",
-              "Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo iste tempora nemo sed? Vitae velit perferendis a laboriosam beatae modi.",
-              "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odio provident mollitia dolores sunt, maxime beatae.",
-            ]
-          },
-          {
-            title: "Text",
-            text: [
-              "Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore!",
-              "Lorem ipsum dolor sit, amet consectetur adipisicing elit.",
-              "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil consectetur iste eligendi aperiam eum dicta sint dolorem blanditiis quo dignissimos!",
-            ]
-          },
-        ],
-        techs: {
-          title: "Techs used",
-          list: [
-            "LOREM",
-            "Superman",
-            "Linux",
-            "Enter the sandman"
-          ]
-        }
-      }
-    },
-
-    {
-      filter: "Node",
-      title: "I have no Idea",
-      link: "#",
-      src: "https://www.hostinger.com.br/tutoriais/wp-content/uploads/sites/12/2018/03/como-adicionar-css-no-html-sem-tag.png",
-
-      paragraph: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corrupti ducimus eaque unde incidunt nobis dolores possimus ipsa, voluptatibus sit omnis!",
-      detailedInfo: {
-        title: "El Lorem",
-        link: "#",
-        linkTitle: "Link do Github",
-        imgSrc: "https://catracalivre.com.br/wp-content/uploads/2016/11/giphy-e-um-dos-sites-mais-acessados-do-mundo-olha-so.gif",
-        infos: [
-          {
-            title: "",
-            text: [
-              "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odio provident mollitia dolores sunt, maxime beatae.",
-            ]
-          },
-          {
-            title: "Text",
-            text: [
-              "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil consectetur iste eligendi aperiam eum dicta sint dolorem blanditiis quo dignissimos!",
-            ]
-          },
-        ],
-        techs: {
-          title: "Techs used",
-          list: [
-            "LOREM",
-            "Superman",
-            "Linux",
-            "Enter the sandman"
-          ]
-        }
-      }
-    },
   ],
 
 
