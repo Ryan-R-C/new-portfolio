@@ -118,6 +118,7 @@ export const storagedInfo =
       title: "PokeDev",
       link: "https://ryan-r-c.github.io/PokeDEV/",
       src: "https://camo.githubusercontent.com/206f5ae4ea180f491d091d68b03594b1aa939fb138842414cb3c681ff52a8b55/68747470733a2f2f692e6962622e636f2f7a5a327859374d2f706f6b656465762e6a7067",
+      clickMessage: "Ler Mais",
 
       paragraph: "Meu primeiro projeto consumindo APIs externas e aplicando AJAX!",
       detailedInfo: {
@@ -156,6 +157,7 @@ export const storagedInfo =
       title: "Infinity Scroll",
       link: "https://ryan-r-c.github.io/Infinity-Scroll/",
       src: "https://camo.githubusercontent.com/1576d0b33b884648fa3f43dc965f28f6bb2fbdc8adf45ee5c60a58169e835bf8/68747470733a2f2f692e6962622e636f2f3536716e3859312f612d696e66696e6974792d5363726f6f6c2d776964652e6a7067",
+      clickMessage: "Ler Mais",
 
       paragraph: "Consumo de API externa, página com conteúdo dinâmico e UI interessante...",
       detailedInfo: {
@@ -195,6 +197,8 @@ export const storagedInfo =
       link: "#",
       src: "https://i.ibb.co/TW2PgDq/a-Freela-Wide.jpg",
       paragraph: "Página Web estática usando HTML, CSS e JavaScript, responsíva e recheada de animações...",
+      clickMessage: "Ler Mais",
+      
       detailedInfo: {
         title: "Meu site de Freelancer",
         link: "https://ryan-r-c.github.io/Freelancer/",
@@ -235,6 +239,7 @@ export const storagedInfo =
       title: "Barbearia do Parra",
       link: "#",
       src: "https://i.ibb.co/zfPykBY/barbershop-wide.png",
+      clickMessage: "Ler Mais",
 
       paragraph: "Meu primeiro cliente como profissional Freelancer. Um ótimo exemplo de UI, UX e responsividade...",
       detailedInfo: {
@@ -277,6 +282,7 @@ export const storagedInfo =
       title: "Regenciador de Notas",
       link: "#",
       src: "https://camo.githubusercontent.com/573961d36ffff92b33451e25f825b984d64773734e9a3763e2e8ac808ddccf70/68747470733a2f2f692e6962622e636f2f6a6736536462792f72656163742d70726f6a2d6e6f7465322e6a7067",
+      clickMessage: "Ler Mais",
 
       paragraph: "Um gerenciador de notas ou postits usando ReactJs, MomentJs e Local Storage...",
       detailedInfo: {
@@ -317,6 +323,7 @@ export const storagedInfo =
       title: "React Native News",
       link: "https://ryan-news-react-app.netlify.app/",
       src: "https://camo.githubusercontent.com/645d08fdb5027ed9534beefb6f611d118884d8cde7271177c7b988ae4893e594/68747470733a2f2f692e6962622e636f2f743862735173662f53637265656e73686f742d66726f6d2d323032322d30372d31362d31382d33312d33382e706e67",
+      clickMessage: "Ler Mais",
 
       paragraph: "Um app multiplataforma usando React Native e Expo!",
       detailedInfo: {
@@ -355,7 +362,8 @@ export const storagedInfo =
       title: "VueJs Time Tracker",
       link: "#",
       src: "https://i.ibb.co/QpvVxt8/Screenshot-from-2022-07-17-13-22-22.png",
-
+      clickMessage: "Ler Mais",
+      
       paragraph: "Um gerenciador de tarefas e TimeTracker utilizando VueJs 3 e Bulma CSS",
       detailedInfo: {
         title: "VueJs Time Tracker",
