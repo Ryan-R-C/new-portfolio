@@ -9,7 +9,7 @@ const StyledButton
   href
   }: any ) => {
   return (
-    <Button href={href}>
+    <Button href={href} target="_blank">
       {children}
     </Button>
   );
