@@ -5,8 +5,10 @@ export default function ComputerContainer(
     ) {
   return (
     <Container>
-      <img src="https://www.bebold.ch/img/home/macbook-white.png" alt="MacBook Computer Apple"
-      className='computer-image'
+      <img
+      src="https://www.bebold.ch/img/home/macbook-white.png"
+      alt="MacBook Computer Apple"
+      className='computer-image' 
       />
       <div id="gif" style={{backgroundImage:`url(${imgSrc})`}} />
     </Container>
