@@ -90,6 +90,7 @@ export default function Portfolio({info, filters}: any) {
     info.map(
       (portfolioItem: any) => {
         console.log(portfolioItem.filter == filterSelected)
+        console.log(portfolioItem.filter.includes(filterSelected))
         if(portfolioItem.filter == filterSelected) filteredComponent.push(portfolioItem)
       }
     )
@@ -164,6 +165,7 @@ export default function Portfolio({info, filters}: any) {
               link={e?.link}
               src={e?.src}
               paragraph={e?.paragraph}
+              clickMessage={e.clickMessage}
               onClickEvent={() => openModalAndSetValues(e)}
               />
             </GridItem2>

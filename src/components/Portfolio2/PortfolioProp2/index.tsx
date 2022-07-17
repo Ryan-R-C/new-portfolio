@@ -6,7 +6,7 @@ import { IoIosArrowRoundForward } from 'react-icons/io'
 import { MdArrowForwardIos } from 'react-icons/md';
 import AnimatedArrow from '../../AnimatedArrow';
 
-export default function PortfolioProp({ title, link, src, paragraph, onClickEvent }: any) {
+export default function PortfolioProp({ title, src, paragraph, onClickEvent, clickMessage,  }: any) {
   return (
     <Container>
             <Project>
@@ -24,7 +24,7 @@ export default function PortfolioProp({ title, link, src, paragraph, onClickEven
                       <Icon
                       onClick={() => onClickEvent()}
                       >
-                        <AnimatedArrow text="Ler Mais " />
+                        <AnimatedArrow text={`${clickMessage}`} />
                       </Icon>
                   </PortfolioContent>
             </Project>
