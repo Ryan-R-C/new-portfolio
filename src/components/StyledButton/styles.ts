@@ -35,6 +35,7 @@ justify-content: center;
 padding: 10px 20px;
 transition: all .5s ;
 line-height: 1.3em ;
+z-index: 2;
 
 &:hover{
   padding: 10px 30px;
