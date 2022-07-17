@@ -2,18 +2,9 @@ import styled from "styled-components";
 
 export const LandingContainer = styled.div`
   display: flex;
-  
-  /*
-  align-items: center;
-  justify-content: center;
-  background-color: blue;
-  background-color: black;
-  */
- 
- flex-direction: row;
- width: 100%;
-
- margin-bottom: 25%;
+  margin-bottom: 15%;
+  flex-direction: row;
+  width: 100%;
  
  @media(max-width: 700px) {
    flex-direction: column;
@@ -27,31 +18,27 @@ export const Container = styled.div`
 `;
 
 export const ProjectContainer = styled.div`
-  display: flex;
   align-items: center;
-  justify-content: center;
-  flex-direction: column;
   background-color: white;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  justify-content: center;
+  max-width: 100%;
   width: 100%;
-  height: 100%
-
-  max-width: 100%
 `;
 
 
 export const Project = styled.div`
-  display: flex;
   align-items: center;
-  justify-content: center;
-  flex-direction: column;
   background-color: white;
-  padding: 50px;
-  max-width: 100%;
+  display: flex;
+  flex-direction: column;
   margin: 20px  5%;
+  max-width: 100%;
+  justify-content: center;
+  padding: 50px;
   position: relative;
-
-
-
   
   h2 { 
     font-size: 40px
