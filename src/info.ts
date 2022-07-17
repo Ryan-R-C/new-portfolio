@@ -93,16 +93,94 @@ export const storagedInfo =
 
 
   filtros: [ // -
-    "HTML",
+    "HTML, CSS e JavaScript",
     "Node",
-    "Design"
+    "Design", 
+    "React Native"
   ],
 
 
 
   portFolioInfo: [
     {
-      filter: "HTML",
+      filter: "HTML, CSS e JavaScript",
+      title: "PokeDev",
+      link: "https://ryan-r-c.github.io/PokeDEV/",
+      src: "https://camo.githubusercontent.com/206f5ae4ea180f491d091d68b03594b1aa939fb138842414cb3c681ff52a8b55/68747470733a2f2f692e6962622e636f2f7a5a327859374d2f706f6b656465762e6a7067",
+
+      paragraph: "Meu primeiro projeto consumindo APIs externas e aplicando AJAX!",
+      detailedInfo: {
+        title: "PokeDev",
+        link: "https://ryan-r-c.github.io/PokeDEV/",
+        linkTitle: "Link do Github",
+        imgSrc: "https://camo.githubusercontent.com/206f5ae4ea180f491d091d68b03594b1aa939fb138842414cb3c681ff52a8b55/68747470733a2f2f692e6962622e636f2f7a5a327859374d2f706f6b656465762e6a7067",
+        infos: [
+          {
+            title: "",
+            text: [
+              "Uma página da web que consome dados de uma API externa, pokeAPI, e mostra dados específicos do pokémon na tela. Um bom exemplo de código limpo e gerenciamento AJAX + DOM.",
+              "Procurei deixar o código mais limpo possível e cheio de comentários para sanar possíveis dúvidas em relação à API.",
+            ]
+          },
+          {
+            title: "O que aprendi",
+            text: [
+              "Este projeto me deu a introdução a conceitos como HTTP, Promisses e assincronicidade em JavaScript.",
+              "Como um professor querido costumava dizer, 'você apenas entenderá o valor de um framework quando entender o trabalho sem ele'. Olhando com minha experiência atual vejo o quanto frameworks como React facilitam o desenvolvimento e porque aplica-los",
+            ]
+          },
+        ],
+        techs: {
+          title: "Techs used",
+          list: [
+            "LOREM",
+            "Superman",
+            "Linux",
+            "Enter the sandman"
+          ]
+        }
+      }
+    },
+    {
+      filter: "HTML, CSS e JavaScript",
+      title: "Infinity Scroll",
+      link: "https://ryan-r-c.github.io/Infinity-Scroll/",
+      src: "https://camo.githubusercontent.com/1576d0b33b884648fa3f43dc965f28f6bb2fbdc8adf45ee5c60a58169e835bf8/68747470733a2f2f692e6962622e636f2f3536716e3859312f612d696e66696e6974792d5363726f6f6c2d776964652e6a7067",
+
+      paragraph: "Consumo de API externa, página com conteúdo dinâmico e UI interessante...",
+      detailedInfo: {
+        title: "Infinity Scroll",
+        link: "https://ryan-r-c.github.io/Infinity-Scroll/",
+        linkTitle: "Link do Site",
+        imgSrc: "https://camo.githubusercontent.com/1576d0b33b884648fa3f43dc965f28f6bb2fbdc8adf45ee5c60a58169e835bf8/68747470733a2f2f692e6962622e636f2f3536716e3859312f612d696e66696e6974792d5363726f6f6c2d776964652e6a7067",
+        infos: [
+          {
+            title: "",
+            text: [ 
+              "É um projeto que consome uma API externa, JSONPlaceholder, e os carrega conforme o usuário desce na página que aciona uma animação.",
+              "E também filtra os dados conforme o usuário deseja. Boa IU e código limpo."
+            ]
+          },
+          {
+            title: "O que aprendi",
+            text: [
+              "Neste projeto apliquei conceitos de Clean Code como separação de funções por responsabilidade, encapsulamento e uso correto de condições",
+              "Aprendi um pouco mais sobre JavaScript, tanto no filtro, usando condições de innerText quanto na questão de do Scroll, usando Event Listeners e manipulação de classes, usado no loading.",
+            ]
+          },
+        ],
+        techs: {
+          title: "Tecnologias usadas",
+          list: [
+            "HTML",
+            "CSS",
+            "JavaScript",
+          ]
+        }
+      }
+    },
+    {
+      filter: "HTML, CSS e JavaScript",
       title: "Meu site de Freelancer",
       link: "#",
       src: "https://i.ibb.co/TW2PgDq/a-Freela-Wide.jpg",
@@ -137,100 +215,11 @@ export const storagedInfo =
             "HTML5",
             "CSS3",
             "JavaScript",
-            "React Native"
-          ]
-        }
-      }
-    },
-    {
-      filter: "HTML5",
-      title: "Infinity Scroll",
-      link: "https://ryan-r-c.github.io/Infinity-Scroll/",
-      src: "https://camo.githubusercontent.com/1576d0b33b884648fa3f43dc965f28f6bb2fbdc8adf45ee5c60a58169e835bf8/68747470733a2f2f692e6962622e636f2f3536716e3859312f612d696e66696e6974792d5363726f6f6c2d776964652e6a7067",
-
-      paragraph: "Consumo de API externa, página com conteúdo dinâmico e UI interessante...",
-      detailedInfo: {
-        title: "Infinity Scroll",
-        link: "https://ryan-r-c.github.io/Infinity-Scroll/",
-        linkTitle: "Link do Site",
-        imgSrc: "https://camo.githubusercontent.com/1576d0b33b884648fa3f43dc965f28f6bb2fbdc8adf45ee5c60a58169e835bf8/68747470733a2f2f692e6962622e636f2f3536716e3859312f612d696e66696e6974792d5363726f6f6c2d776964652e6a7067",
-        infos: [
-          {
-            title: "",
-            text: [
-              /*
-              =================================================================================================================================
-              CONTINUA
-              
-              */ 
-              "É um projeto que consome uma API externa, JSONPlaceholder, e os carrega conforme o usuário desce na página que aciona uma animação. E também filtra os dados conforme o usuário deseja. Boa IU e código limpo.",
-            ]
-          },
-          {
-            title: "Text",
-            text: [
-              "Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore!",
-              "Lorem ipsum dolor sit, amet consectetur adipisicing elit.",
-              "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil consectetur iste eligendi aperiam eum dicta sint dolorem blanditiis quo dignissimos!",
-            ]
-          },
-        ],
-        techs: {
-          title: "Techs used",
-          list: [
-            "LOREM",
-            "Superman",
-            "Linux",
-            "Enter the sandman"
           ]
         }
       }
     },
 
-    {
-      filter: "React",
-      title: "PokeDev",
-      link: "https://ryan-r-c.github.io/PokeDEV/",
-      src: "https://camo.githubusercontent.com/206f5ae4ea180f491d091d68b03594b1aa939fb138842414cb3c681ff52a8b55/68747470733a2f2f692e6962622e636f2f7a5a327859374d2f706f6b656465762e6a7067",
-
-      paragraph: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corrupti ducimus eaque unde incidunt nobis dolores possimus ipsa, voluptatibus sit omnis!",
-      detailedInfo: {
-        title: "El Lorem",
-        link: "https://ryan-r-c.github.io/PokeDEV/",
-        linkTitle: "Link do Github",
-        imgSrc: "https://camo.githubusercontent.com/206f5ae4ea180f491d091d68b03594b1aa939fb138842414cb3c681ff52a8b55/68747470733a2f2f692e6962622e636f2f7a5a327859374d2f706f6b656465762e6a7067",
-        infos: [
-          {
-            title: "",
-            text: [
-              "Uma página da web que consome dados de uma API externa, pokeAPI, e mostra dados específicos do pokémon na tela. Um bom exemplo de código limpo e gerenciamento AJAX + DOM, todo o código é comentário.",
-              /*
-              =================================================================================================================================
-              CONTINUA
-              
-              */ 
-            ]
-          },
-          {
-            title: "Text",
-            text: [
-              "Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore!",
-              "Lorem ipsum dolor sit, amet consectetur adipisicing elit.",
-              "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil consectetur iste eligendi aperiam eum dicta sint dolorem blanditiis quo dignissimos!",
-            ]
-          },
-        ],
-        techs: {
-          title: "Techs used",
-          list: [
-            "LOREM",
-            "Superman",
-            "Linux",
-            "Enter the sandman"
-          ]
-        }
-      }
-    },
 
     {
       filter: "React Native",
@@ -435,14 +424,15 @@ export const storagedInfo =
 
     }
   ],
+
   timelineinfo: {
     title: "Timeline",
-    dates: ["2021-01-01", "2021-01-15", "2021-03-22", "2022-03-22", "2022-05-22", "2022-10-22"],
-    description: ["e event of 1 Jan 2021 : Happy New Year",
-    "The event of 15 Jan 2021 : Festival",
-    "The event of 22 March 2021 : Board Exam",
-    "The event of 22 March 2021 : Board Exam2",
-    "The event of 22 March 2021 : Board Exam3",
-    "The event of 22 March 2021 : Board Exam4",]
+    dates: ["2020-07-22", "2021-04-30", "2021-11-22", "2022-03-01",],
+    description: [
+    "Meu Primeiro Hello World em Python",
+    "Meu primeiro cliente como Freelancer",
+    "Minha Admissão em minha empresa atual como Dev. Júnior",
+    "Minha primeira promoção como líder de Squad.",
+  ]
   }
 }
