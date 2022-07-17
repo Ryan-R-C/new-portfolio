@@ -24,7 +24,7 @@ export default function PortfolioProp({ title, link, src, paragraph, onClickEven
                       <Icon
                       onClick={() => onClickEvent()}
                       >
-                        <AnimatedArrow text="Clique aqui" />
+                        <AnimatedArrow text="Ler Mais " />
                       </Icon>
                   </PortfolioContent>
             </Project>
