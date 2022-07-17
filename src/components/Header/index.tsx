@@ -49,8 +49,6 @@ export default function FeaturedBlockQuote(
       <Container ref={ref}  className="click-text">
         <MainItem>
         </MainItem>
-
-
         <SubItem>
           <WideMenu>
             <a href="#Landing">

@@ -55,7 +55,7 @@ width: 45%;
 
 
 export const UnbreakerPage = styled.div`
-padding-top: 66px
+padding-top: 66px;
 `;
 
 
