@@ -25,8 +25,8 @@ const useOutsideClick = (callback: { (): void; (): void; }) => {
 
 
 
-export default function FeaturedBlockQuote(
-  { quote, author }: any
+export default function Header(
+  { linkNames }: any
 ) {
   const [ isOpen, setIsOpen ]= useState(false)
 
@@ -52,19 +52,19 @@ export default function FeaturedBlockQuote(
         <SubItem>
           <WideMenu>
             <a href="#Landing">
-              Landing
+              { linkNames?.landing || "Landing" }
             </a>
             <a href="#AboutMe">
-              About Me
+              { linkNames?.aboutMe || "About Me" }
             </a>
             <a href="#Portfolio">
-              Portfolio
+              { linkNames?.portfolio || "Portfolio "}
             </a>
             <a href="#Timeline">
-              Timeline
+              { linkNames?.timeLine || "Timeline" }
             </a>
             <a href="#Courses">
-              Courses
+              { linkNames?.courses || "Courses" }
             </a>
           </WideMenu>
         </SubItem>
@@ -86,19 +86,19 @@ export default function FeaturedBlockQuote(
 
           >
             <a href="#Landing">
-              Landing
+              { linkNames?.landing || "Landing" }
             </a>
             <a href="#AboutMe">
-              About Me
+              { linkNames?.aboutMe || "About Me" }
             </a>
             <a href="#Portfolio">
-              Portfolio
+              { linkNames?.portfolio || "Portfolio "}
             </a>
             <a href="#Timeline">
-              Timeline
+              { linkNames?.timeLine || "Timeline" }
             </a>
             <a href="#Courses">
-              Courses
+              { linkNames?.courses || "Courses" }
             </a>
           </ActivatedMenu>
         </MobileMenu>
