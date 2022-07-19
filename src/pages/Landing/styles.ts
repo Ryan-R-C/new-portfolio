@@ -5,7 +5,8 @@ export const LandingContainer = styled.div`
   margin-bottom: 15%;
   flex-direction: row;
   width: 100%;
- 
+  overflow: hidden;
+  
  @media(max-width: 700px) {
    flex-direction: column;
   }
