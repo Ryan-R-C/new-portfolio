@@ -105,7 +105,9 @@ button{
 
 
 export const GridContainerPortfolioItems = styled.div`
-width: 95vw;
+/* This tag was causing an overflow */
+/* width: 95vw; */
+
 display: flex;
 flex-wrap: wrap;
 margin: 0 auto;
