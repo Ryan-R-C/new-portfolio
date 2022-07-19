@@ -1,1 +1,9 @@
-CI= false npm run build
+[build]
+  command = "npm run build"
+  publish="./build"
+  base = ""
+
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
