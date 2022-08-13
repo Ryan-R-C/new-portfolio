@@ -13,13 +13,18 @@ export const Container = styled.div`
   padding: 30px; 
   */
   margin: 15% auto;
-
-
-
-
+  
   p{
     margin-bottom: 20px;
   }
+
+
+@media(max-width: 850px) {
+  width: 100%;
+  margin: 0 auto;
+  align-items: center;
+  flex-direction: column;
+}
 `
 
 
@@ -31,6 +36,10 @@ flex-direction: column;
 
 width: 47.25%;
 margin-right: 5.5%;
+
+@media(max-width: 850px) {
+  width: 80%;
+}
 `;
 
 
@@ -43,5 +52,9 @@ display: flex;
 flex-direction: column;
 
 width: 47.25%;
+
+@media(max-width: 850px) {
+  width: 80%;
+}
 `;
 
