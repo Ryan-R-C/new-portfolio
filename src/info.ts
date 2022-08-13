@@ -70,7 +70,7 @@ export const storagedInfo =
 
 
   landing: { // -
-    landingImage: "https://criticalhits.com.br/wp-content/uploads/2022/05/Goku-In-Dragon-Ball-Super--910x455.webp",
+    landingImage: "https://i.ibb.co/jDN2wwy/ryan-rodrigo-costa-freelancer-profissional-desenvolvedor-junior-full-stack-fullstack-junior-pleno.jpg",
     linkedingLink: "https://www.linkedin.com/in/ryan-costa-7ba1b7216/",
     gitHubLink: "https://github.com/Ryan-R-C",
     emailLink: "ryan.r.c.339ac@gmail.com",
