@@ -7,17 +7,23 @@ export const FlexContainer = styled.div`
 display: flex;
 justify-content: space-between;
 
+  @media(max-width: 700px) {
+    flex-direction: column-reverse;
+    align-items: center;
+  }
 
 article{
   width: 30%;
-
   display: flex;
-
   flex-direction: column;
 
 
-  a{ 
+  @media(max-width: 700px) {
+    width: 100%;
+  }
 
+
+  a{ 
     width: fit-content;
   }
 }
@@ -33,7 +39,16 @@ aside{
 
   background-size: 100% 100%;
   background-repeat: no-repeat;
+
+
+@media(max-width: 700px) {
+    width: 70%;
+    margin-right: 19%;
+  }
+
 }
+
+
 
 
 
@@ -55,7 +70,7 @@ a{
   color: #0660ff !important;
   transition: all .3s;
   
-  &: hover{
+  &:hover{
     color: #0549c1 !important
   }
 }
