@@ -31,7 +31,7 @@ body.ReactModal__Body--open #root {
     left: 0;
     right: 0;
     filter: blur(2px);
-    background: rgba(0, 0, 0, 0.75) none repeat scroll 0% 0%
+    background: rgba(0, 0, 0, 0.75) none repeat scroll 0% 0%;
 }
 
 .ReactModal__Overlay {
