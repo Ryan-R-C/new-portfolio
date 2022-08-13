@@ -41,7 +41,6 @@ let modalStyles={
     height: '88%',
     alignSelf: 'center',
     transition: "all .5s"
-
   }
 }
 

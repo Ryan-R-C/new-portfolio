@@ -81,6 +81,8 @@ margin: 1.25% 0;
 
 export const FilterSelector = styled.div`
 display:flex;
+width: 100%;
+flex-wrap: wrap;
 
 button{
 
