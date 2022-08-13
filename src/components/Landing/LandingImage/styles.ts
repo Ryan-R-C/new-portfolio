@@ -3,7 +3,6 @@ import styled from "styled-components";
 export const Container = styled.div`
 display: flex; 
 position: relative;
-
 z-index: 1;
 
   &:before {
@@ -57,7 +56,6 @@ z-index: 1;
     }
 
     img {
-      height: 10%;
       object-fit: cover;
       z-index: 2;
       top: 50px;
@@ -68,8 +66,11 @@ z-index: 1;
 
       width: 100%;
       position: relative;
-      height: 10%
+      /* height: 10%; */
       object-fit: cover;
+      min-height: 45vw;
+
+      object-position: top;
 
 
       @media(max-width: 700px) {
@@ -77,38 +78,28 @@ z-index: 1;
       }
 
       }
-    }
-    
-
-    
-`;
+   
+`
 
 
 export const SocialMedia = styled.ul`
-color: white;
-
-position: absolute;
-
-z-index: 3;
-
-top: 40%;
-left: -56px;
-
 background: #141617;
-
+color: white;
 display: flex;
 flex-direction: column;
+left: -56px;
+position: absolute;
+top: 40%;
+z-index: 3;
 
 @media(max-width: 700px) {
-  top: 40%;
   left: 75%;
+  top: 40%;
   /*
   flex-direction: row;
   top: -59px;
   left: 56px;
   */
-
-
 }
 
 
@@ -117,11 +108,8 @@ a, li {
   transition: all 0.2s;
 }
 
-.button: hover{
+.button:hover{
   padding: 20px;
   background: #3a3a3a;
-
-
 }
-
 `
