@@ -16,6 +16,8 @@ export const LandingContainer = styled.div`
 
 export const Container = styled.div`
   padding: 2% 0;
+  max-width: 100vw;
+  /* overflow: hidden; */
 `;
 
 export const ProjectContainer = styled.div`
