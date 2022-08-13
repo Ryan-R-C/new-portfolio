@@ -10,6 +10,7 @@ export const Container = styled.div`
 
   padding: 30px; 
   margin: 15% auto;
+  text-align: center;
 
   blockquote{
     margin-bottom: 2.75%;
