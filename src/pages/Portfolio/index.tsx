@@ -40,7 +40,8 @@ let modalStyles={
     borderRadius: '0.3rem',
     height: '88%',
     alignSelf: 'center',
-    transition: "all .5s"
+    transition: "all .5s",
+    overflowX: 'hidden',
   }
 }
 
