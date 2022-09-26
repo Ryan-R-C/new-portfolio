@@ -104,7 +104,7 @@ export const storagedInfo =
   filtros: [ // -
     "HTML, CSS e JavaScript",
     // "Node",  
-    // "Design", 
+    "Game", 
     "React",
     "React Native",
     "VueJs"
@@ -367,14 +367,15 @@ export const storagedInfo =
       paragraph: "Um gerenciador de tarefas e TimeTracker utilizando VueJs 3 e Bulma CSS",
       detailedInfo: {
         title: "VueJs Time Tracker",
-        link: "https://github.com/Ryan-R-C/VueJsTimeTracker",
-        linkTitle: "Link do Github",
+        link: "https://vue-js-time-tracker.netlify.app",
+        linkTitle: "Link do Site",
         imgSrc: "https://i.ibb.co/QpvVxt8/Screenshot-from-2022-07-17-13-22-22.png",
         infos: [
           {
             title: "",
             text: [
-              "Este projeto está atualmente em desenvolvimento...",
+              
+              "Um Time Tracker com modo escuro e gerenciamento de notas. Usando manipulação de estados inteligentes e código limpo.",
               "Foi desenvolvido durante o curso da formação de VueJs da Alura. Minha plataforma de Estudos."
             ]
           },
@@ -390,6 +391,45 @@ export const storagedInfo =
           list: [
             "VueJs 3",
             "Bulma CSS",
+          ]
+        }
+      }
+    },
+
+     /*
+    ================================================================
+    VUE TIMETRACKER
+    */
+
+    {
+      filter: "Game",
+      title: "Game de Plataforma",
+      link: "#",
+      src: "https://i.ibb.co/bgjkSw7/Screenshot-from-2022-09-26-16-09-48.jpg",
+      clickMessage: "Ler Mais",
+      
+      paragraph: "Um pequeno game de plataforma utilizando HTML, CSS e JavaScript puros!",
+      detailedInfo: {
+        title: "Game de Plataforma",
+        link: "https://ryan-r-c.github.io/Plataformer-js-game/src/index.html",
+        linkTitle: "Link do Site",
+        imgSrc: "https://i.ibb.co/bgjkSw7/Screenshot-from-2022-09-26-16-09-48.jpg",
+        infos: [
+          {
+            title: "O que aprendi",
+            text: [
+              
+              "Um projeto muito interessante e divertido, sem nenhum framework tive de desenvolver todas os ações com Canvas.",
+              "Criei as entidades que são exibidas em formato de objeto para alcançar um código limpo e reutilizavel."
+            ]
+          },
+        ],
+        techs: {
+          title: "Tecnologias usadas",
+          list: [
+            "HTML5",
+            "CSS3",
+            "JavaScript",
           ]
         }
       }
