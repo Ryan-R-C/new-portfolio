@@ -102,7 +102,7 @@ export const storagedInfo =
   filtros: [ // -
     "HTML, CSS e JavaScript",
     // "Node",  
-    "React",
+    // "React",
     "React Native",
     "VueJs",
     "Game", 
@@ -280,7 +280,7 @@ export const storagedInfo =
 
 
     {
-      filter: "React Native React",
+      filter: "React Native",
       title: "React Native News",
       link: "https://ryan-news-react-app.netlify.app/",
       src: "https://camo.githubusercontent.com/645d08fdb5027ed9534beefb6f611d118884d8cde7271177c7b988ae4893e594/68747470733a2f2f692e6962622e636f2f743862735173662f53637265656e73686f742d66726f6d2d323032322d30372d31362d31382d33312d33382e706e67",
