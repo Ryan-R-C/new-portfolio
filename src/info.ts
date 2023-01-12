@@ -82,9 +82,8 @@ export const storagedInfo =
     title: 'Sobre mim',
     paragraphs: [
       "Eu sou Ryan Rodrigo Costa, Engenheiro de Software e Dev. Full Stack.",
-      "Atualmente trabalho como líder do Squad Full Stack, avaliando, treinando e auxiliando os colaboradores júniors e claro desenvolvendo.",
+      "Atualmente trabalho como Desenvolvedor Full Stack e Ui Designer, trabalhando desde o protótipo, passando pelo Front-End e Back-End até a entrega final para o cliente.",
       "Meu contato com programação começou com desenvolvimento em Python, em 2019, me apaixonei pelo desenvolvimento desde o primeiro 'Hello, World' e a cada dia que passa me apaixono mais ainda.",
-      "Tenho experiência em projetos usando Python, Node e PHP como linguagens de programação. A maior parte dos meus projetos pessoais são open-source e disponíveis no GitHub.",
       "Tenho como metas me tornar sempre um desenvolvedor melhor chegando a minha senioridade, sempre me aperfeiçoando nas Soft e Hard Skills."
     ]
   },
@@ -93,9 +92,8 @@ export const storagedInfo =
   asideAboutText: { // V?
     title: 'Um pouco mais pessoal',
     paragraphs: [
-      "Atualmente estudo Desenvolvimento Web, tanto Back End quanto Front End, cursando meu bacharelado em Engenharia de Software e, aos finais de semanam, estudo Smart Contracts. Minha meta é se aperfeiçoar na área de desenvolvimento Web.",
-      "Tenho inglês avançado, tanto que faço cursos nessa lingua estrangeira, e arranho um pouco no espanhol.",
-      "Minha principal motivação é minha esposa e conseguir uma qualidade de vida maior para nós.",
+      "Atualmente estudo Desenvolvimento Web, tanto Back End quanto Front End, cursando meu bacharelado em Engenharia de Software e, aos finais de semanam, estudo Ui Design. Minha meta é se aperfeiçoar na área de desenvolvimento Web.",
+      "Tenho inglês avançado, conseguindo ler, escrever e falar sem muitas dificuldades.",
     ]
   },
 
@@ -104,10 +102,11 @@ export const storagedInfo =
   filtros: [ // -
     "HTML, CSS e JavaScript",
     // "Node",  
-    "Game", 
     "React",
     "React Native",
-    "VueJs"
+    "VueJs",
+    "Game", 
+    "Design",
   ],
 
 
@@ -277,49 +276,11 @@ export const storagedInfo =
     },
 
 
-    {
-      filter: "React",
-      title: "Regenciador de Notas",
-      link: "#",
-      src: "https://camo.githubusercontent.com/573961d36ffff92b33451e25f825b984d64773734e9a3763e2e8ac808ddccf70/68747470733a2f2f692e6962622e636f2f6a6736536462792f72656163742d70726f6a2d6e6f7465322e6a7067",
-      clickMessage: "Ler Mais",
-
-      paragraph: "Um gerenciador de notas ou postits usando ReactJs, MomentJs e Local Storage...",
-      detailedInfo: {
-        title: "Regenciador de Notas",
-        link: "https://ryan-react-note-manager.netlify.app/",
-        linkTitle: "Link do Site",
-        imgSrc: "https://camo.githubusercontent.com/573961d36ffff92b33451e25f825b984d64773734e9a3763e2e8ac808ddccf70/68747470733a2f2f692e6962622e636f2f6a6736536462792f72656163742d70726f6a2d6e6f7465322e6a7067",
-        infos: [
-          {
-            title: "",
-            text: [
-              "Este projeto é um gerenciador de notas usando ReactJs como biblioteca principal.",
-            ]
-          },
-          {
-            title: "O que aprendi",
-            text: [
-              "Feito usando React Class Components, era a única forma de desenvolver em React que sabia na época. Essa arquitetura complexa não me permitiu, como dev. inexperiente, conceber todas as ideias que tinha para o sistema.",
-              "Erros de estado, arquitetura complexa e minha inexperiencia na época, não me permitiram produzir algo com a qualidade que almejo.",
-              "Faria diferente hoje, transformando a arquitetura em Function Components e presando por Clean Code, assim, sem dúvida alguma, conseguiria conceber algo com a qualidade que sempre prezo."
-            ]
-          },
-        ],
-        techs: {
-          title: "Tecnologias usadas",
-          list: [
-            "ReactJs",
-            "MomentJs",
-            "LocalStorage API",
-          ]
-        }
-      }
-    },
+    
 
 
     {
-      filter: "React Native",
+      filter: "React Native React",
       title: "React Native News",
       link: "https://ryan-news-react-app.netlify.app/",
       src: "https://camo.githubusercontent.com/645d08fdb5027ed9534beefb6f611d118884d8cde7271177c7b988ae4893e594/68747470733a2f2f692e6962622e636f2f743862735173662f53637265656e73686f742d66726f6d2d323032322d30372d31362d31382d33312d33382e706e67",
@@ -396,7 +357,7 @@ export const storagedInfo =
       }
     },
 
-     /*
+    /*
     ================================================================
     VUE TIMETRACKER
     */
@@ -435,6 +396,46 @@ export const storagedInfo =
       }
     },
 
+    
+     /*
+    ================================================================
+    VUE TIMETRACKER
+    */
+
+    {
+      filter: "Design",
+      title: "Evóikio - Aplicativo de imóveis",
+      link: "#",
+      src: "https://i.ibb.co/hLBk4SZ/Frame-125-3.png",
+      clickMessage: "Ler Mais",
+      
+      paragraph: "Um pequeno Evóikio - Aplicativo de imóveis utilizando HTML, CSS e JavaScript puros!",
+      detailedInfo: {
+        title: "Evóikio - Aplicativo de imóveis",
+        link: "https://www.figma.com/file/Y8U4wxI6CvaAF3RtdSdvPQ/Trabalho-Prototipo?node-id=0%3A1&t=yXCW0RUqnSAPgpgB-1",
+        linkTitle: "Link do Figma",
+        imgSrc: "https://i.ibb.co/TmMrLBn/Frame-125-5.png",
+        infos: [
+          {
+            title: "História do projeto e o que aprendi",
+            text: [
+              
+              `Este foi um projeto iniciado como trabalho da matéria de Design de Sistemas da minha Faculdade de Engenharia de Software.`,
+              `Os requisitos eram simples, uma prototipação de baixa e média fidelidade de um aplicativo de compra e vende de imóveis.`,
+              `Acabei gostando muito da proposta e desenvolvi,  um protótipo de alta fidelidade, identidade visual e uma logo, garatindo nota máxima na atividade.`,
+              `Após esse periodo, no final do ano de 2023 iniciei um novo curso de UI Design e finalmente consegui ver o que me incomodava dentro do resultado final. Então voltei para ele mais uma vez, espaçamentos, fontes, cores e até componentes inteiros, mas mantendo a essência da identidade visual.`,
+              `Um projeto com resultado muito agradável e com certeza uma forma bem nítida de visualizar minha evolução profissional.`
+            ]
+          },
+        ],
+        techs: {
+          title: "Tecnologias usadas",
+          list: [
+            "Figma",
+          ]
+        }
+      }
+    },
 
   ],
 
@@ -516,8 +517,9 @@ export const storagedInfo =
       text:
         ['Em relação a tecnlogias server-side que tenho prática e experiência:',
           'Banco de Dados: MySQL, PostgreSQL e MongoDB',
-          'Linguagem de programação: além de NodeJs, PHP e Python.  ',
-          'No que diz respeito a Sistemas Operacionais conheço Linux, foco principal em Ubuntu e seus derivados, mas também Fedora, como CentOS.'
+          'Linguagem de programação: NodeJs, PHP e Python.  ',
+          'Para mobile: React Native.  ',
+          'Em Linux, foco principal em Ubuntu e seus derivados, mas também Fedora, como CentOS.'
         ],
       direction: "row",
       mainColor: "rgb(89, 105, 198)",
