@@ -108,7 +108,6 @@ height: 100%;
 width: 100%;
 
 background-repeat: no-repeat;
-background-clip: ;
 background-size: cover;
 transition: all 0.3s; 
 transition-timing-function: cubic-bezier(0,0,5,1);
