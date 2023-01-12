@@ -16,7 +16,7 @@ export default function AboutMe(
                         Full Stack Developer &
                     </h2>
                     <h2>
-                        Líder de equipe
+                        UI Designer
                     </h2>
                 </div>
                 <div>
