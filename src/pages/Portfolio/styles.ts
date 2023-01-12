@@ -98,7 +98,10 @@ button{
 }
 
 .activeFilter{
-  color: #141617 !important;
+  color: #3a3a3a !important;
+  border: 1px solid #3a3a3a;
+  z-index: 1;
+
 }
 `;
 
