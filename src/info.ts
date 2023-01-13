@@ -82,7 +82,7 @@ export const storagedInfo =
     title: 'Sobre mim',
     paragraphs: [
       "Eu sou Ryan Rodrigo Costa, Engenheiro de Software e Dev. Full Stack.",
-      "Atualmente trabalho como Desenvolvedor Full Stack e Ui Designer, trabalhando desde o protótipo, passando pelo Front-End e Back-End até a entrega final para o cliente.",
+      "Atualmente trabalho como Desenvolvedor Full Stack e UI Designer, trabalhando desde o protótipo, passando pelo Front-End e Back-End até a entrega final para o cliente.",
       "Meu contato com programação começou com desenvolvimento em Python, em 2019, me apaixonei pelo desenvolvimento desde o primeiro 'Hello, World' e a cada dia que passa me apaixono mais ainda.",
       "Tenho como metas me tornar sempre um desenvolvedor melhor chegando a minha senioridade, sempre me aperfeiçoando nas Soft e Hard Skills."
     ]
