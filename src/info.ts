@@ -406,15 +406,15 @@ export const storagedInfo =
       filter: "Design",
       title: "Evóikio - Aplicativo de imóveis",
       link: "#",
-      src: "https://i.ibb.co/hLBk4SZ/Frame-125-3.png",
+      src: "https://i.ibb.co/rMHPYYv/213.png",
       clickMessage: "Ler Mais",
       
-      paragraph: "Um pequeno Evóikio - Aplicativo de imóveis utilizando HTML, CSS e JavaScript puros!",
+      paragraph: "Um pequeno projeto de Design - Aplicativo mobile de imóveis utilizando Figma.",
       detailedInfo: {
         title: "Evóikio - Aplicativo de imóveis",
         link: "https://www.figma.com/file/Y8U4wxI6CvaAF3RtdSdvPQ/Trabalho-Prototipo?node-id=0%3A1&t=yXCW0RUqnSAPgpgB-1",
         linkTitle: "Link do Figma",
-        imgSrc: "https://i.ibb.co/TmMrLBn/Frame-125-5.png",
+        imgSrc: "https://i.ibb.co/rMHPYYv/213.png",
         infos: [
           {
             title: "História do projeto e o que aprendi",
