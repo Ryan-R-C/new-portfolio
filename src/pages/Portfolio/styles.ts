@@ -139,5 +139,18 @@ flex-direction: column;
 
 export const ModalContent = styled.div`
 padding: 5%;
+`
 
+
+export const CloseContainer = styled.div`
+display: flex;
+/* max-width: 300px; */
+/* margin-left: auto; */
+
+align-items: end;
+justify-content: end;
+
+.button{
+  max-width: 300px;
+}
 `

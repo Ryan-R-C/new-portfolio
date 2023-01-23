@@ -1,15 +1,15 @@
 import React, { useEffect, useState } from 'react';
 import PortfolioParagraph from '../../components/Portfolio/PortfolioParagraph';
 import PortfolioImage from '../../components/Portfolio/PortfolioImage';
-import PortfolioProp from '../../components/Portfolio/PortfolioProp';
-import { Container,  FilterSelector, GridContainer, GridContainerPortfolioItems, GridItem, GridItem2, ModalContainer, ModalContent, } from './styles';
-import IportfolioInfo from '../../types/IportfolioInfo'
+import { CloseContainer, Container,  FilterSelector, GridContainer, GridContainerPortfolioItems, GridItem, GridItem2, ModalContainer, ModalContent, } from './styles';
 import PortfolioProp2 from '../../components/Portfolio2/PortfolioProp2';
 
 import { FiX } from 'react-icons/fi'
 //@ts-ignore
 import Modal from 'react-modal';
 import ModalPortfolioProp from '../../components/Portfolio/ModalPortfolioProp';
+import { IoIosArrowForward } from 'react-icons/io';
+import StyledButtonModal from '../../components/StyledButtonModal';
 // import ModalPortfolioProp from '../../components/Portfolio/ModalPortfolioProp';
 
 let modalStyles={
@@ -181,18 +181,20 @@ export default function Portfolio({info, filters}: any) {
           isOpen={modalIsOpen}
           onAfterOpen={afterOpenModal}
           onRequestClose={closeModal}
-          contentLabel="Example Modal"
+          ariaHideApp={false}
+
+          contentLabel="Modal"
           //@ts-ignore
           style={
             modalStyles
           }
           >
           <ModalContainer>
-            <FiX
-            onClick={closeModal}
-            className="closeModal"
-            size={23}
-            />
+              <FiX
+              onClick={closeModal}
+              className="closeModal"
+              size={23}
+              />
             <ModalContent>
               <ModalPortfolioProp
               infos={    selectedItem?.infos}
@@ -204,7 +206,14 @@ export default function Portfolio({info, filters}: any) {
 
               />
  
+              <CloseContainer>
+                <StyledButtonModal
+                onClick={() => closeModal()}>
+                    Fechar <IoIosArrowForward/>
+                </StyledButtonModal>
+              </CloseContainer>
             </ModalContent>
+            
 
         </ModalContainer>
         </Modal>
