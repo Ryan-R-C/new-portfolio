@@ -465,8 +465,8 @@ export const storagedInfo =
           "Possuo 1 ano de experiência com Node, juntamente com conhecimento em banco de dados Relacionais e Não Relacionais como MySQL e Mongo e até mesmo em ORM's como Sequelize.",
         ],
       direction: "row",
-      mainColor: "rgb(39, 85, 66)",
-      secondaryColor: "rgb(95, 155, 129)",
+      mainColor: "#689F63",
+      secondaryColor: "rgb(205, 255, 205)",
       iconImageSrc: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Node.js_logo.svg/1200px-Node.js_logo.svg.png"
     },
 
