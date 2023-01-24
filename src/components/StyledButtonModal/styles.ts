@@ -1,28 +1,6 @@
 import styled from "styled-components";
 
 
-
-export const Container = styled.div`
-  display: flex;
-  position: relative;
-
-  flex-direction: row;
-  width: 75%;
-
-  /*
-  padding: 30px; 
-  */
-  margin: 15% auto;
-
-
-
-
-  p{
-    margin-bottom: 20px;
-  }
-`
-
-
 export const Button = styled.button`
 background: transparent;
 border: 1px solid #0549c1;
@@ -36,6 +14,7 @@ padding: 10px 20px;
 transition: all .5s ;
 line-height: 1.3em ;
 z-index: 2;
+cursor: pointer;
 
 &:hover{
   padding: 10px 30px;
