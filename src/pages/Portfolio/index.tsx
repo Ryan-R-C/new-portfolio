@@ -45,7 +45,7 @@ let modalStyles={
   }
 }
 
-export default function Portfolio({info, filters}: any) {
+export default function Portfolio({info, filters, close}: any) {
 /*======================================================================================================
 
 =========================================================================================================*/
@@ -209,7 +209,7 @@ export default function Portfolio({info, filters}: any) {
               <CloseContainer>
                 <StyledButtonModal
                 onClick={() => closeModal()}>
-                    Fechar <IoIosArrowForward/>
+                    {close} <IoIosArrowForward/>
                 </StyledButtonModal>
               </CloseContainer>
             </ModalContent>
