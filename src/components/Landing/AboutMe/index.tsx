@@ -5,7 +5,10 @@ import { IoBag } from 'react-icons/io5';
 
 
 export default function AboutMe(
-    // { title, link, src, paragraph }: any
+    {
+        aboutMe,
+        myProjects
+    }: any
     ) {
   return (
     <>
@@ -27,10 +30,10 @@ export default function AboutMe(
                     </div>
                         <Buttons>
                             <a href="#AboutMe" className='button'>
-                                Sobre mim   <BsQuestion  className="icon" size="15px"/>
+                            {aboutMe} <BsQuestion  className="icon" size="15px"/>
                             </a>
                             <a href="#Portfolio" className='button button--featured'>
-                                Meus Projetos <IoBag  className="icon" size="15px"/>
+                            {myProjects} <IoBag  className="icon" size="15px"/>
                             </a>
                         </Buttons>
                 </div>
