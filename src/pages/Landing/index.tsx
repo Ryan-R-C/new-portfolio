@@ -12,32 +12,46 @@ import Courses from '../Courses';
 import Loading from '../../components/Loading';
 import { storagedInfo } from '../../info';
 
+type lang = 'pt' | 'eng'
 
 export default function LandingPage() {
   const [info, setInfo] = useState<any>([])
   const [loading, setLoading] = useState<boolean>(true)
+  const [language, setLanguage] = useState<string>("eng")
+
+
+  const handleSetLanguage = (avaliableLanguage: lang) => {
+    let newInfo = storagedInfo[avaliableLanguage]
+    setInfo(newInfo)
+  }
+
+  const handleGetUserLanguage = () => {
+    const userLanguage = navigator.language;
+    let avaliableLanguage: lang = 'eng';
+
+    if(userLanguage.includes('pt'))  avaliableLanguage = "pt"
+
+    setLanguage(avaliableLanguage)
+
+    handleSetLanguage(avaliableLanguage)
+  }
+
+
+
 
   useEffect(
     () => {
+      handleGetUserLanguage()
+
       setTimeout(
         () => {
           setLoading(false)
           }, 3000
       )
-
     }, []
   )
 
   
- 
-
-  useEffect(
-    () => {
-      let newInfo = storagedInfo
-
-      setInfo(newInfo)
-    }, []
-  )
 
   return (
     <>
@@ -46,10 +60,16 @@ export default function LandingPage() {
       {/* Loads the modal's image, for not pop up on user's screen! */}
       <link rel="preload" href="https://www.bebold.ch/img/home/macbook-white.png" as="image" className='computer-image'/>
 
-      <Header linkNames={info?.headerLinks} />
+      <Header
+      // handleSetLanguage={handleSetLanguage}
+      // language={language}
+      linkNames={info?.headerLinks} />
       
       <LandingContainer id="Landing">
-        <AboutMe />
+        <AboutMe
+        aboutMe={info?.pageButtons?.aboutMe}
+        myProjects={info?.pageButtons?.myProjects}
+        />
         <ImageContainer
           landingImageSrc={info?.landing?.landingImage}
           linkedingLink={info?.landing?.linkedingLink}
@@ -77,6 +97,7 @@ export default function LandingPage() {
           author={info?.portFolioQuote?.author}
         />
         <Portfolio
+          close={info?.pageButtons?.closeModal}
           filters={info.filtros}
           info={info?.portFolioInfo}
         />
