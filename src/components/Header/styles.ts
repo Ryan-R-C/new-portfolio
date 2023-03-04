@@ -6,13 +6,19 @@ box-shadow: 0 1px 0 rgba(0,0,0,.1);
 display: flex;
 flex-direction: row;
 left: 0;
-justify-content: space-between;
+/* justify-content: space-between; */
+justify-content: flex-end;
 min-height: 15px;
-padding: 25px 5%;
-position: fixed;
+padding: 25px 12.5%;
+position: sticky;
 top: 0;
-width: 90%;
+width: 100%;
 z-index: 10;
+
+@media(max-width: 850px) {
+  padding: 25px 12.5%;
+  height: 65px;
+}
 
 @keyframes openModal {
   from {
@@ -46,6 +52,7 @@ flex-direction: row;
 justify-content: center;
 position: relative;
 width: 45%;
+min-width: 480px;
 
 @media(max-width: 850px) {
   display: none;
@@ -54,9 +61,6 @@ width: 45%;
 `
 
 
-export const UnbreakerPage = styled.div`
-padding-top: 66px;
-`;
 
 
 
@@ -80,9 +84,10 @@ export const MobileMenu = styled.div`
 align-items: center;
 display: flex;
 flex-direction: row;
-justify-content: center;
 position: relative; 
-width: 45%;
+height: 100%;
+justify-content: flex-end;
+width: 55%;
 
 @media(min-width: 850px) {
   display: none;
@@ -106,15 +111,8 @@ export const MenuController = styled.div`
 position: relative;
 transition: all .5s;
 width: 100%;
-
-
-.icon-container{
-  left: 50%;
-  padding-left: 15%;
-  position: absolute;
-  transform: translate(-50%,-50%);
-  top:0;
-}
+display: flex;
+justify-content: flex-end;
 
 .open-contaier{
   color:  #2ea3f2;

@@ -1,5 +1,5 @@
 import { useEffect, useRef, useState } from 'react';
-import { ActivatedMenu, Container, MainItem, MenuController, MobileMenu, SubItem, UnbreakerPage, WideMenu } from './styles';
+import { ActivatedMenu, Container, MenuController, MobileMenu, SubItem, WideMenu } from './styles';
 import {CgMenu} from 'react-icons/cg'
 const useOutsideClick = (callback: { (): void; (): void; }) => {
   const ref = useRef();
@@ -46,25 +46,23 @@ export default function Header(
   return (
     <>
       {/* @ts-ignore */}
-      <Container ref={ref}  className="click-text">
-        <MainItem>
-        </MainItem>
+      <Container ref={ref}  className='click-text'>
         <SubItem>
           <WideMenu>
-            <a href="#Landing">
-              { linkNames?.landing || "Landing" }
+            <a href='#Landing'>
+              { linkNames?.landing || 'Landing' }
             </a>
-            <a href="#AboutMe">
-              { linkNames?.aboutMe || "About Me" }
+            <a href='#AboutMe'>
+              { linkNames?.aboutMe || 'About Me' }
             </a>
-            <a href="#Portfolio">
-              { linkNames?.portfolio || "Portfolio "}
+            <a href='#Portfolio'>
+              { linkNames?.portfolio || 'Portfolio '}
             </a>
-            <a href="#Timeline">
-              { linkNames?.timeLine || "Timeline" }
+            <a href='#Timeline'>
+              { linkNames?.timeLine || 'Timeline' }
             </a>
-            <a href="#Courses">
-              { linkNames?.courses || "Courses" }
+            <a href='#Courses'>
+              { linkNames?.courses || 'Courses' }
             </a>
           </WideMenu>
         </SubItem>
@@ -72,40 +70,36 @@ export default function Header(
         <MobileMenu>
           <MenuController
             onClick={() => handleToggleMenu()}
-            className="hamburguer"
+            className='hamburguer'
           >
 
-            <div className={`icon-container ${isOpen && "open-contaier"}`}>
-              <CgMenu        size="2em"/>
+            <div className={`icon-container ${isOpen ? 'open-contaier' : ''}`}>
+              <CgMenu        size='2em'/>
             </div>
             
           </MenuController>
 
           <ActivatedMenu 
           className={isOpen ? 'activated' : 'deactivated'}
-
           >
-            <a href="#Landing">
-              { linkNames?.landing || "Landing" }
+            <a href='#Landing'>
+              { linkNames?.landing || 'Landing' }
             </a>
-            <a href="#AboutMe">
-              { linkNames?.aboutMe || "About Me" }
+            <a href='#AboutMe'>
+              { linkNames?.aboutMe || 'About Me' }
             </a>
-            <a href="#Portfolio">
-              { linkNames?.portfolio || "Portfolio "}
+            <a href='#Portfolio'>
+              { linkNames?.portfolio || 'Portfolio '}
             </a>
-            <a href="#Timeline">
-              { linkNames?.timeLine || "Timeline" }
+            <a href='#Timeline'>
+              { linkNames?.timeLine || 'Timeline' }
             </a>
-            <a href="#Courses">
-              { linkNames?.courses || "Courses" }
+            <a href='#Courses'>
+              { linkNames?.courses || 'Courses' }
             </a>
           </ActivatedMenu>
         </MobileMenu>
-
-
       </Container>
-      <UnbreakerPage></UnbreakerPage>
     </>
   );
 }
