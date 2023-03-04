@@ -5,11 +5,11 @@ import styled from "styled-components";
 export const Container = styled.div`
 
 display: flex;
-width: 80%;
-margin: 0 auto;
+width: 75%;
+margin: 0 auto 10% auto;
 
 
-margin-top: 10%;
+/* margin-top: 10%; */
 /*
 padding: 10%;
 */
@@ -18,8 +18,12 @@ justify-content: center;
 align-content: center;
 align-items: center;
 
-@media(max-width: 700px) {
+@media(max-width: 800px) {
+  width: 100%;
+  padding: 20px;
   flex-direction: column !important;
+
+
 }
 
 
@@ -40,7 +44,7 @@ h2{
 
 
   .row, .reserse-row{
-    @media(max-width: 700px) {
+    @media(max-width: 800px) {
       margin: 0;
       padding: 30px 0;
     }
@@ -53,10 +57,15 @@ h2{
 export const ContainerText = styled.div`
 width: 70%;
 
+@media(max-width: 800px) {
+  width: 80%;
+
+}
+
 h3{
   font-size: 32px;
   text-align: center;
-  margin-bottom: 100px;
+  margin-bottom: 50px;
 }
 
 
@@ -109,7 +118,7 @@ div{
  min-height: 300px;
  min-width: 300px;
 
- @media(max-width: 700px) {
+ @media(max-width: 800px) {
   min-height: 130px;
   min-width: 150px;
 }
