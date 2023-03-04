@@ -2,6 +2,7 @@ import styled from "styled-components";
 
 
 export const Info = styled.main`
+  min-height: 65vh;
   display: flex;
   align-items: center;
   justify-content: center;  
@@ -9,12 +10,13 @@ export const Info = styled.main`
   background-color: white;
   color: white;
   padding: 20px 5%;
-  width:47%;
+  width:50%;
   position: relative;
   margin-bottom: 5%;
 
   @media(max-width: 700px) {
     width: 100%;
+    min-height: 50vh;
   }
   
   @media(max-width: 700px) {
@@ -34,20 +36,21 @@ export const Info = styled.main`
   }
   
   h1 { 
-    font-family: 'Karla',Helvetica,Arial,Lucida,sans-serif;
+    /* font-family: 'Karla',Helvetica,Arial,Lucida,sans-serif; */
+    color: #FFF;
     font-weight: 700;
     font-size: 4rem;
     letter-spacing: -3px;
     line-height: 0.9em;
-    margin: 10px 0;
+    margin: 25px 0;
   }
 
 
   h2 {
-    font-family: 'Montserrat',Helvetica,Arial,Lucida,sans-serif;
     text-transform: uppercase;
     color: white;
     font-size: 14px;
+    margin: 0;
     letter-spacing: 2px;
     line-height: 1.8em;  
   }
@@ -78,7 +81,6 @@ export const Buttons = styled.div`
     font-size: 15px;
     font-weight: 700 !important;
     background-color: #141617;
-    font-family: Open Sans,Arial,sans-serif;
 
     .icon{
       margin-left: 5px;
