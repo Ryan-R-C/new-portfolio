@@ -85,7 +85,7 @@ body {
 }
 
 h1, h2, h3, h4{
-	font-family: 'Montserrat',Helvetica,Arial,Lucida,sans-serif;
+	font-family: Montserrat,Helvetica,Arial,Lucida,sans-serif;
 	margin-bottom: 20px;
 	color: #3a3a3a;
 }
@@ -107,11 +107,11 @@ h3{
 
 p{
 	color: #666;
-	line-height: 1.7em;
+	line-height: 1.5em;
 	font-weight: 400;
 }
 
 span{
 	color: #666;
-	font-weight: 700;
+	font-weight: 500;
 }
