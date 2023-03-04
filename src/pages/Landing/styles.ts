@@ -2,10 +2,10 @@ import styled from "styled-components";
 
 export const LandingContainer = styled.div`
   display: flex;
-  margin-bottom: 15%;
+  margin-bottom: 60px;
   flex-direction: row;
   width: 100%;
-  overflow: hidden;
+  /* overflow: hidden; */
   
  @media(max-width: 700px) {
    flex-direction: column;
