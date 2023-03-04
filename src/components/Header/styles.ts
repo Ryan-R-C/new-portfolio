@@ -91,8 +91,8 @@ display: flex;
 flex-direction: row;
 position: relative; 
 height: 100%;
-justify-content: flex-end;
-width: 55%;
+justify-content: space-between;
+width: 100%;
 
 @media(min-width: 850px) {
   display: none;
@@ -117,7 +117,7 @@ position: relative;
 transition: all .5s;
 width: 100%;
 display: flex;
-justify-content: flex-end;
+justify-content: flex-start;
 
 .open-contaier{
   color:  #2ea3f2;
