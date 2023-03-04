@@ -4,17 +4,16 @@ export const Container = styled.div`
   width: 100vw;
   height: ${props => props.theme.height || '100vh'};
 
-  position: absolute;
-  transition: all .5s;
+  transition: height .5s;
   position: fixed;
   z-index: 9999999;
   
   background-color: #f5f5f5;
 
-  .unnactive{
-    background-color: red !important;
-
-  }
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 
 
   @keyframes spinner {
@@ -38,11 +37,6 @@ export const Container = styled.div`
     animation: spinner 1.5s ease infinite;
 
 
-    position: absolute;
-    left: 50%;
-    margin-left: -50px;
-    top: 50%;
-    margin-top: -50px;
     transition: all .5s;
 
 
