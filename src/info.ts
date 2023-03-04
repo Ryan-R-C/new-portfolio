@@ -1,7 +1,7 @@
 
 
 export const storagedInfo = {
-  pt: {
+  BR: {
     pageButtons: {
       aboutMe: "Sobre Mim",
       myProjects: "Meus Projetos",
@@ -11,7 +11,7 @@ export const storagedInfo = {
     headerLinks: {
       landing: "Início",
       aboutMe: "Sobre",
-      portfolio: "Portfolio",
+      portfolio: "Portfólio",
       timeLine: "Timeline",
       courses: "Skills"
     },
@@ -51,7 +51,7 @@ export const storagedInfo = {
     asideAboutText: {
       title: 'Um pouco mais pessoal',
       paragraphs: [
-        "Atualmente estudo Desenvolvimento Web, tanto Back End quanto Front End, cursando meu bacharelado em Engenharia de Software e, aos finais de semanam, estudo Ui Design. Minha meta é se aperfeiçoar na área de desenvolvimento Web.",
+        "Atualmente estudo Desenvolvimento Web, tanto Back End quanto Front End, cursando meu bacharelado em Engenharia de Software e, aos finais de semanam, estudo UI Design. Minha meta é se aperfeiçoar na área de desenvolvimento Web.",
         "Tenho inglês avançado, conseguindo ler, escrever e falar sem muitas dificuldades.",
       ]
     },
@@ -452,7 +452,7 @@ export const storagedInfo = {
     }
   },
 
-  eng: {
+  US: {
 
     pageButtons: {
       aboutMe: "About me",

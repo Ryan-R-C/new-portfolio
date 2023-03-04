@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import { useEffect, useState } from 'react';
 
 import { Container, LandingContainer } from './styles';
 import FeaturedBlockQuote from '../../components/FeaturedBlockQuote';
@@ -11,27 +11,39 @@ import Timeline from '..//Timeline';
 import Courses from '../Courses';
 import Loading from '../../components/Loading';
 import { storagedInfo } from '../../info';
+import { ilanguages } from '../../types/ilanguages';
 
-type lang = 'pt' | 'eng'
 
 export default function LandingPage() {
   const [info, setInfo] = useState<any>([])
   const [loading, setLoading] = useState<boolean>(true)
-  const [language, setLanguage] = useState<string>("eng")
+  const [language, setLanguage] = useState<ilanguages>("US")
+
+  const handleSetLocalStorageLanguage = (language: string) => {
+    localStorage.setItem("language", language)
+  }
+
+  const handleGetLocalStorageLanguage = (): string => {
+    const language: string = localStorage.getItem("language") || "";
+    return language;
+  }
 
 
-  const handleSetLanguage = (avaliableLanguage: lang) => {
+  const handleSetLanguage = (avaliableLanguage: ilanguages) => {
+    setLanguage(avaliableLanguage)
+    handleSetLocalStorageLanguage(avaliableLanguage)
+
     let newInfo = storagedInfo[avaliableLanguage]
     setInfo(newInfo)
   }
 
   const handleGetUserLanguage = () => {
-    const userLanguage = navigator.language;
-    let avaliableLanguage: lang = 'eng';
+    const languageInLocalStorage = handleGetLocalStorageLanguage();
+    const userLanguage = languageInLocalStorage || navigator.language;
 
-    if(userLanguage.includes('pt'))  avaliableLanguage = "pt"
+    let avaliableLanguage: ilanguages = 'US';
 
-    setLanguage(avaliableLanguage)
+    if(userLanguage.includes('BR'))  avaliableLanguage = 'BR'
 
     handleSetLanguage(avaliableLanguage)
   }
@@ -61,14 +73,15 @@ export default function LandingPage() {
       <link rel="preload" href="https://www.bebold.ch/img/home/macbook-white.png" as="image" className='computer-image'/>
 
       <Header
-      // handleSetLanguage={handleSetLanguage}
-      // language={language}
-      linkNames={info?.headerLinks} />
+        handleSetLanguage={handleSetLanguage}
+        language={language}
+        linkNames={info?.headerLinks}
+      />
       
       <LandingContainer id="Landing">
         <AboutMe
-        aboutMe={info?.pageButtons?.aboutMe}
-        myProjects={info?.pageButtons?.myProjects}
+          aboutMe={info?.pageButtons?.aboutMe}
+          myProjects={info?.pageButtons?.myProjects}
         />
         <ImageContainer
           landingImageSrc={info?.landing?.landingImage}
@@ -121,77 +134,3 @@ export default function LandingPage() {
     </>
   );
 }
-
-/*
-import { Container, LandingContainer } from './styles';
-import FeaturedBlockQuote from '../../FeaturedBlockQuote';
-import Portfolio from '../../../pages/Portfolio';
-import AboutMe from '../AboutMe';
-import ImageContainer from '../ImageContainer';
-import About from '../../About/About';
-import Header from '../../Header/';
-import Timeline from '../../../pages/Timeline';
-import Courses from '../../../pages/Courses';
-
-
-export default function Landing(
-  { info }: any
-) {
-  return (
-    <div >
-      <Header />
-      <LandingContainer id="Landing">
-        <AboutMe />
-        <ImageContainer
-          landingImageSrc={info?.landing?.landingImage}
-          linkedingLink={info?.landing?.landingImage}
-          gitHubLink={info?.landing?.gitHubLink}
-          emailLink={info?.landing?.emailLink}
-        />
-      </LandingContainer>
-
-      <Container id="AboutMe">
-        <FeaturedBlockQuote
-          quote={info?.aboutMeQuote?.quote}
-          author={info?.aboutMeQuote?.author}
-        />
-        <About
-          mainAboutTitle={info?.mainAboutText?.title}
-          mainAboutText={info?.mainAboutText?.paragraphs}
-          asideAboutTitle={info?.asideAboutText?.title}
-          asideAboutText={info?.asideAboutText?.paragraphs}
-        />
-      </Container>
-
-      <Container  id="Portfolio">
-        <FeaturedBlockQuote
-          quote={info?.portFolioQuote?.quote}
-          author={info?.portFolioQuote?.author}
-        />
-        <Portfolio
-          filters={info.filtros}
-          info={info?.portFolioInfo}
-        />
-      </Container>
-
-      <Container  id="Timeline">
-        <Timeline
-          filters={info.filtros}
-          info={info?.portFolioInfo}
-        />
-      </Container>
-
-      <Container  id="Courses">
-        <Courses
-        props={info.coursesInfo}
-        >
-        </Courses>
-      </Container>
-    </div>
-  );
-}
-
-
-
-*/
-
