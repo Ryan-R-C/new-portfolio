@@ -128,6 +128,7 @@ flex-direction: column;
 .closeModal{
   align-self: flex-end;
   position: fixed;
+  cursor: pointer; 
 }
 
 
