@@ -4,6 +4,7 @@ export const Container = styled.div`
 display: flex; 
 position: relative;
 z-index: 1;
+width: 83.5%;
 
   &:before {
     transform: translateX(0%);
@@ -18,6 +19,8 @@ z-index: 1;
     height: 70%;
     width: 100%;
     border: 0;
+    max-width: 400px;
+    max-height: 80vh;
     
     right: 0;
 
@@ -41,10 +44,15 @@ z-index: 1;
       content: "";
       top: 15%;
       left: 5%;
-      height: 100%;
+      height: 85%;
       width: 100%;
       border: 0;
-      right: 0;      
+      right: 0;   
+      
+      max-width: 400px;
+      max-height: 80vh;
+
+
       background: url("https://www.gautamkrishnar.com/wp-content/uploads/2021/04/actor-01.png")  bottom right  no-repeat; 
 
       @media(max-width: 700px) {
@@ -59,17 +67,16 @@ z-index: 1;
       object-fit: cover;
       z-index: 2;
       top: 50px;
-      height: 426.45px;
-      width:  426.45px;
-
       box-shadow: 0px 64px 64px -12px rgb(20 22 23 / 59%);
-
+      
       width: 100%;
       position: relative;
-      /* height: 10%; */
       object-fit: cover;
-      min-height: 45vw;
-
+      
+      height: 500px;
+      width:  426.45px;
+      max-width: 400px;
+      max-height: 80vh;
       object-position: top;
 
 
