@@ -9,7 +9,7 @@ left: 0;
 /* justify-content: space-between; */
 justify-content: flex-end;
 min-height: 15px;
-padding: 25px 12.5%;
+padding: 12px 12.5%;
 position: sticky;
 top: 0;
 width: 100%;
@@ -51,7 +51,7 @@ display: flex;
 flex-direction: row;
 justify-content: center;
 position: relative;
-width: 45%;
+width: 100%;
 min-width: 480px;
 
 @media(max-width: 850px) {
@@ -66,12 +66,17 @@ min-width: 480px;
 
 export const WideMenu = styled.div`
 display: flex;
-justify-content: space-between;
+justify-content: flex-end;
 width: 100%;
 
-  a {
+  a, div{
     font-size: 16px;
-    padding: 0 0 0 5%; 
+    padding-left: 5%;  
+  }
+
+  a {
+    display: flex;
+    align-items: center;
   }
 
   a:first-child {
