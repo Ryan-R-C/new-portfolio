@@ -1,6 +1,8 @@
 import { useEffect, useRef, useState } from 'react';
 import { ActivatedMenu, Container, MenuController, MobileMenu, SubItem, WideMenu } from './styles';
 import {CgMenu} from 'react-icons/cg'
+import LanguageSwitcher from '../LanguageSwitcher';
+
 const useOutsideClick = (callback: { (): void; (): void; }) => {
   const ref = useRef();
 
@@ -26,8 +28,14 @@ const useOutsideClick = (callback: { (): void; (): void; }) => {
 
 
 export default function Header(
-  { linkNames }: any
+  {
+    linkNames,
+    language,
+    handleSetLanguage,
+  }: any
 ) {
+
+  
   const [ isOpen, setIsOpen ]= useState(false)
 
 
@@ -46,7 +54,7 @@ export default function Header(
   return (
     <>
       {/* @ts-ignore */}
-      <Container ref={ref}  className='click-text'>
+      <Container ref={ref} className='click-text'>
         <SubItem>
           <WideMenu>
             <a href='#Landing'>
@@ -64,6 +72,7 @@ export default function Header(
             <a href='#Courses'>
               { linkNames?.courses || 'Courses' }
             </a>
+            <LanguageSwitcher selected={language} setSelected={handleSetLanguage}/>
           </WideMenu>
         </SubItem>
 
@@ -72,7 +81,6 @@ export default function Header(
             onClick={() => handleToggleMenu()}
             className='hamburguer'
           >
-
             <div className={`icon-container ${isOpen ? 'open-contaier' : ''}`}>
               <CgMenu        size='2em'/>
             </div>
@@ -98,6 +106,8 @@ export default function Header(
               { linkNames?.courses || 'Courses' }
             </a>
           </ActivatedMenu>
+          
+          <LanguageSwitcher selected={language} setSelected={handleSetLanguage}/>
         </MobileMenu>
       </Container>
     </>
