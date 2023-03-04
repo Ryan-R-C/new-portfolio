@@ -17,6 +17,7 @@
     "@types/react-modal": "^3.13.1",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
+    "react-flags-select": "^2.2.3",
     "react-horizontal-timeline": "^1.5.3",
     "react-icons": "^4.4.0",
     "react-modal": "^3.15.1",
