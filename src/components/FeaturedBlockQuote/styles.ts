@@ -14,7 +14,8 @@ export const Container = styled.div`
 
   blockquote{
     margin-bottom: 2.75%;
-    font-size: 2rem;
+    /* font-size: 2rem; */
+    font-size: 1.8rem;
     color: #3a3a3a;
   }
 
