@@ -14,7 +14,7 @@ export const Aside = styled.aside`
  
   @media(max-width: 700px) {
     width: 100%;
-    align-items: end;
+    align-items: center;
   }
 
 
