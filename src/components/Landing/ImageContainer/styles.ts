@@ -13,7 +13,7 @@ export const Aside = styled.aside`
   background-color: #141617;
 
   width:50%;
-  overflow-x: hidden;
+  overflow: hidden;
 
   @media(max-width: 700px) {
     width: 100%;
