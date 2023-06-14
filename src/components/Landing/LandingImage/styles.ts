@@ -66,8 +66,8 @@ width: 83.5%;
     img {
       object-fit: cover;
       z-index: 2;
-      top: 50px;
-      box-shadow: 0px 64px 64px -12px rgb(20 22 23 / 59%);
+      /* top: 50px; */
+      /* box-shadow: 0px 64px 64px -12px rgb(20 22 23 / 59%); */
       
       width: 100%;
       position: relative;
