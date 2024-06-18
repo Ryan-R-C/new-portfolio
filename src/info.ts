@@ -73,7 +73,7 @@ export const storagedInfo = {
         filter: "HTML, CSS e JavaScript",
         title: "PokeDev",
         link: "https://ryan-r-c.github.io/PokeDEV/",
-        src: "https://camo.githubusercontent.com/206f5ae4ea180f491d091d68b03594b1aa939fb138842414cb3c681ff52a8b55/68747470733a2f2f692e6962622e636f2f7a5a327859374d2f706f6b656465762e6a7067",
+        src: "https://i.ibb.co/4YdvzWx/Captura-de-tela-2024-06-18-201723-2png.png",
         clickMessage: "Ler Mais",
 
         paragraph: "Meu primeiro projeto consumindo APIs externas e aplicando AJAX!",
@@ -81,7 +81,7 @@ export const storagedInfo = {
           title: "PokeDev",
           link: "https://ryan-r-c.github.io/PokeDEV/",
           linkTitle: "Github Link",
-          imgSrc: "https://camo.githubusercontent.com/206f5ae4ea180f491d091d68b03594b1aa939fb138842414cb3c681ff52a8b55/68747470733a2f2f692e6962622e636f2f7a5a327859374d2f706f6b656465762e6a7067",
+          imgSrc: "https://i.ibb.co/4YdvzWx/Captura-de-tela-2024-06-18-201723-2png.png",
           infos: [
             {
               title: "",
@@ -112,7 +112,7 @@ export const storagedInfo = {
         filter: "HTML, CSS e JavaScript",
         title: "Infinity Scroll",
         link: "https://ryan-r-c.github.io/Infinity-Scroll/",
-        src: "https://camo.githubusercontent.com/1576d0b33b884648fa3f43dc965f28f6bb2fbdc8adf45ee5c60a58169e835bf8/68747470733a2f2f692e6962622e636f2f3536716e3859312f612d696e66696e6974792d5363726f6f6c2d776964652e6a7067",
+        src: "https://i.ibb.co/6FQW1Jh/Captura-de-tela-2024-06-18-201958.png",
         clickMessage: "Ler Mais",
 
         paragraph: "Consumo de API externa, página com conteúdo dinâmico e UI interessante...",
@@ -120,7 +120,7 @@ export const storagedInfo = {
           title: "Infinity Scroll",
           link: "https://ryan-r-c.github.io/Infinity-Scroll/",
           linkTitle: "Link do Site",
-          imgSrc: "https://camo.githubusercontent.com/1576d0b33b884648fa3f43dc965f28f6bb2fbdc8adf45ee5c60a58169e835bf8/68747470733a2f2f692e6962622e636f2f3536716e3859312f612d696e66696e6974792d5363726f6f6c2d776964652e6a7067",
+          imgSrc: "https://i.ibb.co/6FQW1Jh/Captura-de-tela-2024-06-18-201958.png",
           infos: [
             {
               title: "",
@@ -227,7 +227,7 @@ export const storagedInfo = {
         filter: "React Native",
         title: "React Native News",
         link: "https://ryan-news-react-app.netlify.app/",
-        src: "https://camo.githubusercontent.com/645d08fdb5027ed9534beefb6f611d118884d8cde7271177c7b988ae4893e594/68747470733a2f2f692e6962622e636f2f743862735173662f53637265656e73686f742d66726f6d2d323032322d30372d31362d31382d33312d33382e706e67",
+        src: "https://i.ibb.co/DtMTbgV/68747470733a2f2f692e6962622e636f2f743862735173662f53637265656e73686f742d66726f6d2d323032322d30372d31.png",
         clickMessage: "Ler Mais",
 
         paragraph: "Um app multiplataforma usando React Native e Expo!",
@@ -235,7 +235,7 @@ export const storagedInfo = {
           title: "React Native News",
           link: "https://ryan-news-react-app.netlify.app/",
           linkTitle: "Versão Web",
-          imgSrc: "https://camo.githubusercontent.com/645d08fdb5027ed9534beefb6f611d118884d8cde7271177c7b988ae4893e594/68747470733a2f2f692e6962622e636f2f743862735173662f53637265656e73686f742d66726f6d2d323032322d30372d31362d31382d33312d33382e706e67",
+          imgSrc: "https://i.ibb.co/DtMTbgV/68747470733a2f2f692e6962622e636f2f743862735173662f53637265656e73686f742d66726f6d2d323032322d30372d31.png",
           infos: [
             {
               title: "",
@@ -304,8 +304,8 @@ export const storagedInfo = {
         paragraph: "Um pequeno game de plataforma utilizando HTML, CSS e JavaScript puros!",
         detailedInfo: {
           title: "Game de Plataforma",
-          link: "https://ryan-r-c.github.io/Plataformer-js-game/src/index.html",
-          linkTitle: "Link do Site",
+          link: "https://github.com/Ryan-R-C/Plataformer-js-game",
+          linkTitle: "GitHub Link",
           imgSrc: "https://i.ibb.co/bgjkSw7/Screenshot-from-2022-09-26-16-09-48.jpg",
           infos: [
             {
@@ -531,7 +531,7 @@ export const storagedInfo = {
         filter: `HTML, CSS and JavaScript`,
         title: `PokeDev`,
         link: `https://ryan-r-c.github.io/PokeDEV/`,
-        src: `https://camo.githubusercontent.com/206f5ae4ea180f491d091d68b03594b1aa939fb138842414cb3c681ff52a8b55/68747470733a2f2f692e6962622e636f2f7a5a327859374d2f706f6b656465762e6a7067`,
+        src: `https://i.ibb.co/4YdvzWx/Captura-de-tela-2024-06-18-201723-2png.png`,
         clickMessage: `Read More`,
 
         paragraph: `My first project consuming external APIs and appling AJAX!`,
@@ -539,7 +539,7 @@ export const storagedInfo = {
           title: `PokeDev`,
           link: `https://ryan-r-c.github.io/PokeDEV/`,
           linkTitle: `Github Link`,
-          imgSrc: `https://camo.githubusercontent.com/206f5ae4ea180f491d091d68b03594b1aa939fb138842414cb3c681ff52a8b55/68747470733a2f2f692e6962622e636f2f7a5a327859374d2f706f6b656465762e6a7067`,
+          imgSrc: `https://i.ibb.co/4YdvzWx/Captura-de-tela-2024-06-18-201723-2png.png`,
           infos: [
             {
               title: ``,
@@ -571,7 +571,7 @@ export const storagedInfo = {
         filter: `HTML, CSS and JavaScript`,
         title: `Infinity Scroll`,
         link: `https://ryan-r-c.github.io/Infinity-Scroll/`,
-        src: `https://camo.githubusercontent.com/1576d0b33b884648fa3f43dc965f28f6bb2fbdc8adf45ee5c60a58169e835bf8/68747470733a2f2f692e6962622e636f2f3536716e3859312f612d696e66696e6974792d5363726f6f6c2d776964652e6a7067`,
+        src: `https://i.ibb.co/6FQW1Jh/Captura-de-tela-2024-06-18-201958.png`,
         clickMessage: `Read More`,
 
         paragraph: `External API consumption, page with dynamic content and interesting UI...`,
@@ -579,7 +579,7 @@ export const storagedInfo = {
           title: `Infinity Scroll`,
           link: `https://ryan-r-c.github.io/Infinity-Scroll/`,
           linkTitle: `Website Link`,
-          imgSrc: `https://camo.githubusercontent.com/1576d0b33b884648fa3f43dc965f28f6bb2fbdc8adf45ee5c60a58169e835bf8/68747470733a2f2f692e6962622e636f2f3536716e3859312f612d696e66696e6974792d5363726f6f6c2d776964652e6a7067`,
+          imgSrc: `https://i.ibb.co/6FQW1Jh/Captura-de-tela-2024-06-18-201958.png`,
           infos: [
             {
               title: ``,
@@ -686,15 +686,15 @@ export const storagedInfo = {
         filter: `React Native`,
         title: `React Native News`,
         link: `https://ryan-news-react-app.netlify.app/`,
-        src: `https://camo.githubusercontent.com/645d08fdb5027ed9534beefb6f611d118884d8cde7271177c7b988ae4893e594/68747470733a2f2f692e6962622e636f2f743862735173662f53637265656e73686f742d66726f6d2d323032322d30372d31362d31382d33312d33382e706e67`,
+        src: `https://i.ibb.co/DtMTbgV/68747470733a2f2f692e6962622e636f2f743862735173662f53637265656e73686f742d66726f6d2d323032322d30372d31.png`,
         clickMessage: `Read More`,
 
         paragraph: `A cross-platform app using React Native and Expo!`,
         detailedInfo: {
           title: `React Native News`,
-          link: `https://ryan-news-react-app.netlify.app/`,
-          linkTitle: `Web Version`,
-          imgSrc: `https://camo.githubusercontent.com/645d08fdb5027ed9534beefb6f611d118884d8cde7271177c7b988ae4893e594/68747470733a2f2f692e6962622e636f2f743862735173662f53637265656e73686f742d66726f6d2d323032322d30372d31362d31382d33312d33382e706e67`,
+          link: `https://github.com/Ryan-R-C/Computer-React-Native-App`,
+          linkTitle: `GitHub Link`,
+          imgSrc: `https://i.ibb.co/DtMTbgV/68747470733a2f2f692e6962622e636f2f743862735173662f53637265656e73686f742d66726f6d2d323032322d30372d31.png`,
           infos: [
             {
               title: ``,
@@ -762,8 +762,8 @@ export const storagedInfo = {
         paragraph: `A small platform game using pure HTML, CSS and JavaScript!`,
         detailedInfo: {
           title: `Platform Game`,
-          link: `https://ryan-r-c.github.io/Plataformer-js-game/src/index.html`,
-          linkTitle: `Website Link`,
+          link: `https://github.com/Ryan-R-C/Computer-React-Native-App`,
+          linkTitle: `GitHub Link`,
           imgSrc: `https://i.ibb.co/bgjkSw7/Screenshot-from-2022-09-26-16-09-48.jpg`,
           infos: [
             {
@@ -901,13 +901,14 @@ export const storagedInfo = {
     timelineinfo: {
       title: `Timeline`,
       dates: [
-        `2019-07-22`, `2021-04-30`, `2021-11-22`, `2022-03-01`
+        `2019-07-22`, `2021-04-30`, `2021-11-22`, `2022-03-01`, `2024-02-01`
       ],
       description: [
         `My first Hello World in Python`,
         `My first client as a Freelancer`,
         `My Admission to my current company as a Junior Dev`,
         `My first promotion as Squad Leader.`,
+        `My promotion as Tech Lead.`,
       ]
     }
   }
