@@ -41,7 +41,8 @@ export const storagedInfo = {
       title: 'Sobre mim',
       paragraphs: [
         "Eu sou Ryan Rodrigo Costa, Engenheiro de Software e Dev. Full Stack.",
-        "Atualmente trabalho como Desenvolvedor Full Stack e UI Designer, trabalhando desde o protótipo, passando pelo Front-End e Back-End até a entrega final para o cliente.",
+        "Atualmente trabalho como Desenvolvedor Full Stack e Líder Técnico, participando desde o protótipo, passando pelo Front-End e Back-End até a entrega final para o cliente.",
+        "Trabalhando com todas as tecnologias requiridas pelos projetos da empresa, tais como: ReactJS, Angular, VueJS, Solidity, PHP, Node, Sequelize, Python, MySQL, PostgreSQL  e até mesmo MongoDB.",
         "Meu contato com programação começou com desenvolvimento em Python, em 2019, me apaixonei pelo desenvolvimento desde o primeiro 'Hello, World' e a cada dia que passa me apaixono mais ainda.",
         "Tenho como metas me tornar sempre um desenvolvedor melhor chegando a minha senioridade, sempre me aperfeiçoando nas Soft e Hard Skills."
       ]
@@ -51,8 +52,8 @@ export const storagedInfo = {
     asideAboutText: {
       title: 'Um pouco mais pessoal',
       paragraphs: [
-        "Atualmente estudo Desenvolvimento Web, tanto Back End quanto Front End, cursando meu bacharelado em Engenharia de Software e, aos finais de semanam, estudo UI Design. Minha meta é se aperfeiçoar na área de desenvolvimento Web.",
-        "Tenho inglês avançado, conseguindo ler, escrever e falar sem muitas dificuldades.",
+        "Atualmente estudo Desenvolvimento Web, tanto Back End quanto Front End, cursando meu bacharelado em Engenharia de Software e, aos finais de semanam, estudo UI Design. Minha meta é se aperfeiçoar cada vez mais na área de desenvolvimento Web.",
+        "Tenho inglês avançado, conseguindo ler, escrever e falar sem dificuldades.",
       ]
     },
 
@@ -492,15 +493,11 @@ export const storagedInfo = {
     mainAboutText: {
       title: 'About me',
       paragraphs: [
-        `I am Ryan Rodrigo Costa, Software Engineer and Full Stack Dev.`
-        ,
-
-        `I am currently working as Full Stack Dev. and UI Designer, developing from the prototype, passing through Front-End and Back-End, to the final delivery.`
-        ,
-        `My first contact with programming goes back to 2019, with Pyton. I fell in love with development from the first 'Hello, World' and each day I fall in love even more.`
-        ,
-        `My goals are to become a better developer reaching my seniority, always improving myself in Soft and Hard Skills.`
-
+        "I am Ryan Rodrigo Costa, Software Engineer and Full Stack Developer.",
+        "Currently, I work as a Full Stack Developer and Technical Lead, participating from prototyping, through Front-End and Back-End development, to final delivery to the client.",
+        "Working with all technologies required by company projects, such as: ReactJS, Angular, VueJS, Solidity, PHP, Node, Sequelize, Python, MySQL, PostgreSQL, and even MongoDB.",
+        "My programming journey started with Python development in 2019. I fell in love with coding from my first 'Hello, World' and every day I fall more in love with it.",
+        "My goals include continually becoming a better developer, reaching seniority, and constantly improving my Soft and Hard Skills."
       ]
     },
 
@@ -508,9 +505,8 @@ export const storagedInfo = {
     asideAboutText: {
       title: 'A little more personal',
       paragraphs: [
-        `I am currently learning Web Development, both Back End and Front End, and studying my bachelor's degree in Software Engineering and, on weekends, I study UI Design.`
-        ,
-        `I have advanced English, being able to read, write and speak without any difficulty.`,
+        "Currently, I study Web Development, both Back End and Front End, pursuing my bachelor's degree in Software Engineering, and on weekends, I study UI Design. My goal is to continually improve in the field of Web development.",
+        "I have advanced English skills, able to read, write, and speak without difficulty."
       ]
     },
 
