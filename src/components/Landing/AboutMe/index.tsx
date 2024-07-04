@@ -1,8 +1,7 @@
 import { Buttons, Info } from './styles';
-
-import { BsQuestion } from 'react-icons/bs';
+import { IoMdCloudDownload } from "react-icons/io";
 import { IoBag } from 'react-icons/io5';
-
+import { useLangAtom } from '../../../hooks/useLangAtom';
 
 export default function AboutMe(
     {
@@ -10,6 +9,12 @@ export default function AboutMe(
         myProjects
     }: any
     ) {
+  const { lang } = useLangAtom()
+  const EnglishCurriculum = "Ryan_Rodrigo_Costa_Curriculum_Vitae--English.pdf"
+  const PortugueseCurriculum = "Ryan_Rodrigo_Costa_Currículo--Português.pdf"
+
+  const currentCurriculum = lang === 'BR' ? PortugueseCurriculum : EnglishCurriculum
+
   return (
     <>
         <Info>
@@ -29,8 +34,12 @@ export default function AboutMe(
                         </h1>
                     </div>
                         <Buttons>
-                            <a href="#AboutMe" className='button'>
-                            {aboutMe} <BsQuestion  className="icon" size="15px"/>
+                            <a
+                            href={
+                                `/${currentCurriculum}`
+                            }
+                            target='_blank' className='button'>
+                            {aboutMe} <IoMdCloudDownload   className="icon" size="15px"/>
                             </a>
                             <a href="#Portfolio" className='button button--featured'>
                             {myProjects} <IoBag  className="icon" size="15px"/>

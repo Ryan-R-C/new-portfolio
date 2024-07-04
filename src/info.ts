@@ -3,7 +3,7 @@
 export const storagedInfo = {
   BR: {
     pageButtons: {
-      aboutMe: "Sobre Mim",
+      aboutMe: "Meu currículo",
       myProjects: "Meus Projetos",
       closeModal: "Fechar"
     },
@@ -454,9 +454,8 @@ export const storagedInfo = {
   },
 
   US: {
-
     pageButtons: {
-      aboutMe: "About me",
+      aboutMe: "My Curriculum",
       myProjects: "My Projects",
       closeModal: "Close"
     },
