@@ -494,7 +494,7 @@ export const storagedInfo = {
       title: 'About me',
       paragraphs: [
         "I am Ryan Rodrigo Costa, Software Engineer and Full Stack Developer.",
-        "Currently, I work as a Full Stack Developer and Technical Lead, participating from prototyping, through Front-End and Back-End development, to final delivery to the client.",
+        "Currently, I work as a Full Stack Developer and Tech Lead, participating from prototyping, through Front-End and Back-End development, to final delivery to the client.",
         "Working with all technologies required by company projects, such as: ReactJS, Angular, VueJS, Solidity, PHP, Node, Sequelize, Python, MySQL, PostgreSQL, and even MongoDB.",
         "My programming journey started with Python development in 2019. I fell in love with coding from my first 'Hello, World' and every day I fall more in love with it.",
         "My goals include continually becoming a better developer, reaching seniority, and constantly improving my Soft and Hard Skills."
