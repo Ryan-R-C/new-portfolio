@@ -20,6 +20,11 @@ width: 100%;
 */
 max-width: 100%;
 padding: 30px;
+
+h2{
+  text-align: center;
+  margin-bottom: 100px;
+}
 `;
 
 
