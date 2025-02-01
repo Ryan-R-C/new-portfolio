@@ -29,7 +29,7 @@ export const storagedInfo = {
 
 
     landing: { // -
-      landingImage: "https://i.ibb.co/jDN2wwy/ryan-rodrigo-costa-freelancer-profissional-desenvolvedor-junior-full-stack-fullstack-junior-pleno.jpg",
+      landingImage: "https://i.ibb.co/HLWChLwL/Ryan-Rodrigo-Costa-Desenvolvedor-Fullstack-Full-stack-pleno-Prompt-engineer-IA-especialista-profissi.png",
       linkedingLink: "https://www.linkedin.com/in/ryan-costa-7ba1b7216/",
       gitHubLink: "https://github.com/Ryan-R-C",
       emailLink: "ryan.r.c.339ac@gmail.com",
@@ -371,9 +371,8 @@ export const storagedInfo = {
         title: "React",
         text:
           [
-            'ReactJs é minha forma principal de desenvolvimento Front End. ',
-            'É a biblioteca que mais tenho afinidade, conhecimento e experiência. Desde projetos criados e modelados por mim e até mesmo manutenção feitos por terceiros. Por sua sintaxe simples e otimizada o desenvolvimento se torna mais simples e rápido.',
-            'Possuo 1 ano de experiência com essa Lib. e em suas bibliotecas como Styled Components'
+            'ReactJs é a base do meu desenvolvimento Front End, sendo a biblioteca com a qual possuo maior afinidade, conhecimento e experiência. Ao longo da minha trajetória, atuei tanto na criação e modelagem de projetos inteiramente desenvolvidos por mim quanto na manutenção de sistemas originados por terceiros. A simplicidade e a otimização de sua sintaxe contribuem para um desenvolvimento ágil e eficiente.',
+            'Iniciei meus estudos em ReactJs em 2020 e, desde então, venho aprofundando meu domínio na ferramenta, explorando arquiteturas limpas, como também bibliotecas complementares como Styled Components e Tailwind, entre outras.'
           ],
         direction: "row",
         mainColor: "#4169e1",
@@ -385,9 +384,9 @@ export const storagedInfo = {
         title: "NodeJS",
         text:
           [
-            'NodeJS, de forma resumida é a forma de escrever JavaScript para o Back End.',
-            'Construindo aplicações, estruturando banco de dados e criando alicerces para o desenvolvimento futuro com a equipe, como documentar a estrutura do projeto, os Frameworks e o modelo relacional das tabelas.',
-            "Possuo 1 ano de experiência com Node, juntamente com conhecimento em banco de dados Relacionais e Não Relacionais como MySQL e Mongo e até mesmo em ORM's como Sequelize.",
+            'Node.js é uma tecnologia que permite a execução de JavaScript no servidor, viabilizando a criação de aplicações back-end com suporte a operações assíncronas e orientadas a eventos. Essa característica a torna ideal para o desenvolvimento de sistemas escaláveis e de alta performance.',
+            'Durante minha trajetória, participei ativamente do desenvolvimento de soluções completas, abrangendo a criação de APIs RESTful, a integração com bancos de dados relacionais (MySQL, PostgreSQL) e não relacionais (MongoDB) e a implementação de arquiteturas orientadas a microserviços. Contribuí na definição dos frameworks e na modelagem dos bancos de dados, garantindo a robustez e a escalabilidade dos projetos.',
+            "Desde 2020, quando iniciei meus estudos em Node.js, venho aplicando boas práticas de desenvolvimento com foco na implementação de arquiteturas limpas que incorporam os princípios SOLID, priorizando performance e manutenibilidade. Em diversos projetos, implementei ORMs como Sequelize, TypeORM e Prisma para otimizar a comunicação com a camada de persistência, contribuindo para uma manutenção mais eficiente e a evolução contínua das aplicações.",
           ],
         direction: "row",
         mainColor: "#689F63",
@@ -398,8 +397,8 @@ export const storagedInfo = {
         title: "Docker",
         text:
           [
-            'Docker possibilita uma arquitetura limpa e escalonável, com multiplos containers dentro de um servidor. Além disso torna muito mais simples uma migração entre diferentes servidores, até mesmo com Sistemaas Operacionais diferentes.',
-            'Já apliquei Docker em vários projetos, tornando muito mais simples a manutenção nos servidores dos clientes. '
+            'Desde 2021, quando iniciei meu desenvolvimento com Docker, essa tecnologia tem sido fundamental para a criação de arquiteturas limpas e escaláveis, permitindo o uso de múltiplos containers em um único servidor. Essa abordagem facilita a migração entre ambientes heterogêneos, inclusive entre servidores com sistemas operacionais distintos.',
+            'Ao longo de diversos projetos, implementei Docker para padronizar os ambientes de desenvolvimento e produção, simplificando a manutenção dos servidores dos clientes e assegurando maior consistência e escalabilidade nas aplicações.'
           ],
         direction: "row",
         mainColor: "rgb(0, 167, 255)",
@@ -411,9 +410,22 @@ export const storagedInfo = {
       {
         title: "Tecnologias Client-Side",
         text:
-          ['Possuo conhecimentos em várias tecnologias client-side para desenvolvimento, algumas em cursos, outras em prática e a maior parte em ambos.',
-            'Alguns exemplos: ',
-            'Vue, Angular,  Next, Material Design, Bootstrap, JavaScript e TypeScript, até mesmo em Wordpress '
+          [
+            'Tenho experiência abrangente em diversas tecnologias client-side, adquiridas tanto em cursos quanto por meio da prática profissional. Abaixo, listo alguns exemplos:',
+            'Frameworks e Bibliotecas: ',
+            'React Native: Desenvolvimento de aplicativos móveis; Vue.js: Criação de interfaces web dinâmicas e reativas; AngularJS: Construção de aplicações web robustas e dinâmicas; Next.js: Desenvolvimento de aplicações React com renderização server-side; jQuery: Simplificação da manipulação do DOM e do gerenciamento de eventos para interfaces web dinâmicas.',
+            '',
+            'Design e Estilização: ',
+            'Material Design: Implementação de diretrizes visuais para interfaces intuitivas; Tailwind CSS: Desenvolvimento ágil de layouts personalizados utilizando classes utilitárias; Bootstrap: Criação de interfaces responsivas de forma rápida e consistente.',
+            '',
+            'Linguagens de Programação: ',
+            'JavaScript e TypeScript',
+            '',
+            'Plataformas: ',
+            'WordPress: Desenvolvimento e customização de sites e blogs.',
+            '',
+            'Testes: ',
+            'Jest: Execução de testes unitários para garantir a qualidade e a integridade do código; Selenium: Automação de testes integrados, simulando ambientes de produção.',
           ],
         direction: "row",
         mainColor: "rgb(26, 115, 130)",
@@ -425,11 +437,26 @@ export const storagedInfo = {
       {
         title: "Tecnologias Server-Side",
         text:
-          ['Em relação a tecnlogias server-side que tenho prática e experiência:',
-            'Banco de Dados: MySQL, PostgreSQL e MongoDB',
-            'Linguagem de programação: NodeJs, PHP e Python.  ',
-            'Para mobile: React Native.  ',
-            'Em Linux, foco principal em Ubuntu e seus derivados, mas também Fedora, como CentOS.'
+          [
+            'Tenho experiência abrangente em diversas tecnologias server-side, adquiridas tanto em cursos quanto por meio da prática profissional. Abaixo, listo alguns exemplos:',  
+            '',  
+            'Frameworks:',
+            'NestJS: Desenvolvimento de aplicações escaláveis e modulares com Node.js e TypeScript; Laravel: Criação de soluções robustas e elegantes em PHP; .NET: Desenvolvimento de aplicações de alto desempenho e seguras na plataforma Microsoft.',  
+            '',  
+            'Provedores de Hospedagem:',
+            'AWS: Utilização de serviços de nuvem para garantir escalabilidade e alta disponibilidade; Heroku: Implantação simplificada de aplicações web com escalabilidade prática.',  
+            '',  
+            'Bancos de Dados:',
+            'MySQL: Gerenciamento de bancos de dados relacionais para aplicações web; SQL Server: Implementação de soluções robustas e integradas com o ecossistema .NET; PostgreSQL: Banco de dados relacional open-source com foco em extensibilidade e conformidade com padrões; MongoDB: Utilização de banco de dados NoSQL orientado a documentos para soluções flexíveis e escaláveis.',  
+            '',  
+            'Linguagens de Programação:',
+            'Node.js: Execução de JavaScript no servidor para aplicações em tempo real e escaláveis; Java: Desenvolvimento de sistemas corporativos de grande porte; C#: Criação de aplicações robustas na plataforma .NET; PHP: Desenvolvimento web com amplo ecossistema e frameworks diversos; Python: Aplicação em diversos cenários, desde desenvolvimento web até automação e análise de dados.',  
+            '',  
+            'Desenvolvimento Mobile:',
+            'React Native: Desenvolvimento de aplicativos móveis com experiência nativa utilizando JavaScript.',  
+            '',  
+            'Ambiente Linux:',
+            'Ubuntu: Administração e utilização em servidores e estações de trabalho, devido à sua estabilidade e facilidade de uso; Fedora e CentOS: Implementação de ambientes robustos e seguros para diversas necessidades corporativas.',
           ],
         direction: "row",
         mainColor: "rgb(89, 105, 198)",
@@ -442,12 +469,13 @@ export const storagedInfo = {
 
     timelineinfo: {
       title: "Timeline",
-      dates: ["2019-07-22", "2021-04-30", "2021-11-22", "2022-03-01",],
+      dates: ["2019-07-22", "2021-04-30", "2021-11-22", "2022-03-01","2024-08-01"],
       description: [
         "Meu Primeiro Hello World em Python",
         "Meu primeiro cliente como Freelancer",
         "Minha Admissão em minha empresa atual como Dev. Júnior",
         "Minha primeira promoção como líder de Squad.",
+        "Minha admissão como desenvolvedor Full Stack pleno e o início de minha jornada profissional atuando como Prompt Engineer."
       ]
     }
   },
@@ -481,7 +509,7 @@ export const storagedInfo = {
 
 
     landing: { // -
-      landingImage: `https://i.ibb.co/jDN2wwy/ryan-rodrigo-costa-freelancer-profissional-desenvolvedor-junior-full-stack-fullstack-junior-pleno.jpg`,
+      landingImage: `https://i.ibb.co/HLWChLwL/Ryan-Rodrigo-Costa-Desenvolvedor-Fullstack-Full-stack-pleno-Prompt-engineer-IA-especialista-profissi.png`,
       linkedingLink: `https://www.linkedin.com/in/ryan-costa-7ba1b7216/`,
       gitHubLink: `https://github.com/Ryan-R-C`,
       emailLink: `ryan.r.c.339ac@gmail.com`,
@@ -795,7 +823,7 @@ export const storagedInfo = {
         detailedInfo: {
           title: `Evóikio - Real estate app`,
           link: `https://www.figma.com/file/Y8U4wxI6CvaAF3RtdSdvPQ/Trabalho-Prototipo?node-id=0%3A1&t=yXCW0RUqnSAPgpgB-1`,
-          linkTitle: `Link do Figma`,
+          linkTitle: `Figma link`,
           imgSrc: `https://i.ibb.co/rMHPYYv/213.png`,
           infos: [
             {
@@ -827,9 +855,9 @@ export const storagedInfo = {
         title: `React`,
         text:
           [
-            `ReactJs is my main form of Front End development.`,
-            `It is the library that I have the most affinity, knowledge and experience with. From projects created and modeled by me and even maintenance done by third parties. Due to its simple and optimized syntax, development becomes simpler and faster.`,
-            `I have 2 years of experience with React and with its libraries such as Styled Components`
+            'ReactJs is the foundation of my Front-End development, being the library with which I have the greatest affinity, knowledge, and experience.', 
+            'Throughout my journey, I have worked on both the creation and modeling of projects entirely developed by me and the maintenance of systems originated by third parties. The simplicity and optimization of its syntax contribute to agile and efficient development.',  
+            'I began my studies in ReactJs in 2020 and, since then, I have been deepening my expertise in the tool, exploring clean architectures, as well as complementary libraries like Styled Components and Tailwind, among others.'  
           ],
         direction: `row`,
         mainColor: `#4169e1`,
@@ -841,9 +869,10 @@ export const storagedInfo = {
         title: `NodeJS`,
         text:
           [
-            `NodeJS, in a nutshell, is the way to create JavaScript code for the Back End.`,
-            `Building applications, structuring the database and creating foundations for future development with the team, such as documenting the project structure, the Frameworks and the relational model of the tables.`,
-            `I have 2 years of experience with Node, along with knowledge in Relational and Non-Relational databases like MySQL and Mongo and even in ORM's like Sequelize.`,
+            'Node.js is a technology that allows JavaScript to run on the server, enabling the creation of back-end applications with support for asynchronous and event-driven operations. This characteristic makes it ideal for developing scalable and high-performance systems.',  
+            'Throughout my journey, I have actively participated in the development of complete solutions, including the creation of RESTful APIs, integration with relational databases (MySQL, PostgreSQL) and non-relational databases (MongoDB), and the implementation of microservices architectures. I contributed to the definition of frameworks and database modeling, ensuring the robustness and scalability of the projects.',  
+            'Since 2020, when I started studying Node.js, I have been applying best development practices focusing on the implementation of clean architectures incorporating SOLID principles, prioritizing performance and maintainability. In various projects, I have implemented ORMs like Sequelize, TypeORM, and Prisma to optimize communication with the persistence layer, contributing to more efficient maintenance and the continuous evolution of applications.'  
+
           ],
         direction: `row`,
         mainColor: `#689F63`,
@@ -854,8 +883,8 @@ export const storagedInfo = {
         title: `Docker`,
         text:
           [
-            `Docker enables a clean and scalable architecture, with multiple containers inside a server. In addition, it makes migration between different servers much simpler, even with different Operating Systems.`,
-            `I've already applied Docker to several projects, making maintenance on client servers much simpler. `
+            'Since 2021, when I started developing with Docker, this technology has been essential for creating clean and scalable architectures, allowing the use of multiple containers on a single server. This approach facilitates migration between heterogeneous environments, including between servers with different operating systems.',  
+            'Throughout various projects, I have implemented Docker to standardize development and production environments, simplifying the maintenance of client servers and ensuring greater consistency and scalability in applications.'  
           ],
         direction: `row`,
         mainColor: `rgb(0, 167, 255)`,
@@ -868,9 +897,23 @@ export const storagedInfo = {
         title: `Client-Side Technologies`,
         text:
           [
-            `I have knowledge in several client-side technologies for development, some in courses, others in practice and most of them in both.`,
-            `Some examples: `,
-            `Vue, Angular, Next, Material Design, Bootstrap, JavaScript and TypeScript, even Wordpress.`
+            'I have extensive experience with various client-side technologies, acquired through both coursework and professional practice. Below are some examples:',  
+            '',  
+            'Frameworks and Libraries:',
+            'React Native: Mobile application development; Vue.js: Creating dynamic and reactive web interfaces; AngularJS: Building robust and dynamic web applications; Next.js: Developing React applications with server-side rendering; jQuery: Simplifying DOM manipulation and event handling for dynamic web interfaces.',  
+            '',  
+            'Design and Styling:',
+            'Material Design: Implementing visual guidelines for intuitive interfaces; Tailwind CSS: Rapidly developing custom layouts using utility classes; Bootstrap: Quickly and consistently creating responsive interfaces.',  
+            '',  
+            'Programming Languages:',
+            'JavaScript and TypeScript',  
+            '',  
+            'Platforms:',
+            'WordPress: Developing and customizing websites and blogs.',  
+            '',  
+            'Testing:',
+            'Jest: Running unit tests to ensure code quality and integrity; Selenium: Automating integration tests by simulating production environments.',  
+
           ],
         direction: `row`,
         mainColor: `rgb(26, 115, 130)`,
@@ -883,11 +926,26 @@ export const storagedInfo = {
         title: `Server-Side Technologies`,
         text:
           [
-            `Regarding server-side technologies that I have practice and experience with:`,
-            `Database: MySQL, PostgreSQL and MongoDB`,
-            `Programming language: NodeJs, PHP and Python.`,
-            `For mobile: React Native.`,
-            `On Linux, main focus on Ubuntu and its flavors, but also Fedora, like CentOS.`
+              'I have extensive experience with various server-side technologies,',  
+              'acquired through both coursework and professional practice. Below are some examples:',  
+              '',  
+              'Frameworks:',  
+              '   - NestJS: Development of scalable and modular applications using Node.js and TypeScript; Laravel: Building robust and elegant solutions in PHP; .NET: Developing high-performance and secure applications on the Microsoft platform.',  
+              '',  
+              'Hosting Providers:',  
+              '   - AWS: Utilizing cloud services to ensure scalability and high availability; Heroku: Simplified deployment of web applications with practical scalability.',  
+              '',  
+              'Databases:',  
+              '   - MySQL: Managing relational databases for web applications; SQL Server: Implementing robust solutions integrated with the .NET ecosystem; PostgreSQL: Open-source relational database with a focus on extensibility and standards compliance; MongoDB: Using a document-oriented NoSQL database for flexible and scalable solutions.',  
+              '',  
+              'Programming Languages:',  
+              '   - Node.js: Running JavaScript on the server for real-time and scalable applications; Java: Developing large-scale enterprise systems; C#: Creating robust applications on the .NET platform; PHP: Web development with a vast ecosystem and various frameworks; Python: Applied in multiple scenarios, from web development to automation and data analysis.',  
+              '',  
+              'Mobile Development:',  
+              '   - React Native: Developing mobile applications with a native experience using JavaScript.',  
+              '',  
+              'Linux Environment:',  
+              '   - Ubuntu: Administration and usage in servers and workstations due to its stability and ease of use; Fedora and CentOS: Implementing robust and secure environments for various corporate needs.',  
           ],
         direction: `row`,
         mainColor: `rgb(89, 105, 198)`,
@@ -900,15 +958,14 @@ export const storagedInfo = {
 
     timelineinfo: {
       title: `Timeline`,
-      dates: [
-        `2019-07-22`, `2021-04-30`, `2021-11-22`, `2022-03-01`, `2024-02-01`
-      ],
+      dates: ["2019-07-22", "2021-04-30", "2021-11-22", "2022-03-01","2024-08-01"],
       description: [
         `My first Hello World in Python`,
         `My first client as a Freelancer`,
         `My Admission to my current company as a Junior Dev`,
         `My first promotion as Squad Leader.`,
         `My promotion as Tech Lead.`,
+        "My admission as a Mid-level Full Stack Developer and the beginning of my professional journey as a Prompt Engineer.",
       ]
     }
   }
