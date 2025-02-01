@@ -40,11 +40,11 @@ export const storagedInfo = {
     mainAboutText: {
       title: 'Sobre mim',
       paragraphs: [
-        "Eu sou Ryan Rodrigo Costa, Engenheiro de Software e Dev. Full Stack.",
-        "Atualmente trabalho como Desenvolvedor Full Stack e Líder Técnico, participando desde o protótipo, passando pelo Front-End e Back-End até a entrega final para o cliente.",
-        "Trabalhando com todas as tecnologias requiridas pelos projetos da empresa, tais como: ReactJS, Angular, VueJS, Solidity, PHP, Node, Sequelize, Python, MySQL, PostgreSQL  e até mesmo MongoDB.",
-        "Meu contato com programação começou com desenvolvimento em Python, em 2019, me apaixonei pelo desenvolvimento desde o primeiro 'Hello, World' e a cada dia que passa me apaixono mais ainda.",
-        "Tenho como metas me tornar sempre um desenvolvedor melhor chegando a minha senioridade, sempre me aperfeiçoando nas Soft e Hard Skills."
+        "Sou um desenvolvedor apaixonado por tecnologia e inovação, sempre acreditando que o principal propósito da tecnologia é solucionar problemas. Essa convicção impulsionou o Ryan, aos 16 anos, a iniciar sua jornada na programação com Python. Como profissional, dedico-me integralmente aos desafios, ao trabalho e à entrega de soluções eficientes.",
+        "O início da minha carreira profissional, aos 17 anos, foi marcada por proatividade e uma busca por afirmação, onde as oportunidades presenciais eram escassas. Para provar meu potencial, comecei a atuar como freelancer de forma remota, o que me permitiu conquistar meu primeiro emprego na área.",
+        "Aos 18 anos, em minha primeira empresa, onde atuei por quase três anos, comecei como Desenvolvedor Full Stack Júnior e, com o tempo, fui agregando experiência e demonstrando proatividade em cada entrega. Após um ano, fui promovido a líder das entregas dos setores de design e front-end. Com resultados positivos, reconhecimento dos clientes e uma postura excepcional perante a equipe, assumi, aos dois anos, o cargo de Líder Técnico – função anteriormente ocupada pelo CEO –, participando desde o levantamento de requisitos com os cliente, concepção de protótipos até o desenvolvimento front-end, back-end e a entrega final dos projetos. Entretanto, ao enfrentar desafios de crescimento em uma empresa de pequeno porte, onde eu era o desenvolvedor mais experiente, senti-me estagnado profissionalmente, o que me levou a buscar oportunidades mais desafiadoras no mercado de trabalho.",
+        "Atualmente, atuo na empresa Facilita Jurídico, onde sou responsável pela manutenção de um sistema em produção e pelo desenvolvimento de soluções que incorporam inteligência artificial para setores específicos da empresa.",
+        "Minha meta é aprimorar constantemente tanto as soft-skills quanto as hard-skills, buscando atingir níveis cada vez mais avançados de senioridade. Matendo sempre uma postura de aprendizado contínuo e constante."
       ]
     },
 
@@ -52,8 +52,13 @@ export const storagedInfo = {
     asideAboutText: {
       title: 'Um pouco mais pessoal',
       paragraphs: [
-        "Atualmente estudo Desenvolvimento Web, tanto Back End quanto Front End, cursando meu bacharelado em Engenharia de Software e, aos finais de semanam, estudo UI Design. Minha meta é se aperfeiçoar cada vez mais na área de desenvolvimento Web.",
-        "Tenho inglês avançado, conseguindo ler, escrever e falar sem dificuldades.",
+        "Além de estudar diariamente sobre tecnologia e inovação, também sou aficionado em várias áreas do conhecimento humano como ciências naturais e sociais, além de outras línguas como o inglês e espanhol.",
+        "Penso que todo saber é benéfico, tanto para vida pessoal quanto profissional.",
+        "Como o conceito de Aprendizado Adaptativo aplicado para treinamento de modelos personalizados de inteligência artificial.",
+        "Ou Padrões Fractais para designs responsivos e agradáveis. De forma semelhante, a Teoria dos Grupos e Interação Social, Storytelling Visual e Gamificação são ótimas estratégias para engajamento dos usuários, aplicadas nos campos de UI e UX.",
+        "No âmbito pessoal, a filosofia existencialista nos convida a refletir profundamente sobre a condição humana.",
+        "Jean-Paul Sartre propõe que o ser humano primeiro existe e, posteriormente, define sua própria essência através de escolhas livres. Sartre defende que não há um propósito divino pré-estabelecido, cabendo a cada indivíduo atribuir sentido à própria vida. ",
+        "Complementando essa visão, Albert Camus aprofunda a discussão ao abordar o sentimento do absurdo, especialmente em seu ensaio O Mito de Sísifo. Camus utiliza o mito grego de Sísifo – condenado a empurrar eternamente uma pedra morro acima, apenas para vê-la rolar de volta – como uma metáfora para a condição humana, marcada pela rotina diária. Ainda assim, o autor propõe que devemos imaginar Sísifo feliz, pois, ao reconhecer o absurdo da existência e, mesmo assim, seguir vivendo, ele descobre uma forma autêntica de liberdade e felicidade. Por fim o conceito de má-fé, também de Sartre, critica a tendência de negar a própria liberdade e responsabilidade pelas escolhas pessoais.",
       ]
     },
 
@@ -68,7 +73,7 @@ export const storagedInfo = {
     ],
 
 
-
+    portFolioTitle: "Portfólio de projetos pessoais",
     portFolioInfo: [
       {
         filter: "HTML, CSS e JavaScript",
@@ -470,12 +475,13 @@ export const storagedInfo = {
 
     timelineinfo: {
       title: "Timeline",
-      dates: ["2019-07-22", "2021-04-30", "2021-11-22", "2022-03-01","2024-08-01"],
+      dates: ["2019-07-22", "2021-04-30", "2021-11-22", "2022-03-02", "2023-12-02", "2024-08-02"],
       description: [
         "Meu Primeiro Hello World em Python",
         "Meu primeiro cliente como Freelancer",
         "Minha Admissão em minha empresa atual como Dev. Júnior",
         "Minha primeira promoção como líder de Squad.",
+        "Minha promossão como Tech lead.",
         "Minha admissão como desenvolvedor Full Stack pleno e o início de minha jornada profissional atuando como Prompt Engineer."
       ]
     }
@@ -520,20 +526,24 @@ export const storagedInfo = {
     mainAboutText: {
       title: 'About me',
       paragraphs: [
-        "I am Ryan Rodrigo Costa, Software Engineer and Full Stack Developer.",
-        "Currently, I work as a Full Stack Developer and Tech Lead, participating from prototyping, through Front-End and Back-End development, to final delivery to the client.",
-        "Working with all technologies required by company projects, such as: ReactJS, Angular, VueJS, Solidity, PHP, Node, Sequelize, Python, MySQL, PostgreSQL, and even MongoDB.",
-        "My programming journey started with Python development in 2019. I fell in love with coding from my first 'Hello, World' and every day I fall more in love with it.",
-        "My goals include continually becoming a better developer, reaching seniority, and constantly improving my Soft and Hard Skills."
+        "As a developer passionate about technology and innovation, I firmly believe that the primary purpose of technology is to solve problems. This conviction pushed me, at the age of 16, to begin my programming journey with Python. As a professional, I am fully committed to taking on challenges, delivering quality work, and providing efficient solutions.",
+        "At 17, my professional career began with proactivity and a drive for recognition, especially in an environment where in-person opportunities were scarce. To prove my potential, I started working remotely as a freelancer, which allowed me to secure my first job in the field.",
+        "At 18, in my first company—where I worked for nearly three years—I started as a Junior Full Stack Developer. Over time, I gained valuable experience and consistently demonstrated proactivity with every project. After a year, I was promoted to lead the design and front-end delivery teams. With positive results, client recognition, and exceptional teamwork, I advanced to the position of Technical Lead at the two-year mark—a role previously held by the CEO. In this capacity, I was involved in everything from gathering client requirements and designing prototypes to front-end and back-end development and final project delivery. However, facing growth challenges in a small company where I was the most experienced developer, I felt professionally stagnant, which led me to seek more challenging opportunities in the job market.",
+        "Currently, I work at Facilita Jurídico, where I am responsible for maintaining a production system and developing solutions that incorporate artificial intelligence for specific sectors within the company.",
+        "My goal is to continuously enhance both my soft skills and hard skills, striving to achieve increasingly advanced levels of seniority. Always maintaining a commitment to continuous, lifelong learning",
+                
       ]
     },
 
 
     asideAboutText: {
-      title: 'A little more personal',
+      title: 'Getting Personal',
       paragraphs: [
-        "Currently, I study Web Development, both Back End and Front End, pursuing my bachelor's degree in Software Engineering, and on weekends, I study UI Design. My goal is to continually improve in the field of Web development.",
-        "I have advanced English skills, able to read, write, and speak without difficulty."
+        "Besides studying technology and innovation daily, I am also passionate about various fields of human knowledge such as natural and social sciences, as well as other languages like English and Spanish.",
+        "I believe that all knowledge is beneficial, both for personal and professional life.",
+        "For instance, consider the concept of Adaptive Learning applied to training personalized artificial intelligence models. Or fractal patterns for creating responsive and appealing designs. Similarly, Group Theory and Social Interaction, Visual Storytelling, and Gamification are excellent strategies for engaging users, especially in the fields of UI and UX.",
+        "On a personal level, existentialist philosophy invites us to deeply reflect on the human condition. Jean-Paul Sartre posits that human beings exist first and later define their own essence through free choices. He argues that there is no pre-established divine purpose, leaving each individual responsible for assigning meaning to their own life.",
+        "Complementing this view, Albert Camus deepens the discussion by addressing the feeling of the absurd, especially in his essay The Myth of Sisyphus. Camus uses the Greek myth of Sisyphus—condemned to eternally push a stone uphill only to see it roll back down—as a metaphor for the human condition, marked by daily routine. Nevertheless, the author proposes that we must imagine Sisyphus as happy, because by acknowledging the absurdity of existence and continuing to live despite it, he discovers an authentic form of freedom and happiness. Finally, Sartre’s concept of bad faith criticizes the tendency to deny one’s own freedom and responsibility for personal choices."        
       ]
     },
 
@@ -548,7 +558,7 @@ export const storagedInfo = {
     ],
 
 
-
+    portFolioTitle: "Personal Projects Portfolio",
     portFolioInfo: [
       {
         filter: `HTML, CSS and JavaScript`,
@@ -925,22 +935,22 @@ export const storagedInfo = {
               'acquired through both coursework and professional practice. Below are some examples:',  
               '',  
               'Frameworks:',  
-              '   - NestJS: Development of scalable and modular applications using Node.js and TypeScript; Laravel: Building robust and elegant solutions in PHP; .NET: Developing high-performance and secure applications on the Microsoft platform.',  
+              'NestJS: Development of scalable and modular applications using Node.js and TypeScript; Laravel: Building robust and elegant solutions in PHP; .NET: Developing high-performance and secure applications on the Microsoft platform.',  
               '',  
               'Hosting Providers:',  
-              '   - AWS: Utilizing cloud services to ensure scalability and high availability; Heroku: Simplified deployment of web applications with practical scalability.',  
+              'AWS: Utilizing cloud services to ensure scalability and high availability; Heroku: Simplified deployment of web applications with practical scalability.',  
               '',  
               'Databases:',  
-              '   - MySQL: Managing relational databases for web applications; SQL Server: Implementing robust solutions integrated with the .NET ecosystem; PostgreSQL: Open-source relational database with a focus on extensibility and standards compliance; MongoDB: Using a document-oriented NoSQL database for flexible and scalable solutions.',  
+              'MySQL: Managing relational databases for web applications; SQL Server: Implementing robust solutions integrated with the .NET ecosystem; PostgreSQL: Open-source relational database with a focus on extensibility and standards compliance; MongoDB: Using a document-oriented NoSQL database for flexible and scalable solutions.',  
               '',  
               'Programming Languages:',  
-              '   - Node.js: Running JavaScript on the server for real-time and scalable applications; Java: Developing large-scale enterprise systems; C#: Creating robust applications on the .NET platform; PHP: Web development with a vast ecosystem and various frameworks; Python: Applied in multiple scenarios, from web development to automation and data analysis.',  
+              'Node.js: Running JavaScript on the server for real-time and scalable applications; Java: Developing large-scale enterprise systems; C#: Creating robust applications on the .NET platform; PHP: Web development with a vast ecosystem and various frameworks; Python: Applied in multiple scenarios, from web development to automation and data analysis.',  
               '',  
               'Mobile Development:',  
-              '   - React Native: Developing mobile applications with a native experience using JavaScript.',  
+              'React Native: Developing mobile applications with a native experience using JavaScript.',  
               '',  
               'Linux Environment:',  
-              '   - Ubuntu: Administration and usage in servers and workstations due to its stability and ease of use; Fedora and CentOS: Implementing robust and secure environments for various corporate needs.',  
+              'Ubuntu: Administration and usage in servers and workstations due to its stability and ease of use; Fedora and CentOS: Implementing robust and secure environments for various corporate needs.',  
           ],
         direction: `row`,
         mainColor: `rgb(89, 105, 198)`,
@@ -953,7 +963,7 @@ export const storagedInfo = {
 
     timelineinfo: {
       title: `Timeline`,
-      dates: ["2019-07-22", "2021-04-30", "2021-11-22", "2022-03-01","2024-08-01"],
+      dates: ["2019-07-22", "2021-04-30", "2021-11-22", "2022-03-02", "2023-12-02", "2024-08-02"],
       description: [
         `My first Hello World in Python`,
         `My first client as a Freelancer`,
