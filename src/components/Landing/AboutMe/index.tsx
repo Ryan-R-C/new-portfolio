@@ -21,10 +21,13 @@ export default function AboutMe(
             <div className="container">
                 <div>
                     <h2>
-                        Full Stack Developer &
+                        Full Stack Developer  &
                     </h2>
                     <h2>
-                        UI Designer
+                        UI/UX Designer &
+                    </h2>
+                    <h2>
+                        Prompt Engineer
                     </h2>
                 </div>
                 <div>
