@@ -1,16 +1,12 @@
 import React, { useEffect, useState } from 'react';
-import PortfolioParagraph from '../../components/Portfolio/PortfolioParagraph';
-import PortfolioImage from '../../components/Portfolio/PortfolioImage';
-import { CloseContainer, Container,  FilterSelector, GridContainer, GridContainerPortfolioItems, GridItem, GridItem2, ModalContainer, ModalContent, } from './styles';
+import { CloseContainer, Container, FilterSelector, GridContainerPortfolioItems, GridItem2, ModalContainer, ModalContent } from './styles';
 import PortfolioProp2 from '../../components/Portfolio2/PortfolioProp2';
-
 import { FiX } from 'react-icons/fi'
 //@ts-ignore
 import Modal from 'react-modal';
 import ModalPortfolioProp from '../../components/Portfolio/ModalPortfolioProp';
 import { IoIosArrowForward } from 'react-icons/io';
 import StyledButtonModal from '../../components/StyledButtonModal';
-// import ModalPortfolioProp from '../../components/Portfolio/ModalPortfolioProp';
 
 let modalStyles={
   overlay: {
@@ -45,7 +41,7 @@ let modalStyles={
   }
 }
 
-export default function Portfolio({info, filters, close}: any) {
+export default function Portfolio({info, filters, close, title}: any) {
 /*======================================================================================================
 
 =========================================================================================================*/
@@ -58,7 +54,6 @@ export default function Portfolio({info, filters, close}: any) {
 
   function openModalAndSetValues(selectedPortolioItem: any) {
     setSelectedItem(selectedPortolioItem.detailedInfo)
-    console.log(selectedPortolioItem.detailedInfo)
     
     openModal()
   }
@@ -89,9 +84,7 @@ export default function Portfolio({info, filters, close}: any) {
 
     info.map(
       (portfolioItem: any) => {
-        console.log(portfolioItem.filter == filterSelected)
-        console.log(portfolioItem.filter.includes(filterSelected))
-        if(portfolioItem.filter == filterSelected) filteredComponent.push(portfolioItem)
+        if(portfolioItem.filter === filterSelected) filteredComponent.push(portfolioItem)
       }
     )
 
@@ -110,6 +103,10 @@ export default function Portfolio({info, filters, close}: any) {
   return (
     <>
     <Container>
+        <h2>
+          {title}
+        </h2>
+
       <FilterSelector>
         <button 
         className={!filterSelected ? "activeFilter" : ""}
@@ -121,7 +118,7 @@ export default function Portfolio({info, filters, close}: any) {
           (filter: string) => (
             <button
             key={filter}
-            className={filter == filterSelected ? "activeFilter" : ""}
+            className={filter === filterSelected ? "activeFilter" : ""}
             onClick={() => filterPorfolio(filter)}>
               {filter}
             </button>

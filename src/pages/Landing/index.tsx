@@ -112,6 +112,7 @@ export default function LandingPage() {
         <Portfolio
           close={info?.pageButtons?.closeModal}
           filters={info.filtros}
+          title={info.portFolioTitle}
           info={info?.portFolioInfo}
         />
       </Container>

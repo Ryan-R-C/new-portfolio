@@ -7,7 +7,6 @@ const LanguageSwitcher = ({selected, setSelected}: any) => {
   return (
    <Container>
     <ReactFlagsSelect
-      // onSelect={(code) => console.log(code)}
       onSelect={(code) => setSelected(code)}
       selected={selected}
       countries={["US", "BR"]}

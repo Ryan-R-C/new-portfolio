@@ -1,8 +1,4 @@
-
-import { FiArrowDownRight, FiArrowRight } from 'react-icons/fi';
 import { IoIosArrowForward } from 'react-icons/io';
-import { IndexedAccessType } from 'typescript';
-import AnimatedArrow from '../../AnimatedArrow';
 import ComputerContainer from '../../ComputerContainer';
 import StyledButton from '../../StyledButton';
 import { Container, ContentContainer, FlexContainer } from './styles';
