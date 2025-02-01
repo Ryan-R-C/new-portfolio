@@ -1,14 +1,4 @@
-import React from 'react';
-import PortfolioParagraph from '../../Portfolio/PortfolioParagraph';
-import PortfolioImage from '../../Portfolio/PortfolioImage';
-import LandingImage from '../LandingImage';
 import { Aside } from './styles';
-
-import { BsQuestion } from 'react-icons/bs';
-import { IoBag } from 'react-icons/io5';
-import FeaturedBlockQuote from '../../FeaturedBlockQuote';
-import Portfolio from '../../../pages/Portfolio';
-import AboutMe from '../AboutMe';
 
 
 export default function ImageContainerCourse(
@@ -21,8 +11,9 @@ export default function ImageContainerCourse(
       <Aside>
           <div>
             <img
+            alt='A photograph of me'
             className={
-              direction != 'row' ? (
+              direction !== 'row' ? (
                 "reverse-row"
                 ) : (
                 "row"

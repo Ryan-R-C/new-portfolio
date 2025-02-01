@@ -1,6 +1,6 @@
 import { Buttons, Info } from './styles';
 
-import { BsQuestion } from 'react-icons/bs';
+import { BsLightbulbFill } from 'react-icons/bs';
 import { IoBag } from 'react-icons/io5';
 
 
@@ -30,7 +30,7 @@ export default function AboutMe(
                     </div>
                         <Buttons>
                             <a href="#AboutMe" className='button'>
-                            {aboutMe} <BsQuestion  className="icon" size="15px"/>
+                            {aboutMe} <BsLightbulbFill  className="icon" size="15px"/>
                             </a>
                             <a href="#Portfolio" className='button button--featured'>
                             {myProjects} <IoBag  className="icon" size="15px"/>

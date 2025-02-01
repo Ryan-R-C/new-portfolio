@@ -1,6 +1,3 @@
-import { dir } from "console";
-import React, { useState } from "react";
-import ImageContainer from "../Landing/ImageContainer";
 import ImageContainerCourse from "../Landing/ImageContainerCourse";
 import { Container, ContainerText, ContaneirImage } from "./styles";
 
@@ -35,7 +32,7 @@ export default function CoursesProps({ title, text, iconImageSrc, direction, mai
             }
           }
 
-          className={direction == 'row' ? "row" : 'reserse-row'}
+          className={direction === 'row' ? "row" : 'reserse-row'}
         >
 
           <ImageContainerCourse
