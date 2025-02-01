@@ -12,25 +12,25 @@ import Courses from '../Courses';
 import Loading from '../../components/Loading';
 import { storagedInfo } from '../../info';
 import { ilanguages } from '../../types/ilanguages';
+import { useLangAtom } from '../../hooks/useLangAtom';
 
 
 export default function LandingPage() {
   const [info, setInfo] = useState<any>([])
   const [loading, setLoading] = useState<boolean>(true)
-  const [language, setLanguage] = useState<ilanguages>("US")
+  const { lang, setLang } = useLangAtom()
 
-  const handleSetLocalStorageLanguage = (language: string) => {
-    localStorage.setItem("language", language)
+  const handleSetLocalStorageLanguage = (lang: ilanguages) => {
+    setLang(lang)
   }
 
   const handleGetLocalStorageLanguage = (): string => {
-    const language: string = localStorage.getItem("language") || "";
-    return language;
+    return lang;
   }
 
 
   const handleSetLanguage = (avaliableLanguage: ilanguages) => {
-    setLanguage(avaliableLanguage)
+    setLang(avaliableLanguage)
     handleSetLocalStorageLanguage(avaliableLanguage)
 
     let newInfo = storagedInfo[avaliableLanguage]
@@ -74,7 +74,7 @@ export default function LandingPage() {
 
       <Header
         handleSetLanguage={handleSetLanguage}
-        language={language}
+        language={lang}
         linkNames={info?.headerLinks}
       />
       
