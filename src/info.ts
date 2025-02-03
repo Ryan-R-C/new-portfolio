@@ -383,7 +383,7 @@ export const storagedInfo = {
         direction: "row",
         mainColor: "#4169e1",
         secondaryColor: "rgb(11, 19, 45)",
-        iconImageSrc: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/2300px-React-icon.svg.png"
+        iconImageSrc: "https://i.ibb.co/tpf0hWMG/Frame-64-1.png"
       },
 
       {
@@ -397,7 +397,7 @@ export const storagedInfo = {
         direction: "row",
         mainColor: "#689F63",
         secondaryColor: "rgb(205, 255, 205)",
-        iconImageSrc: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Node.js_logo.svg/1200px-Node.js_logo.svg.png"
+        iconImageSrc: "https://i.ibb.co/cKNcb0qV/Frame-69.png"
       },
       {
         title: "Docker",
@@ -409,7 +409,7 @@ export const storagedInfo = {
         direction: "row",
         mainColor: "rgb(0, 167, 255)",
         secondaryColor: "rgb(0, 18, 28)",
-        iconImageSrc: "https://cdn-icons-png.flaticon.com/512/919/919853.png"
+        iconImageSrc: "https://i.ibb.co/r2rzc1QY/Frame-79.png"
       },
 
 
@@ -436,7 +436,7 @@ export const storagedInfo = {
         direction: "row",
         mainColor: "rgb(26, 115, 130)",
         secondaryColor: "rgb(0, 6, 13) ",
-        iconImageSrc: "https://i.ibb.co/LC90xdn/front-End-Icons.png"
+        iconImageSrc: "https://i.ibb.co/3y37wGXm/Frame-59-2.png"
       },
 
 
@@ -467,7 +467,7 @@ export const storagedInfo = {
         direction: "row",
         mainColor: "rgb(89, 105, 198)",
         secondaryColor: "rgb(12, 13, 89)",
-        iconImageSrc: "https://i.ibb.co/ZfxDBfw/backend-Icons3.png"
+        iconImageSrc: "https://i.ibb.co/CKR8mNfR/Frame-76.png"
 
 
       }
@@ -865,9 +865,9 @@ export const storagedInfo = {
             'I began my studies in ReactJs in 2020 and, since then, I have been deepening my expertise in the tool, exploring clean architectures, as well as complementary libraries like Styled Components and Tailwind, among others.'  
           ],
         direction: `row`,
-        mainColor: `#4169e1`,
-        secondaryColor: `rgb(11, 19, 45)`,
-        iconImageSrc: `https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/2300px-React-icon.svg.png`
+        mainColor: `#36dff8`,
+        secondaryColor: `#066d89`,
+        iconImageSrc: `https://i.ibb.co/tpf0hWMG/Frame-64-1.png`
       },
 
       {
@@ -880,9 +880,9 @@ export const storagedInfo = {
 
           ],
         direction: `row`,
-        mainColor: `#689F63`,
-        secondaryColor: `rgb(205, 255, 205)`,
-        iconImageSrc: `https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Node.js_logo.svg/1200px-Node.js_logo.svg.png`
+        mainColor: `#215732`,
+        secondaryColor: `#6cc24a`,
+        iconImageSrc: `https://i.ibb.co/cKNcb0qV/Frame-69.png`
       },
       {
         title: `Docker`,
@@ -892,9 +892,9 @@ export const storagedInfo = {
             'Throughout various projects, I have implemented Docker to standardize development and production environments, simplifying the maintenance of client servers and ensuring greater consistency and scalability in applications.'  
           ],
         direction: `row`,
-        mainColor: `rgb(0, 167, 255)`,
-        secondaryColor: `rgb(0, 18, 28)`,
-        iconImageSrc: `https://cdn-icons-png.flaticon.com/512/919/919853.png`
+        mainColor: `#049cec`,
+        secondaryColor: `#384d54`,
+        iconImageSrc: `https://i.ibb.co/r2rzc1QY/Frame-79.png`
       },
 
 
@@ -921,9 +921,9 @@ export const storagedInfo = {
 
           ],
         direction: `row`,
-        mainColor: `rgb(26, 115, 130)`,
-        secondaryColor: `rgb(0, 6, 13) `,
-        iconImageSrc: `https://i.ibb.co/LC90xdn/front-End-Icons.png`
+        mainColor: `#8a2be1`,
+        secondaryColor: `#dd9fdc`,
+        iconImageSrc: `https://i.ibb.co/3y37wGXm/Frame-59-2.png`
       },
 
 
@@ -953,9 +953,9 @@ export const storagedInfo = {
               'Ubuntu: Administration and usage in servers and workstations due to its stability and ease of use; Fedora and CentOS: Implementing robust and secure environments for various corporate needs.',  
           ],
         direction: `row`,
-        mainColor: `rgb(89, 105, 198)`,
-        secondaryColor: `rgb(12, 13, 89)`,
-        iconImageSrc: `https://i.ibb.co/ZfxDBfw/backend-Icons3.png`
+        mainColor: `#008081`,
+        secondaryColor: `#004040`,
+        iconImageSrc: `https://i.ibb.co/CKR8mNfR/Frame-76.png`
 
 
       }
