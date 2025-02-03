@@ -1,8 +1,7 @@
-import React, { useEffect, useState } from 'react';
+import { useEffect, useState } from 'react';
 import { CloseContainer, Container, FilterSelector, GridContainerPortfolioItems, GridItem2, ModalContainer, ModalContent } from './styles';
 import PortfolioProp2 from '../../components/Portfolio2/PortfolioProp2';
 import { FiX } from 'react-icons/fi'
-//@ts-ignore
 import Modal from 'react-modal';
 import ModalPortfolioProp from '../../components/Portfolio/ModalPortfolioProp';
 import { IoIosArrowForward } from 'react-icons/io';
@@ -63,10 +62,6 @@ export default function Portfolio({info, filters, close, title}: any) {
     setIsOpen(true);
   }
 
-  function afterOpenModal() {
-    // references are now sync'd and can be accessed.
-  }
-
   function closeModal() {
     setIsOpen(false);
   }
@@ -79,23 +74,15 @@ export default function Portfolio({info, filters, close, title}: any) {
 
 
 
-  function filterPorfolio (filterSelected: string) {
-    let filteredComponent: any = []
-
-    info.map(
-      (portfolioItem: any) => {
-        if(portfolioItem.filter === filterSelected) filteredComponent.push(portfolioItem)
-      }
-    )
-
-
-    setDisplayedItems(filteredComponent)
-    setFilterSelected(filterSelected)
-
+  function filterPortfolio(filterSelected: string) {
+    const filteredComponent = info.filter((portfolioItem: any) => portfolioItem.filter === filterSelected);
+    
+    setDisplayedItems(filteredComponent);
+    setFilterSelected(filterSelected);
   }
 
 
-  function clearFilterPorfolio () {
+  function clearFilterPortfolio () {
     setDisplayedItems(info)
     setFilterSelected("")
   }
@@ -110,7 +97,7 @@ export default function Portfolio({info, filters, close, title}: any) {
       <FilterSelector>
         <button 
         className={!filterSelected ? "activeFilter" : ""}
-        onClick={() => clearFilterPorfolio()}>
+        onClick={() => clearFilterPortfolio()}>
           Tudo
         </button>
         {
@@ -119,7 +106,7 @@ export default function Portfolio({info, filters, close, title}: any) {
             <button
             key={filter}
             className={filter === filterSelected ? "activeFilter" : ""}
-            onClick={() => filterPorfolio(filter)}>
+            onClick={() => filterPortfolio(filter)}>
               {filter}
             </button>
 
@@ -127,26 +114,6 @@ export default function Portfolio({info, filters, close, title}: any) {
         )
         }
       </FilterSelector>
-      {/* <GridContainer>
-        {
-
-        displayedItems?.map(
-          (e: any, i: number) => (
-            <GridItem key={i}>
-        
-              <PortfolioProp
-              title={e?.title}
-              link={e?.link}
-              src={e?.src}
-              paragraph={e?.paragraph}
-              />
-            </GridItem>
-            
-          )
-        )
-
-        }
-      </GridContainer> */}
     </Container>
 
     <>
@@ -176,10 +143,8 @@ export default function Portfolio({info, filters, close, title}: any) {
     <>
       <Modal
           isOpen={modalIsOpen}
-          onAfterOpen={afterOpenModal}
           onRequestClose={closeModal}
           ariaHideApp={false}
-
           contentLabel="Modal"
           //@ts-ignore
           style={
