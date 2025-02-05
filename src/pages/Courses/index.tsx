@@ -1,10 +1,6 @@
-import { dir } from "console";
-import React, { useState } from "react";
 import CoursesProps from "../../components/CoursesProps";
-
 //@ts-ignore
-
-import { Container, ContainerText, ContaneirImage } from "./styles";
+import { Container } from "./styles";
 
 
 export default function Courses({ props }: any) {
