@@ -2,7 +2,6 @@
 import {  Container, MainAbout, AsideAbout } from './styles';
 
 const About
-// : FC<IreactProps> 
 = ({ mainAboutTitle, mainAboutText, asideAboutTitle, asideAboutText }: any ) => {
   return (
     <Container>

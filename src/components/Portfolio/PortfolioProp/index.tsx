@@ -1,4 +1,3 @@
-import React from 'react';
 import PortfolioParagraph from '../PortfolioParagraph';
 import PortfolioImage from '../PortfolioImage';
 import { Container, Project, ProjectContainer } from './styles';

@@ -6,7 +6,6 @@ const themeDeactivated = {
 }
 
 export default function Loading(
-    // { loading }: {loading: boolean}
     { loading }: any
     ) {
   return (

@@ -1,4 +1,3 @@
-import React from "react";
 import ReactFlagsSelect from "react-flags-select";
 import { Container } from "./styles";
 

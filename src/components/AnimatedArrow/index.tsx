@@ -1,6 +1,5 @@
 import { Container } from './styles';
 
-
 export default function AnimatedArrow(
   { text, }: any
 ) {

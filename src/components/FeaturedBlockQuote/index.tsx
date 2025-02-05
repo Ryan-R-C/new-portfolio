@@ -1,8 +1,4 @@
-import React from 'react';
-
 import {  Container } from './styles';
-
-import { BsQuestion } from 'react-icons/bs';
 import { ImQuotesLeft } from 'react-icons/im';
 
 

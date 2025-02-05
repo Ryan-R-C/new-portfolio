@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 //@ts-ignore
 import HorizontalTimeline from "react-horizontal-timeline";
 import { Container } from "./styles";

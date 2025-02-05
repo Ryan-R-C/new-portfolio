@@ -1,9 +1,7 @@
 
 import { Button } from './styles';
-import React, { FC, ReactChildren } from 'react';
 
 const StyledButtonModal
-// : FC<IreactProps> 
 = ({
   children, 
   onClick

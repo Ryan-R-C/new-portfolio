@@ -1,5 +1,4 @@
 import { useEffect, useState } from 'react';
-
 import { Container, LandingContainer } from './styles';
 import FeaturedBlockQuote from '../../components/FeaturedBlockQuote';
 import Portfolio from '../Portfolio';
