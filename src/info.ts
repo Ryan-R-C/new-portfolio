@@ -383,7 +383,7 @@ export const storagedInfo = {
         direction: "row",
         mainColor: "#4169e1",
         secondaryColor: "rgb(11, 19, 45)",
-        iconImageSrc: "https://i.ibb.co/tpf0hWMG/Frame-64-1.png"
+        iconImageSrc: "https://i.ibb.co/Vc73wfkQ/Frame-64-3.png"
       },
 
       {
@@ -397,7 +397,7 @@ export const storagedInfo = {
         direction: "row",
         mainColor: "#689F63",
         secondaryColor: "rgb(205, 255, 205)",
-        iconImageSrc: "https://i.ibb.co/cKNcb0qV/Frame-69.png"
+        iconImageSrc: "https://i.ibb.co/tjCNG0z/Frame-69.png"
       },
       {
         title: "Docker",
@@ -409,7 +409,7 @@ export const storagedInfo = {
         direction: "row",
         mainColor: "rgb(0, 167, 255)",
         secondaryColor: "rgb(0, 18, 28)",
-        iconImageSrc: "https://i.ibb.co/r2rzc1QY/Frame-79.png"
+        iconImageSrc: "https://i.ibb.co/TqKQQc3s/Frame-79.png"
       },
 
 
@@ -467,7 +467,7 @@ export const storagedInfo = {
         direction: "row",
         mainColor: "rgb(89, 105, 198)",
         secondaryColor: "rgb(12, 13, 89)",
-        iconImageSrc: "https://i.ibb.co/CKR8mNfR/Frame-76.png"
+        iconImageSrc: "https://i.ibb.co/BV1hgmL1/Frame-76.png"
 
 
       }
@@ -867,7 +867,7 @@ export const storagedInfo = {
         direction: `row`,
         mainColor: `#36dff8`,
         secondaryColor: `#066d89`,
-        iconImageSrc: `https://i.ibb.co/tpf0hWMG/Frame-64-1.png`
+        iconImageSrc: `https://i.ibb.co/Vc73wfkQ/Frame-64-3.png`
       },
 
       {
@@ -882,7 +882,7 @@ export const storagedInfo = {
         direction: `row`,
         mainColor: `#215732`,
         secondaryColor: `#6cc24a`,
-        iconImageSrc: `https://i.ibb.co/cKNcb0qV/Frame-69.png`
+        iconImageSrc: `https://i.ibb.co/tjCNG0z/Frame-69.png`
       },
       {
         title: `Docker`,
@@ -894,7 +894,7 @@ export const storagedInfo = {
         direction: `row`,
         mainColor: `#049cec`,
         secondaryColor: `#384d54`,
-        iconImageSrc: `https://i.ibb.co/r2rzc1QY/Frame-79.png`
+        iconImageSrc: `https://i.ibb.co/TqKQQc3s/Frame-79.png`
       },
 
 
@@ -955,7 +955,7 @@ export const storagedInfo = {
         direction: `row`,
         mainColor: `#008081`,
         secondaryColor: `#004040`,
-        iconImageSrc: `https://i.ibb.co/CKR8mNfR/Frame-76.png`
+        iconImageSrc: `https://i.ibb.co/BV1hgmL1/Frame-76.png`
 
 
       }
