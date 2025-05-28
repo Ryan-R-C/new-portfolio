@@ -590,6 +590,7 @@ export const storagedInfo = {
       `VueJs`,
       `Game`,
       `Design`,
+      `React.js + Node.js`,
     ],
 
 
