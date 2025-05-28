@@ -155,49 +155,6 @@ export const storagedInfo = {
       },
       {
         filter: "HTML, CSS e JavaScript",
-        title: "Meu site de Freelancer",
-        link: "#",
-        src: "https://i.ibb.co/TW2PgDq/a-Freela-Wide.jpg",
-        paragraph: "Página Web estática usando HTML, CSS e JavaScript, responsíva e recheada de animações...",
-        clickMessage: "Ler Mais",
-
-        detailedInfo: {
-          title: "Meu site de Freelancer",
-          link: "https://ryan-r-c.github.io/Freelancer/",
-          linkTitle: "Link do Site",
-          imgSrc: "https://i.ibb.co/TW2PgDq/a-Freela-Wide.jpg",
-          infos: [
-            {
-              title: "",
-              text: [
-                "Essa é minha página freelancer, neste projeto não só mostro minhas habilidades como Front End Dev usando JavaScript e animação CSS para fazer um site quase ao vivo, mas também um design de alto nível.",
-                "Exercitei e aprendi animações usando CSS e JavaScript. Um exemplo de desafio em questão de Front End, veja, por exemplo, a primeiro componente logo quando se abre a página.",
-                "O design do titulo principal e do subtitulo são feitos utilizando puramente CSS, background para o metálico e reflexo do titulo principal e o text-shadow para o subtitulo. O posição absoluta e relativa para o posicionameno dele.",
-                "Tenho muito orgulho deste projeto!",
-              ]
-            },
-            {
-              title: "Olhando para trás",
-              text: [
-                "Com uma visão mais crítica, hoje, vejo que o design não representa tecnologia do formato que quis no momento que criei.",
-                "'Parece um site de balada', disse um colega meu. A escolha de cores e formatos não foram as melhores para o conteúdo do site.",
-                "Como profissional sempre devo olhar para todos meus projetos antigos com visão crítica e objetiva, entendo meus erros e acertos.",
-              ]
-            },
-          ],
-          techs: {
-            title: "Tecnologias usadas",
-            list: [
-              "HTML5",
-              "CSS3",
-              "JavaScript",
-            ]
-          }
-        }
-      },
-
-      {
-        filter: "HTML, CSS e JavaScript",
         title: "Barbearia do Parra",
         link: "#",
         src: "https://i.ibb.co/zfPykBY/barbershop-wide.png",
@@ -675,49 +632,6 @@ export const storagedInfo = {
           }
         }
       },
-      {
-        filter: `HTML, CSS and JavaScript`,
-        title: `My Freelancer Website`,
-        link: `#`,
-        src: `https://i.ibb.co/TW2PgDq/a-Freela-Wide.jpg`,
-        paragraph: `Static web page using HTML, CSS and JavaScript, responsive and full of animations...`,
-        clickMessage: `Read More`,
-
-        detailedInfo: {
-          title: `My Freelancer Website`,
-          link: `https://ryan-r-c.github.io/Freelancer/`,
-          linkTitle: `Website Link`,
-          imgSrc: `https://i.ibb.co/TW2PgDq/a-Freela-Wide.jpg`,
-          infos: [
-            {
-              title: ``,
-              text: [
-                `This is my freelancer webpage, in this project I not only show my skills as a Front End Dev using JavaScript and CSS animation to make an vivid website, but also a high level design.`,
-                `I exercised and learned animations using CSS and JavaScript. An example of a challenge in terms of Front End, see, for example, the first component right when the page opens.`,
-                `The design of the main title and the subtitle are done using pure CSS, background for the metallic and reflection of the main title and the text-shadow for the subtitle. The absolute and relative position for its positioning.`,
-                `I'm very proud of this project!`,
-              ]
-            },
-            {
-              title: `Looking back`,
-              text: [
-                `With a different critical view, today, I see that design does not represent technology as I wanted at the time I created it.`,
-                `'It looks like a club site', said a colleague of mine. The choice of colors and formats were not the best for the site's content.`,
-                `As a professional I always have to look at all my old projects with a critical and objective view, I understand my mistakes and successes.`,
-              ]
-            },
-          ],
-          techs: {
-            title: `Techs used`,
-            list: [
-              `HTML5`,
-              `CSS3`,
-              `JavaScript`,
-            ]
-          }
-        }
-      },
-
       {
         filter: `HTML, CSS and JavaScript`,
         title: `Parra's barbershop`,
