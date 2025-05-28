@@ -831,7 +831,7 @@ export const storagedInfo = {
         paragraph: `A small platform game using pure HTML, CSS and JavaScript!`,
         detailedInfo: {
           title: `Platform Game`,
-          link: `https://github.com/Ryan-R-C/Computer-React-Native-App`,
+          link: `https://github.com/Ryan-R-C/Plataformer-js-game`,
           linkTitle: `GitHub Link`,
           imgSrc: `https://i.ibb.co/bgjkSw7/Screenshot-from-2022-09-26-16-09-48.jpg`,
           infos: [

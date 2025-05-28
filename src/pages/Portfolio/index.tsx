@@ -119,8 +119,7 @@ export default function Portfolio({info, filters, close, title}: any) {
     <>
       <GridContainerPortfolioItems>
         {
-
-        displayedItems?.map(
+        displayedItems?.toReversed()?.map(
           (e: any, i: number) => (
             <GridItem2 key={i}>
         
