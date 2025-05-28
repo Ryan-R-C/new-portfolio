@@ -367,7 +367,42 @@ export const storagedInfo = {
           }
         }
       },
+      {
+        filter: "React.js + Node.js",
+        title: "Ensino de Computação para Jovens",
+        link: "https://github.com/Ryan-R-C/computer-education-for-teenagers-app",
+        src: "https://i.ibb.co/SXc4NLK5/Frame-3.png",
+        clickMessage: "Ler Mais",
 
+        paragraph: "Um projeto baseado em gameficação com o intuito de ensinar conceitos básicos de computação.",
+        detailedInfo: {
+          title: "Ensino de Computação para Jovens",
+          link: "https://github.com/Ryan-R-C/computer-education-for-teenagers-app",
+          linkTitle: "Link do GitHub",
+          imgSrc: "https://i.ibb.co/SXc4NLK5/Frame-3.png",
+          infos: [
+            {
+              title: "História do projeto",
+              text: [
+                `Este projeto teve início como trabalho de conclusão da minha graduação em Engenharia de Software.`,
+                `Utilizando a gamificação como método de ensino, seu objetivo é transmitir conceitos básicos de computação para jovens.`,
+                `Entre os temas abordados estão História da Computação, História da Internet e Arquitetura de Computadores.`,
+                `O sistema foi desenvolvido com React.js no Front End e Node.js (Express) no Back End, utilizando MongoDB como banco de dados.`,
+                `Ver o resultado positivo de um projeto desenvolvido com tanto carinho e dedicação é extremamente gratificante — especialmente por contribuir com a formação de jovens no universo da tecnologia.`,
+              ]
+            },
+          ],
+          techs: {
+            title: "Princiapis tecnologias usadas",
+            list: [
+              "React.js",
+              "Node.js",
+              "Express",
+              "MongoDB",
+            ]
+          }
+        }
+      },
     ],
 
 
@@ -846,6 +881,42 @@ export const storagedInfo = {
             title: `Techs used`,
             list: [
               `Figma`,
+            ]
+          }
+        }
+      },
+      {
+        filter: "React.js + Node.js",
+        title: "Computer Education for Teenagers App",
+        link: "https://github.com/Ryan-R-C/computer-education-for-teenagers-app",
+        src: "https://i.ibb.co/SXc4NLK5/Frame-3.png",
+        clickMessage: "Read More",
+
+        paragraph: "A project based on gamification with the goal of teaching basic computing concepts.",
+        detailedInfo: {
+          title: "Computer Education for Teenagers App",
+          link: "https://github.com/Ryan-R-C/computer-education-for-teenagers-app",
+          linkTitle: "GitHub Link",
+          imgSrc: "https://i.ibb.co/SXc4NLK5/Frame-3.png",
+          infos: [
+            {
+              title: "Project's history",
+              text: [
+                `This project began as my Software Engineering graduation thesis.`,
+                `Using gamification as a teaching method, its goal is to introduce basic computing concepts to young people.`,
+                `Topics covered include the History of Computing, History of the Internet, and Computer Architecture.`,
+                `The system was developed using React.js for the Front End and Node.js (Express) for the Back End, with MongoDB as the database.`,
+                `Seeing the positive outcome of a project developed with so much care and dedication is truly rewarding — especially when it helps young people get to know the world of technology better.`,
+              ]
+            },
+          ],
+          techs: {
+            title: "Techs used",
+            list: [
+              "React.js",
+              "Node.js",
+              "Express",
+              "MongoDB",
             ]
           }
         }
