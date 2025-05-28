@@ -57,7 +57,7 @@ const ModalPortfolioProp = (
             {
             techs?.list?.map(
               (tech: any, i: number) => (
-                <li key={i} > {tech} </li>
+                <li key={i} >&bull; {tech} </li>
               )
             )
             }
