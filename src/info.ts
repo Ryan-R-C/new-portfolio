@@ -265,7 +265,7 @@ export const storagedInfo = {
         src: "https://i.ibb.co/bgjkSw7/Screenshot-from-2022-09-26-16-09-48.jpg",
         clickMessage: "Ler Mais",
 
-        paragraph: "Um pequeno game de plataforma utilizando HTML, CSS e JavaScript puros!",
+        paragraph: `Um jogo de plataforma desenvolvido do zero com HTML, CSS e JavaScript puros, inspirado em "Super Mario World" e renderizado com a tag "<canvas>".`,
         detailedInfo: {
           title: "Game de Plataforma",
           link: "https://github.com/Ryan-R-C/Plataformer-js-game",
@@ -273,11 +273,12 @@ export const storagedInfo = {
           imgSrc: "https://i.ibb.co/bgjkSw7/Screenshot-from-2022-09-26-16-09-48.jpg",
           infos: [
             {
-              title: "O que aprendi",
+              title: "O que é este projeto?",
               text: [
-
-                "Um projeto muito interessante e divertido, sem nenhum Framework tive de desenvolver todas os ações com Canvas.",
-                "Criei as entidades que são exibidas em formato de objeto para alcançar um código limpo e reutilizavel."
+                `Este é um jogo de plataforma desenvolvido completamente do zero, sem o uso de frameworks ou bibliotecas externas. Toda a lógica e estrutura foram construídas com HTML, CSS e JavaScript puros.`,
+                `O jogo apresenta um personagem com movimentação lateral e habilidade de pulo. A fase é reiniciada automaticamente ao ser concluída ou caso o jogador caia para fora do mapa, proporcionando uma mecânica simples e eficaz.`,
+                `O desenvolvimento foi uma experiência envolvente e divertida. Através de engenharia reversa do clássico "Super Mario World", estudei e me inspirei em seus comportamentos e mecânicas para adaptar o jogo a um padrão sólido e reconhecível no gênero de plataforma.`,
+                `A renderização dos elementos foi feita utilizando a tag "<canvas>", com entidades modeladas como objetos reutilizáveis, seguindo boas práticas de organização e legibilidade de código.`,
               ]
             },
           ],
@@ -295,25 +296,26 @@ export const storagedInfo = {
         filter: "Design",
         title: "Evóikio - Aplicativo de imóveis",
         link: "#",
-        src: "https://i.ibb.co/rMHPYYv/213.png",
+        src: "https://i.ibb.co/h1s78fV7/Frame-140.png",
         clickMessage: "Ler Mais",
 
-        paragraph: "Um pequeno projeto de Design - Aplicativo mobile de imóveis utilizando Figma.",
+        paragraph: "Prototipação de um aplicativo de compra, venda e aluguel de imóveis, com foco na experiência do usuário. O sistema inclui funcionalidades como login, cadastro, avaliação e comentários de imóveis, compartilhamento com outros usuários e um chat integrado para facilitar a comunicação entre locador e locatário.",
         detailedInfo: {
           title: "Evóikio - Aplicativo de imóveis",
           link: "https://www.figma.com/file/Y8U4wxI6CvaAF3RtdSdvPQ/Trabalho-Prototipo?node-id=0%3A1&t=yXCW0RUqnSAPgpgB-1",
           linkTitle: "Link do Figma",
-          imgSrc: "https://i.ibb.co/rMHPYYv/213.png",
+          imgSrc: "https://i.ibb.co/h1s78fV7/Frame-140.png",
           infos: [
             {
-              title: "História do projeto e o que aprendi",
+              title: "História do projeto",
               text: [
-
-                `Este foi um projeto iniciado como trabalho da matéria de Design de Sistemas da minha Faculdade de Engenharia de Software.`,
-                `Os requisitos eram simples, uma prototipação de baixa e média fidelidade de um aplicativo de compra e vende de imóveis.`,
-                `Acabei gostando muito da proposta e desenvolvi,  um protótipo de alta fidelidade, identidade visual e uma logo, garatindo nota máxima na atividade.`,
-                `Após esse periodo, no final do ano de 2023 iniciei um novo curso de UI Design e finalmente consegui ver o que me incomodava dentro do resultado final. Então voltei para ele mais uma vez, espaçamentos, fontes, cores e até componentes inteiros, mas mantendo a essência da identidade visual.`,
-                `Um projeto com resultado muito agradável e com certeza uma forma bem nítida de visualizar minha evolução profissional.`
+                `Este projeto teve início como um trabalho acadêmico na disciplina de Design de Sistemas, durante minha graduação em Engenharia de Software. O objetivo era desenvolver uma prototipação de baixa e média fidelidade de um aplicativo voltado para compra e venda de imóveis.`,
+                `Desde o início, me envolvi profundamente com a proposta e decidi encarar o projeto como se estivesse criando uma aplicação real, o que seria muito simples, haja visto minha experiência prévia na área. Comecei focando na experiência do usuário: como ele navegaria pelo app, quais telas seriam necessárias e de que forma se conectariam entre si.`,
+                `Identifiquei que um ponto-chave seria a comunicação entre locador e locatário. Para isso, projetei um sistema de chat interno, com foco em uma interação clara, segura e centralizada dentro da própria aplicação.`,
+                `Com a base estrutural definida, passei a pensar em diferenciais: como funcionariam os comentários e avaliações, e de que maneira os usuários poderiam compartilhar imóveis com amigos. Mapeei e documentei todas essas funcionalidades com cuidado, mantendo sempre o foco no usuário final.`,
+                `Em seguida, iniciei a criação dos protótipos de baixa fidelidade no Figma, buscando a melhor forma de organizar visualmente essas funcionalidades de forma coesa e intuitiva. Com os fluxos definidos, evoluí os protótipos, criando uma identidade visual agradável, moderna e centrada na usabilidade.`,
+                `O projeto foi entregue com sucesso e obtive nota máxima na avaliação. No entanto, no final de 2023, ao iniciar um curso de UI Design, percebi pontos que poderiam ser aprimorados. Revisitando o projeto, revisei espaçamentos, tipografias, paleta de cores e até alguns componentes, mantendo a essência da identidade visual original, mas elevando seu nível de refinamento.`,
+                `O resultado final é um projeto visualmente atrativo, funcional e uma representação clara da minha evolução como profissional de design e tecnologia.`,
               ]
             },
           ],
@@ -329,7 +331,7 @@ export const storagedInfo = {
         filter: "React.js + Node.js",
         title: "Ensino de Computação para Jovens",
         link: "https://github.com/Ryan-R-C/computer-education-for-teenagers-app",
-        src: "https://i.ibb.co/SXc4NLK5/Frame-3.png",
+        src: "https://i.ibb.co/5WWFh7Cy/Frame-138.png",
         clickMessage: "Ler Mais",
 
         paragraph: "Um projeto baseado em gameficação com o intuito de ensinar conceitos básicos de computação.",
@@ -337,7 +339,7 @@ export const storagedInfo = {
           title: "Ensino de Computação para Jovens",
           link: "https://github.com/Ryan-R-C/computer-education-for-teenagers-app",
           linkTitle: "Link do GitHub",
-          imgSrc: "https://i.ibb.co/SXc4NLK5/Frame-3.png",
+          imgSrc: "https://i.ibb.co/5WWFh7Cy/Frame-138.png",
           infos: [
             {
               title: "História do projeto",
@@ -714,7 +716,7 @@ export const storagedInfo = {
           imgSrc: `https://i.ibb.co/QpvVxt8/Screenshot-from-2022-07-17-13-22-22.png`,
           infos: [
             {
-              title: ``,
+              title: `Project's history`,
               text: [
                 `A Time Tracker with dark mode and note management. Using smart state handling and clean code.`,
                 `It was developed during the course of Alura's Vue Js training, my course platform.`
@@ -743,7 +745,7 @@ export const storagedInfo = {
         src: `https://i.ibb.co/bgjkSw7/Screenshot-from-2022-09-26-16-09-48.jpg`,
         clickMessage: `Read More`,
 
-        paragraph: `A small platform game using pure HTML, CSS and JavaScript!`,
+        paragraph: `A platformer game built from scratch with pure HTML, CSS, and JavaScript, inspired by "Super Mario World" and rendered using the "<canvas>" element.`,
         detailedInfo: {
           title: `Platform Game`,
           link: `https://github.com/Ryan-R-C/Plataformer-js-game`,
@@ -751,10 +753,12 @@ export const storagedInfo = {
           imgSrc: `https://i.ibb.co/bgjkSw7/Screenshot-from-2022-09-26-16-09-48.jpg`,
           infos: [
             {
-              title: `What I learned`,
+              title: `What is this project?`,
               text: [
-                `A very interesting and fun project, without any Framework I had to develop all actions with Canvas.`,
-                `I created entities that are displayed in object format to achieve clean and reusable code.`
+                `This is a platformer game developed entirely from scratch, without the use of frameworks or external libraries. All logic and structure were built using pure HTML, CSS, and JavaScript.`,
+                `The game features a character that can move sideways and jump. The level resets automatically when completed or if the player falls off the map, providing a simple and effective gameplay mechanic.`,
+                `The development process was both engaging and enjoyable. By reverse engineering the classic "Super Mario World", I studied and drew inspiration from its behaviors and mechanics to adapt the game to a well-established standard within the platformer genre.`,
+                `Rendering was done using the "<canvas>" tag, with entities modeled as reusable objects, following best practices for code organization and readability.`,
               ]
             },
           ],
@@ -772,24 +776,26 @@ export const storagedInfo = {
         filter: `Design`,
         title: `Evóikio - Real estate app`,
         link: `#`,
-        src: `https://i.ibb.co/rMHPYYv/213.png`,
+        src: `https://i.ibb.co/h1s78fV7/Frame-140.png`,
         clickMessage: `Read More`,
 
-        paragraph: `A small design project - Real estate mobile application using Figma.`,
+        paragraph: `Prototype of a real estate app focused on user experience. The system includes features such as login, registration, property ratings and comments, sharing options, and an integrated chat for seamless communication between landlords and tenants.`,
         detailedInfo: {
           title: `Evóikio - Real estate app`,
           link: `https://www.figma.com/file/Y8U4wxI6CvaAF3RtdSdvPQ/Trabalho-Prototipo?node-id=0%3A1&t=yXCW0RUqnSAPgpgB-1`,
           linkTitle: `Figma link`,
-          imgSrc: `https://i.ibb.co/rMHPYYv/213.png`,
+          imgSrc: `https://i.ibb.co/h1s78fV7/Frame-140.png`,
           infos: [
             {
-              title: `Project's history and What I learned`,
+              title: `Project's history`,
               text: [
-                `This was a project started as a college project for the Systems Design course at my College of Software Engineering.`,
-                `The requirements were simple, a low and medium fidelity prototype of a real estate buying and selling application.`,
-                `I ended up really liking the proposal and developed a high fidelity prototype, visual identity and a logo, guaranteeing the highest score in the activity.`,
-                `After that period, at the end of 2023 I started a new UI Design course and finally managed to see what bothered me within the final result. So I went back to it one more time, spacing, fonts, colors and even whole components, but keeping the essence of the visual identity.`,
-                `A project with a very pleasant result and certainly a very clear way of visualizing my professional evolution.`
+                `This project began as an academic assignment for the Systems Design course during my Software Engineering degree. The goal was to develop low- and mid-fidelity prototypes for an app focused on real estate buying and selling.`,
+                `From the start, I became deeply engaged with the concept and approached it as if I were building a real application—which felt natural given my previous experience in the field. I began by focusing on the user experience: how users would navigate the app, which screens would be necessary, and how they would connect with each other.`,
+                `I identified communication between landlords and tenants as a key element. To address this, I designed an internal chat system, prioritizing clear, secure, and centralized interactions within the app itself.`,
+                `With the core structure defined, I began exploring differentiators: how user reviews and comments would work, and how users could share listings with friends. I carefully mapped and documented these features, always keeping the end user in mind.`,
+                `Next, I created low-fidelity prototypes in Figma, aiming to visually organize the app’s features in a cohesive and intuitive way. Once the flows were defined, I refined the prototypes, building a modern, user-centered visual identity.`,
+                `The project was successfully delivered and received top marks. However, at the end of 2023, after starting a UI Design course, I recognized areas for improvement. I revisited the project, revising spacing, typography, color palette, and even some components—while preserving the essence of the original visual identity.`,
+                `The final result is a visually appealing and functional project, and a clear reflection of my growth as a design and technology professional.`,
               ]
             },
           ],
@@ -805,7 +811,7 @@ export const storagedInfo = {
         filter: "React.js + Node.js",
         title: "Computer Education for Teenagers App",
         link: "https://github.com/Ryan-R-C/computer-education-for-teenagers-app",
-        src: "https://i.ibb.co/SXc4NLK5/Frame-3.png",
+        src: "https://i.ibb.co/5WWFh7Cy/Frame-138.png",
         clickMessage: "Read More",
 
         paragraph: "A project based on gamification with the goal of teaching basic computing concepts.",
@@ -813,7 +819,7 @@ export const storagedInfo = {
           title: "Computer Education for Teenagers App",
           link: "https://github.com/Ryan-R-C/computer-education-for-teenagers-app",
           linkTitle: "GitHub Link",
-          imgSrc: "https://i.ibb.co/SXc4NLK5/Frame-3.png",
+          imgSrc: "https://i.ibb.co/5WWFh7Cy/Frame-138.png",
           infos: [
             {
               title: "Project's history",
