@@ -353,7 +353,7 @@ export const storagedInfo = {
             },
           ],
           techs: {
-            title: "Princiapis tecnologias usadas",
+            title: "Principais tecnologias usadas",
             list: [
               "React.js",
               "Node.js",
