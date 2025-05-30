@@ -302,7 +302,7 @@ export const storagedInfo = {
         paragraph: "Prototipação de um aplicativo de compra, venda e aluguel de imóveis, com foco na experiência do usuário. O sistema inclui funcionalidades como login, cadastro, avaliação e comentários de imóveis, compartilhamento com outros usuários e um chat integrado para facilitar a comunicação entre locador e locatário.",
         detailedInfo: {
           title: "Evóikio - Aplicativo de imóveis",
-          link: "https://www.figma.com/file/Y8U4wxI6CvaAF3RtdSdvPQ/Trabalho-Prototipo?node-id=0%3A1&t=yXCW0RUqnSAPgpgB-1",
+          link: "https://www.figma.com/design/Y8U4wxI6CvaAF3RtdSdvPQ/Prot%C3%B3tipo-Ev%C3%B3ikio?node-id=0-1&t=RkMkUfjvi6JbUuGa-1",
           linkTitle: "Link do Figma",
           imgSrc: "https://i.ibb.co/h1s78fV7/Frame-140.png",
           infos: [
@@ -782,7 +782,7 @@ export const storagedInfo = {
         paragraph: `Prototype of a real estate app focused on user experience. The system includes features such as login, registration, property ratings and comments, sharing options, and an integrated chat for seamless communication between landlords and tenants.`,
         detailedInfo: {
           title: `Evóikio - Real estate app`,
-          link: `https://www.figma.com/file/Y8U4wxI6CvaAF3RtdSdvPQ/Trabalho-Prototipo?node-id=0%3A1&t=yXCW0RUqnSAPgpgB-1`,
+          link: `https://www.figma.com/design/Y8U4wxI6CvaAF3RtdSdvPQ/Prot%C3%B3tipo-Ev%C3%B3ikio?node-id=0-1&t=RkMkUfjvi6JbUuGa-1`,
           linkTitle: `Figma link`,
           imgSrc: `https://i.ibb.co/h1s78fV7/Frame-140.png`,
           infos: [
