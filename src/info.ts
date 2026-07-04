@@ -29,7 +29,7 @@ export const storagedInfo = {
 
 
     landing: { // -
-      landingImage: "https://i.ibb.co/HLWChLwL/Ryan-Rodrigo-Costa-Desenvolvedor-Fullstack-Full-stack-pleno-Prompt-engineer-IA-especialista-profissi.png",
+      landingImage: "https://i.ibb.co/nMb9djMY/ryan-rodrigo-costa-fullstack-senior-fullstack-ai-prompt-engineer-ai-especista-desenvolvedor-techlead.png",
       linkedingLink: "https://www.linkedin.com/in/ryan-costa-7ba1b7216/",
       gitHubLink: "https://github.com/Ryan-R-C",
       emailLink: "ryan.r.c.339ac@gmail.com",
@@ -43,7 +43,8 @@ export const storagedInfo = {
         "Sou um desenvolvedor apaixonado por tecnologia e inovação, sempre acreditando que o principal propósito da tecnologia é solucionar problemas. Essa convicção impulsionou o Ryan, aos 16 anos, a iniciar sua jornada na programação com Python. Como profissional, dedico-me integralmente aos desafios, ao trabalho e à entrega de soluções eficientes.",
         "O início da minha carreira profissional, aos 17 anos, foi marcada por proatividade e uma busca por afirmação, onde as oportunidades presenciais eram escassas. Para provar meu potencial, comecei a atuar como freelancer de forma remota, o que me permitiu conquistar meu primeiro emprego na área.",
         "Aos 18 anos, em minha primeira empresa, onde atuei por quase três anos, comecei como Desenvolvedor Full Stack Júnior e, com o tempo, fui agregando experiência e demonstrando proatividade em cada entrega. Após um ano, fui promovido a líder das entregas dos setores de design e front-end. Com resultados positivos, reconhecimento dos clientes e uma postura excepcional perante a equipe, assumi, aos dois anos, o cargo de Líder Técnico – função anteriormente ocupada pelo CEO –, participando desde o levantamento de requisitos com os cliente, concepção de protótipos até o desenvolvimento front-end, back-end e a entrega final dos projetos. Entretanto, ao enfrentar desafios de crescimento em uma empresa de pequeno porte, onde eu era o desenvolvedor mais experiente, senti-me estagnado profissionalmente, o que me levou a buscar oportunidades mais desafiadoras no mercado de trabalho.",
-        "Atualmente, atuo na empresa Facilita Jurídico, onde sou responsável pela manutenção de um sistema em produção e pelo desenvolvimento de soluções que incorporam inteligência artificial para setores específicos da empresa.",
+        "Na sequência, atuei na Facilita Jurídico, onde fui responsável pela manutenção de um sistema em produção e pelo desenvolvimento de soluções que incorporam inteligência artificial para setores específicos da empresa.",
+        "Atualmente, atuo na Stefanini Brasil como Desenvolvedor Full Stack Sênior, sendo responsável pelas tarefas de maior complexidade técnica do time e atuando como liderança técnica ao lado do PO e do Tech Lead, coordenando um time de sete pessoas entre desenvolvedores, QAs e designer, do planejamento de sprints à revisão de PRs e validação técnica antes da homologação. Lidero também a Admissão Digital, plataforma que reproduz o fluxo admissional via WhatsApp com IA, processando mais de 500 contratações mensais e com foco em inclusão digital para pessoas não alfabetizadas. Além disso, tenho introduzido agentes de IA no fluxo de desenvolvimento do time, elevando a produtividade em 50%.",
         "Minha meta é aprimorar constantemente tanto as soft-skills quanto as hard-skills, buscando atingir níveis cada vez mais avançados de senioridade. Mantendo sempre uma postura de aprendizado contínuo e constante."
       ]
     },
@@ -475,14 +476,15 @@ export const storagedInfo = {
 
     timelineinfo: {
       title: "Timeline",
-      dates: ["2019-07-22", "2021-04-30", "2021-11-22", "2022-03-02", "2023-12-02", "2024-08-02"],
+      dates: ["2019-07-22", "2021-04-30", "2021-11-22", "2022-03-02", "2023-12-02", "2024-08-02", "2025-08-01"],
       description: [
         "Meu Primeiro Hello World em Python",
         "Meu primeiro cliente como Freelancer",
         "Minha Admissão em minha empresa atual como Dev. Júnior",
         "Minha primeira promoção como líder de Squad.",
         "Minha promossão como Tech lead.",
-        "Minha admissão como desenvolvedor Full Stack pleno e o início de minha jornada profissional atuando como Prompt Engineer."
+        "Minha admissão como desenvolvedor Full Stack pleno e o início de minha jornada profissional atuando como Prompt Engineer.",
+        "Minha admissão na Stefanini Brasil como Desenvolvedor Full Stack Sênior, atuando também como liderança técnica do time."
       ]
     }
   },
@@ -515,7 +517,7 @@ export const storagedInfo = {
 
 
     landing: { // -
-      landingImage: `https://i.ibb.co/HLWChLwL/Ryan-Rodrigo-Costa-Desenvolvedor-Fullstack-Full-stack-pleno-Prompt-engineer-IA-especialista-profissi.png`,
+      landingImage: `https://i.ibb.co/nMb9djMY/ryan-rodrigo-costa-fullstack-senior-fullstack-ai-prompt-engineer-ai-especista-desenvolvedor-techlead.png`,
       linkedingLink: `https://www.linkedin.com/in/ryan-costa-7ba1b7216/`,
       gitHubLink: `https://github.com/Ryan-R-C`,
       emailLink: `ryan.r.c.339ac@gmail.com`,
@@ -529,9 +531,10 @@ export const storagedInfo = {
         "As a developer passionate about technology and innovation, I firmly believe that the primary purpose of technology is to solve problems. This conviction pushed me, at the age of 16, to begin my programming journey with Python. As a professional, I am fully committed to taking on challenges, delivering quality work, and providing efficient solutions.",
         "At 17, my professional career began with proactivity and a drive for recognition, especially in an environment where in-person opportunities were scarce. To prove my potential, I started working remotely as a freelancer, which allowed me to secure my first job in the field.",
         "At 18, in my first company—where I worked for nearly three years—I started as a Junior Full Stack Developer. Over time, I gained valuable experience and consistently demonstrated proactivity with every project. After a year, I was promoted to lead the design and front-end delivery teams. With positive results, client recognition, and exceptional teamwork, I advanced to the position of Technical Lead at the two-year mark—a role previously held by the CEO. In this capacity, I was involved in everything from gathering client requirements and designing prototypes to front-end and back-end development and final project delivery. However, facing growth challenges in a small company where I was the most experienced developer, I felt professionally stagnant, which led me to seek more challenging opportunities in the job market.",
-        "Currently, I work at Facilita Jurídico, where I am responsible for maintaining a production system and developing solutions that incorporate artificial intelligence for specific sectors within the company.",
+        "Following that, I worked at Facilita Jurídico, where I was responsible for maintaining a production system and developing solutions that incorporate artificial intelligence for specific sectors within the company.",
+        "Currently, I work at Stefanini Brasil as a Senior Full Stack Developer, handling the team's most technically complex tasks and acting as technical leadership alongside the PO and Tech Lead, coordinating a team of seven across developers, QAs, and a designer, from sprint planning to PR review and technical validation before staging. I also lead Admissão Digital, a WhatsApp-based AI-driven onboarding platform that processes over 500 hires per month, with a focus on digital inclusion for non-literate users. Additionally, I've introduced AI agents into the team's development workflow, boosting productivity by 50%.",
         "My goal is to continuously enhance both my soft skills and hard skills, striving to achieve increasingly advanced levels of seniority. Always maintaining a commitment to continuous, lifelong learning",
-                
+
       ]
     },
 
@@ -963,7 +966,7 @@ export const storagedInfo = {
 
     timelineinfo: {
       title: `Timeline`,
-      dates: ["2019-07-22", "2021-04-30", "2021-11-22", "2022-03-02", "2023-12-02", "2024-08-02"],
+      dates: ["2019-07-22", "2021-04-30", "2021-11-22", "2022-03-02", "2023-12-02", "2024-08-02", "2025-08-01"],
       description: [
         `My first Hello World in Python`,
         `My first client as a Freelancer`,
@@ -971,6 +974,7 @@ export const storagedInfo = {
         `My first promotion as Squad Leader.`,
         `My promotion as Tech Lead.`,
         "My admission as a Mid-level Full Stack Developer and the beginning of my professional journey as a Prompt Engineer.",
+        "My admission to Stefanini Brasil as a Senior Full Stack Developer, also acting as technical lead for the team.",
       ]
     }
   }
