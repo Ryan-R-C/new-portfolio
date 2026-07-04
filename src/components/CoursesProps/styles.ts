@@ -35,10 +35,10 @@ h2{
 
 
 
-.row{
+> .row{
   margin-left: 50px;
 }
-.reserse-row{
+>.reserse-row{
   margin-right: 50px;
 }
 
@@ -92,6 +92,8 @@ export const ContaneirImage = styled.div`
 display: flex;
 width: 100%;
 max-width: 350px;
+
+border-radius: 2.5%;
 
 
 display: flex;

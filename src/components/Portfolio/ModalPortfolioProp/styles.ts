@@ -61,7 +61,7 @@ aside{
 
 
 export const ContentContainer = styled.div`
-padding: 10% 0 0 0;
+padding: 17.5% 0 0 0;
 margin: 3% 0 0 0;
 z-index: 99;
 position: relative;
@@ -79,6 +79,9 @@ a{
   }
 }
 
+h2, h3{
+  font-weight: 500;
+}
 
 
 li {

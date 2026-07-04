@@ -38,10 +38,10 @@ export const Aside = styled.aside`
 
    
 
-    width: 100%;
+    width: 115%;
     position: relative;
 
-    max-height: 299px;
+    max-height: 350px;
     object-fit: contain;
  
 
@@ -54,8 +54,8 @@ export const Aside = styled.aside`
     }
 
     .reverse-row{
-      top: 50px ;
-      left: 40px;
+      top: 0% ;
+      left: -13px;
 
 
       @media(max-width: 700px) {
@@ -69,8 +69,8 @@ export const Aside = styled.aside`
     }
 
     .row{
-      top:   50px  ;
-      right: 90px;
+      top:   00px  ;
+      left: -50px;
 
       @media(max-width: 700px) {
         right:0;
