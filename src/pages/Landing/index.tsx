@@ -59,6 +59,9 @@ export default function LandingPage() {
           setLoading(false)
           }, 3000
       )
+      // handleGetUserLanguage é recriada a cada render e chama setLang/setInfo,
+      // incluí-la nas deps causaria loop infinito. Roda só na montagem.
+      // eslint-disable-next-line react-hooks/exhaustive-deps
     }, []
   )
 

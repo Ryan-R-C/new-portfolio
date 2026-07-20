@@ -41,7 +41,7 @@ export default function AboutMe(
                             href={
                                 `/${currentCurriculum}`
                             }
-                            target='_blank' className='button'>
+                            target='_blank' rel='noreferrer' className='button'>
                             {aboutMe} <IoMdCloudDownload   className="icon" size="15px"/>
                             </a>
                             <a href="#Portfolio" className='button button--featured'>
